@@ -1,0 +1,10 @@
+{
+  "regions": ["fra1"],
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/nisanyan-decrypt",
+      "destination": "/api/nisanyan-decrypt.js"
+    }
+  ]
+}
