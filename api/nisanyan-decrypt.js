@@ -19,7 +19,7 @@ module.exports = (req, res) => {
     const text = req.query.text;
     res.json({ output: decrypt(text) });
   } else {
-    console.log("No word or text provided");
+    res.json({ output: "No word or text given" });
   }
 };
 
