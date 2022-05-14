@@ -12,25 +12,44 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔌</text></svg>"
     />
+    <style>
+      body,
+      html {
+        background-color: #e9f1f0;
+      }
+    </style>
   </head>
   <body>
     <section class="section">
       <div class="container">
         <h1 class="title">Radyal-api🔌</h1>
         <p class="subtitle">Provides some useful API endpoints.</p>
+        <article class="tile is-child notification is-primary">
+          <p class="title is-4">
+            <a href="https://radyal-api.vercel.app/api/nisanyan-decrypt"
+              >nisanyan-decrypt</a
+            >
+          </p>
+          <p class="subtitle is-6">
+            Decode the result returned from Nisanyansozluk.com's API,
+            <a
+              href="https://radyal-api.vercel.app/api/nisanyan-decrypt?word=sanat"
+              >example url.</a
+            >
+          </p>
+        </article>
         <br />
-        <p class="title is-4">
-          <a href="https://radyal-api.vercel.app/api/nisanyan-decrypt"
-            >nisanyan-decrypt</a
-          >
-        </p>
-        <p class="subtitle is-6">
-          Decode the result returned from Nisanyansozluk.com's API,
-          <a
-            href="https://radyal-api.vercel.app/api/nisanyan-decrypt?word=sanat"
-            >example url.</a
-          >
-        </p>
+        <article class="tile is-child notification is-primary">
+          <p class="title is-4">
+            <a href="https://radyal-api.vercel.app/api/esanlam">esanlam</a>
+          </p>
+          <p class="subtitle is-6">
+            Turkish thesaurus returns synonyms and antonyms for the given word,
+            <a href="https://radyal-api.vercel.app/api/esanlam?word=durmak"
+              >example url.</a
+            >
+          </p>
+        </article>
       </div>
       <br />
       <div class="container">
