@@ -5,8 +5,12 @@ module.exports = async (req, res) => {
     const coll = await db.collection("thesaurus_tr");
     await coll.findOne({ word: word }, (err, result) => {
       if (err) throw err;
-      delete result._id;
-      res.status(200).json(result);
+      if (result) {
+        delete result._id;
+        res.status(200).json(result);
+      } else {
+        res.status(200).json({ msg: "not found" });
+      }
     });
   } else {
     res.status(200).json({ error: "no word given" });
