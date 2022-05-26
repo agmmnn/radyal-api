@@ -10,10 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vercel/node": "^1.15.2"
+    "@vercel/node": "^1.15.3"
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
     "crypto-js": "^4.1.1",
     "mongodb": "^4.6.0"
   }
