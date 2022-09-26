@@ -2,8 +2,8 @@ const axios = require("axios").default;
 const AES = require("crypto-js/aes");
 const Utf8 = require("crypto-js/enc-utf8");
 
-const SECRET = '#d*jcsrS!U+16eHoZGu"_}X{m<Q49W';
-const SESSION_ID = "604920fa-c61e-4107-bf5d-2c6e87791805";
+const SECRET = 'dfa{st5W@#!%&!"dcbhJDS%7022Fs5';
+const SESSION_ID = "9d78061f-3b58-432b-b8ec-d553b878d622";
 
 module.exports = (req, res) => {
   let word = req.query.word;
