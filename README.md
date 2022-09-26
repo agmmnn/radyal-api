@@ -12,4 +12,4 @@ Turkish thesaurus returns synonyms and antonyms for the given word, [example url
 
 ### [lugat](https://radyal-api.vercel.app/api/lugat)
 
-Ottoman Turkish to Modern Turkish dictionary, [example url](https://radyal-api.vercel.app/api/lugat?word=divane) [\*](https://radyal-api.vercel.app/api/lugat?word=dîvâne) [\*](https://radyal-api.vercel.app/api/lugat?word=د۪يوَانَه).
+A dictionary from Ottoman Turkish to Modern Turkish, [example url](https://radyal-api.vercel.app/api/lugat?word=divane) [\*](https://radyal-api.vercel.app/api/lugat?word=dîvâne) [\*](https://radyal-api.vercel.app/api/lugat?word=د۪يوَانَه).
