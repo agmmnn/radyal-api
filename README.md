@@ -6,6 +6,10 @@ Provides some useful API endpoints.
 
 Decode the result returned from Nisanyansozluk.com's API, [example url](https://radyal-api.vercel.app/api/nisanyan-decrypt?word=sanat).
 
+### [nisanyanadlar-decrypt](https://radyal-api.vercel.app/api/nisanyanadlar-decrypt)
+
+Decode the result returned from Nisanyanadlar.com's API, [example url](https://radyal-api.vercel.app/api/nisanyanadlar-decrypt?name=tigin).
+
 ### [esanlam](https://radyal-api.vercel.app/api/esanlam)
 
 Turkish thesaurus returns synonyms and antonyms for the given word, [example url](https://radyal-api.vercel.app/api/esanlam?word=durmak).
