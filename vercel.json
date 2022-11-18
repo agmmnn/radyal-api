@@ -3,8 +3,12 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/nisanyan-decrypt",
+      "source": "/nis",
       "destination": "/api/nisanyan-decrypt.js"
+    },
+    {
+      "source": "/nisadlar",
+      "destination": "/api/nisanyanadlar-decrypt.js"
     }
   ]
 }
