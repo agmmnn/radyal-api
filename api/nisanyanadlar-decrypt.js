@@ -2,7 +2,7 @@ const axios = require("axios");
 const AES = require("crypto-js/aes");
 const Utf8 = require("crypto-js/enc-utf8");
 
-const SECRET = '@d*jcsrS!U+16eHoZGu"_}X{m<Q49W';
+const SECRET = 'Dgfh922%_44@d{nmyo@1"62\'_"rf}6';
 
 module.exports = (req, res) => {
   if (req.method === "POST") {
