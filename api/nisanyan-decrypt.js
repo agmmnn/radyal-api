@@ -3,7 +3,7 @@ const AES = require("crypto-js/aes");
 const Utf8 = require("crypto-js/enc-utf8");
 
 const SECRET = 'v03_ggh"fgjsa"{gffszXg}31S!AdX';
-const SECRET2 = 'fdfd_{fdgfds4@"dfg"}VbvxXSfd4Z';
+const SECRET2 = "qVz38gsbsE2T8AQ4KUi1pHbmk0SKtZY4";
 
 module.exports = (req, res) => {
   if (req.method === "POST") {
