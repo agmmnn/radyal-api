@@ -8,7 +8,7 @@ Decode the result returned from [Nisanyansozluk.com](https://www.nisanyansozluk.
 
 ### [nisanyanadlar-decrypt](https://radyal-api.vercel.app/api/nisanyanadlar-decrypt)
 
-Decode the result returned from [Nisanyanadlar.com](https://www.nisanyanadlar.com/)'s API, examples: [name](https://radyal-api.vercel.app/api/nisanyanadlar-decrypt?name=tigin), [url](https://radyal-api.vercel.app/api/nisanyanadlar-decrypt?url=https%3A%2F%2Fwww.nisanyanadlar.com%2Fapi%2Fnames%2FTigin%3Fgender%3Dall%26session%3D1).
+Decode the result returned from [Nisanyanadlar.com](https://www.nisanyanadlar.com/)'s API, examples: [name](https://radyal-api.vercel.app/api/nisanyanadlar-decrypt?name=tigin), [url](https://radyal-api.vercel.app/api/nisanyanadlar-decrypt?url=https%3A%2F%2Fwww.nisanyanadlar.com%2F_next%2Fdata%2FklooaWK-oYLSRLaRfKKMh%2Fisim%2FTigin.json%3Fname%3DTigin).
 
 ### [esanlam](https://radyal-api.vercel.app/api/esanlam)
 
