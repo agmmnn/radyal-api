@@ -42,12 +42,20 @@ else
   echo "Match not found"
 fi
 
+if [[ $html =~ _next\/static\/([^\/]*)\/_buildManifest\.js ]]; then
+  nisad_url_sub=${BASH_REMATCH[1]}
+  echo "nisad_url_sub: $nisad_url_sub"
+else
+  echo "Match not found"
+fi
+
 json='{
   "nis_name_secret": "'"$nis_name_secret"'",
   "nis_app_secret": "'"$nis_app_secret"'",
   "nisad_name_secret": "'"$nisad_name_secret"'",
-  "nisad_app_secret": "'"$nisad_app_secret"'"
+  "nisad_app_secret": "'"$nisad_app_secret"'",
+  "nisad_url_sub": "'"$nisad_url_sub"'"
 }'
 
 # Save the JSON object to a file
-echo "$json" > _secrets.json
+echo "$json" > api/_secrets.json
