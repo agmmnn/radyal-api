@@ -62,9 +62,7 @@ module.exports = (req, res) => {
     // home request
     // http://localhost:3000/api/nisanyanadlar-decrypt
     axios
-      .get("https://www.nisanyanadlar.com/api/cache", {
-        headers: { "Accept-Encoding": "*" },
-      })
+      .get("https://www.nisanyanadlar.com/api/cache")
       .then((response) => {
         res.json(JSON.parse(decrypt(response.data, SECRET_AD_APP)));
       })
