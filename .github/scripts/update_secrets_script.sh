@@ -1,5 +1,4 @@
 #!/bin/bash
-
 ### NisanyanSozluk.com
 html=$(curl -s "https://www.nisanyansozluk.com/kelime/ab")
 js_name=$(echo "$html" | grep -oE '%5Bname%5D-(\w+)\.js')
