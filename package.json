@@ -1,22 +1,27 @@
 {
   "name": "radyal-api",
-  "version": "1.0.0",
-  "description": "",
-  "exports": "./index.js",
-  "type": "module",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@vercel/node": "^2.8.1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "13.0.7",
+    "@zeit/next-css": "^0.2.1-canary.4",
     "axios": "^1.2.1",
     "crypto-js": "^4.1.1",
-    "mongodb": "^4.12.1"
+    "mongodb": "^4.13.0",
+    "next": "^13.0.8-canary.0",
+    "next-swagger-doc": "^0.3.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "server-only": "^0.0.1",
+    "swagger-ui-react": "^4.15.5"
   },
-  "repository": "https://github.com/agmmnn/Radyal-api.git"
+  "devDependencies": {
+    "typescript": "4.9.4"
+  }
 }

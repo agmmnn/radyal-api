@@ -57,4 +57,4 @@ json='{
 }'
 
 # Save the JSON object to a file
-echo "$json" > api/_secrets.json
+echo "$json" > pages/api/_secrets.json

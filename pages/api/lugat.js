@@ -1,4 +1,14 @@
-module.exports = async (req, res) => {
+/**
+ * @swagger
+ * /api/lugat:
+ *   get:
+ *     description: Returns the hello world
+ *     responses:
+ *       200:
+ *         description: hello world
+ */
+
+export default async (req, res) => {
   const word = req.query.word;
   if (word) {
     const db = await connectToDatabase();
