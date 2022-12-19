@@ -1,3 +1,5 @@
+import { MongoClient } from "mongodb";
+
 /**
  * @swagger
  * /api/esanlam:
@@ -7,6 +9,8 @@
  *       200:
  *         description: hello world
  */
+
+let cachedDb = null;
 
 export default async (req, res) => {
   const word = req.query.word;
@@ -26,10 +30,6 @@ export default async (req, res) => {
     res.status(200).json({ error: "no word given" });
   }
 };
-
-const MongoClient = require("mongodb").MongoClient;
-
-let cachedDb = null;
 
 const connectToDatabase = async () => {
   if (cachedDb) {
