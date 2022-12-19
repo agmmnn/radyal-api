@@ -1,22 +1,26 @@
-const axios = require("axios");
-const AES = require("crypto-js/aes");
-const Utf8 = require("crypto-js/enc-utf8");
+import axios from "axios";
 
-import {
-  nisad_app_secret,
-  nisad_name_secret,
-  nisad_url_sub,
-} from "../api/_secrets.json";
-const SECRET_AD_APP = nisad_app_secret;
-const SECRET_AD_NAME = nisad_name_secret;
+import AES from "crypto-js/aes.js";
+import Utf8 from "crypto-js/enc-utf8.js";
 
-module.exports = (req, res) => {
+import secrets from "../api/_secrets.json" assert { type: "json" };
+const SECRET_AD_APP = secrets.nisad_app_secret;
+const SECRET_AD_NAME = secrets.nisad_name_secret;
+
+export default (req, res) => {
   // POST request, encrypted body
   // https://www.nisanyanadlar.com/api/names/Deniz?gender=all&session=1
   if (req.method === "POST") {
     const { body } = req;
     res.json(JSON.parse(decrypt(body, SECRET_AD_NAME)));
   }
+
+  const options = {
+    headers: { "Accept-Encoding": "*" },
+    timeout: {
+      send: 3500,
+    },
+  };
 
   const get_data = async (url, secret) => {
     return axios
@@ -32,7 +36,7 @@ module.exports = (req, res) => {
     // http://localhost:3000/api/nisanyanadlar-decrypt?name=Tigin
     name = encodeURI(req.query.name);
     // url = `https://www.nisanyanadlar.com/api/names/${name}?gender=all&session=1`;
-    const url = `https://www.nisanyanadlar.com/_next/data/${nisad_url_sub}/isim/${name}.json?name=${name}`;
+    const url = `https://www.nisanyanadlar.com/_next/data/${secrets.nisad_url_sub}/isim/${name}.json?name=${name}`;
     get_data(url, SECRET_AD_NAME).then((resp) => {
       res.json(resp);
     });
