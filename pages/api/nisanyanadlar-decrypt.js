@@ -36,11 +36,12 @@ export default async (req, res) => {
     res.json(JSON.parse(decrypt(body, SECRET_AD_NAME)));
   }
 
-  const get_data = async (url, secret) => {
+  const get_data = async (url) => {
     const header = { headers: { "Accept-Encoding": "*" } };
     const data = await axios.get(url, header);
     return data.data;
   };
+
   let name = req.query.name;
   if (name) {
     // name request
@@ -48,8 +49,7 @@ export default async (req, res) => {
     name = encodeURI(req.query.name);
     // url = `https://www.nisanyanadlar.com/api/names/${name}?gender=all&session=1`;
     const url = `https://www.nisanyanadlar.com/_next/data/${secrets.nisad_url_sub}/isim/${name}.json?name=${name}`;
-    const data = await get_data(url, SECRET_AD_NAME);
-    console.log(data);
+    const data = await get_data(url);
     if (data.pageProps.isUnsuccessful == false) {
       let newData = data;
       const names = await decrypt(data.pageProps.names, SECRET_AD_NAME);
@@ -63,33 +63,18 @@ export default async (req, res) => {
     } else {
       await res.json(data);
     }
-  } else if (req.query.url) {
-    // url request
-    // http://localhost:3000/api/nisanyanadlar-decrypt?url=<encoded_url>
-    const url = decodeURIComponent(
-      req.url.split("/api/nisanyanadlar-decrypt?url=")[1]
-    );
-    try {
-      const data = await get_data(url, SECRET_AD_NAME);
-      await res.json(data);
-    } catch (err) {
-      console.log(err);
-      try {
-        const data = await get_data(url, SECRET_AD_APP);
-        await res.json(data);
-      } catch (err) {
-        console.log(err);
-      }
-    }
   } else {
     // home request
     // http://localhost:3000/api/nisanyanadlar-decrypt
-    const data = await axios.get("https://www.nisanyanadlar.com/api/cache");
-    const result = await decrypt(data.data, SECRET_AD_APP);
-    await res.json(JSON.parse(result));
+    const data = await get_data("https://www.nisanyanadlar.com/api/cache");
+    const result = await decrypt(data, SECRET_AD_APP);
+    await res.json(result);
   }
 };
 
 async function decrypt(txt, secret) {
+  if (!SECRET_AD_NAME) {
+    return txt;
+  }
   return await AES.decrypt(txt, secret).toString(Utf8);
 }

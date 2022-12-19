@@ -38,9 +38,9 @@ export default async (req, res) => {
   }
 
   const get_data = async (url, secret) => {
-    const data = await axios.get(url);
-    const result = await decrypt(data.data, secret);
-    return await JSON.parse(result);
+    const header = { headers: { "Accept-Encoding": "*" } };
+    const data = await axios.get(url, header);
+    return await data.data;
   };
 
   let word = req.query.word;
@@ -49,16 +49,18 @@ export default async (req, res) => {
     // http://localhost:3000/api/nisanyan-decrypt?word=sanat
     word = encodeURI(req.query.word);
     const url = `https://www.nisanyansozluk.com/api/words/${word}?session=1`;
-    const data = await get_data(url, SECRET_NAME);
-    await res.json(data);
+    const data = await get_data(url);
+    const result = await decrypt(data, SECRET_NAME);
+    await res.json(result);
   } else if (req.query.url) {
     // url request
     // http://localhost:3000/api/nisanyan-decrypt?url=<encoded_url>
     const url = decodeURIComponent(
       req.url.split("/api/nisanyan-decrypt?url=")[1]
     );
-    const data = await get_data(url, SECRET_NAME);
-    await res.json(data);
+    const data = await get_data(url);
+    const result = await decrypt(data, SECRET_NAME);
+    await res.json(result);
   } else {
     // home request
     // http://localhost:3000/api/nisanyan-decrypt
@@ -68,5 +70,8 @@ export default async (req, res) => {
 };
 
 async function decrypt(txt, secret) {
-  return await AES.decrypt(txt, secret).toString(Utf8);
+  if (!SECRET_NAME) {
+    return txt;
+  }
+  return await JSON.parse(AES.decrypt(txt, secret).toString(Utf8));
 }

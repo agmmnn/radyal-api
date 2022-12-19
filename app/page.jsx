@@ -121,14 +121,6 @@ export default function Home() {
             >
               word
             </a>
-            ,{" "}
-            <a
-              href="/api/nisanyanadlar-decrypt?url=https%3A%2F%2Fwww.nisanyanadlar.com%2F_next%2Fdata%2FklooaWK-oYLSRLaRfKKMh%2Fisim%2FTigin.json%3Fname%3DTigin"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              url
-            </a>
             .
           </p>
         </a>
