@@ -17,20 +17,17 @@ export default async (req, res) => {
   if (word) {
     const db = await connectToDatabase();
     const coll = await db.collection("lugat");
-    await coll.findOne(
-      { $or: [{ word: word }, { other_forms: word }, { ar_script: word }] },
-      (err, result) => {
-        if (err) throw err;
-        if (result) {
-          delete result._id;
-          res.status(200).json(result);
-        } else {
-          res.status(200).json({ msg: "not found" });
-        }
-      }
-    );
+    try {
+      const result = await coll.findOne({
+        $or: [{ word: word }, { other_forms: word }, { ar_script: word }],
+      });
+      delete result._id;
+      await res.status(200).json(result);
+    } catch {
+      await res.status(200).json({ error: "error" });
+    }
   } else {
-    res.status(200).json({ error: "no word given" });
+    await res.status(200).json({ error: "no word given" });
   }
 };
 
