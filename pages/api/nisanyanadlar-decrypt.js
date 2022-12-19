@@ -39,8 +39,7 @@ export default async (req, res) => {
   const get_data = async (url, secret) => {
     const header = { headers: { "Accept-Encoding": "*" } };
     const data = await axios.get(url, header);
-    const result = await decrypt(data.data.pageProps.names, secret);
-    return JSON.parse(result);
+    return data.data;
   };
   let name = req.query.name;
   if (name) {
@@ -50,7 +49,20 @@ export default async (req, res) => {
     // url = `https://www.nisanyanadlar.com/api/names/${name}?gender=all&session=1`;
     const url = `https://www.nisanyanadlar.com/_next/data/${secrets.nisad_url_sub}/isim/${name}.json?name=${name}`;
     const data = await get_data(url, SECRET_AD_NAME);
-    await res.json(data);
+    console.log(data);
+    if (data.pageProps.isUnsuccessful == false) {
+      let newData = data;
+      const names = await decrypt(data.pageProps.names, SECRET_AD_NAME);
+      const referredNames = await decrypt(
+        data.pageProps.referredNames,
+        SECRET_AD_NAME
+      );
+      newData.pageProps.names = JSON.parse(names);
+      newData.pageProps.referredNames = referredNames;
+      await res.json(newData);
+    } else {
+      await res.json(data);
+    }
   } else if (req.query.url) {
     // url request
     // http://localhost:3000/api/nisanyanadlar-decrypt?url=<encoded_url>
