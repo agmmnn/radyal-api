@@ -2,8 +2,8 @@ export default async (req, res) => {
   const word = req.query.word;
   if (word) {
     const db = await connectToDatabase();
-    const coll = await db.collection("thesaurus_tr");
-    await coll.findOne({ word: word }, (err, result) => {
+    const collection = await db.collection("thesaurus_tr");
+    await collection.findOne({ word: word }, (err, result) => {
       if (err) throw err;
       if (result) {
         delete result._id;

@@ -1,24 +1,29 @@
 import { connectToDatabase } from "@/app/helpers/connectToDB";
-
 import { NextResponse } from "next/server";
 
 export async function GET(req: Request, res: Response) {
   const { searchParams } = new URL(req.url);
   const word = searchParams.get("word")?.toLowerCase();
 
-  if (word) {
+  if (!word) {
+    return NextResponse.json({ error: "no word given" });
+  }
+
+  try {
     const db = await connectToDatabase("lugat");
-    const coll = await db.collection("lugat");
-    try {
-      const result = await coll.findOne({
-        $or: [{ word: word }, { other_forms: word }, { ar_script: word }],
-      });
+    const collection = await db.collection("lugat");
+    const result = await collection.findOne({
+      $or: [{ word: word }, { other_forms: word }, { ar_script: word }],
+    });
+
+    if (result) {
       delete result._id;
       return NextResponse.json(result);
-    } catch {
-      return NextResponse.json({ error: "error" });
+    } else {
+      return NextResponse.json({ error: "not found" });
     }
-  } else {
-    return NextResponse.json({ error: "no word given" });
+  } catch (error) {
+    console.log(error);
+    return NextResponse.json({ error: String(error) });
   }
 }

@@ -5,17 +5,23 @@ export async function GET(req: Request, res: Response) {
   const { searchParams } = new URL(req.url);
   const word = searchParams.get("word")?.toLowerCase();
 
-  if (word) {
+  if (!word) {
+    return NextResponse.json({ error: "no word given" });
+  }
+
+  try {
     const db = await connectToDatabase("thesaurus_tr");
-    const coll = await db.collection("thesaurus_tr");
-    try {
-      const result = await coll.findOne({ word: word });
+    const collection = await db.collection("thesaurus_tr");
+    const result = await collection.findOne({ word: word });
+
+    if (result) {
       delete result._id;
       return NextResponse.json(result);
-    } catch {
-      return NextResponse.json({ error: "error" });
+    } else {
+      return NextResponse.json({ error: "not found" });
     }
-  } else {
-    return NextResponse.json({ error: "no word given" });
+  } catch (error) {
+    console.log(error);
+    return NextResponse.json({ error: String(error) });
   }
 }

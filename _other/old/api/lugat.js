@@ -2,8 +2,8 @@ module.exports = async (req, res) => {
   const word = req.query.word;
   if (word) {
     const db = await connectToDatabase();
-    const coll = await db.collection("lugat");
-    await coll.findOne(
+    const collection = await db.collection("lugat");
+    await collection.findOne(
       { $or: [{ word: word }, { other_forms: word }, { ar_script: word }] },
       (err, result) => {
         if (err) throw err;

@@ -1,7 +1,7 @@
 else if (req.query.random) {
     const db = await connectToDatabase();
-    const coll = await db.collection("lugat");
-    const samples = await coll.aggregate([{ $sample: { size: 1 } }]);
+    const collection = await db.collection("lugat");
+    const samples = await collection.aggregate([{ $sample: { size: 1 } }]);
     console.log(samples);
     res.status(200).json(samples);
   } else if (req.query.meanings) {
