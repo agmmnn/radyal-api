@@ -1,0 +1,19 @@
+
+https://www.nisanyansozluk.com/api/home
+
+https://www.nisanyansozluk.com/api/auth/login
+https://www.nisanyansozluk.com/api/auth/me
+https://www.nisanyansozluk.com/api/admin/printout
+
+https://www.nisanyansozluk.com/api/words/{kelime}?session=1
+https://www.nisanyansozluk.com/api/search/{kelime}
+https://www.nisanyansozluk.com/api/search/advanced POST {"word":"*"} : tüm kelimeler
+https://www.nisanyansozluk.com/api/grammatical-cases
+https://www.nisanyansozluk.com/api/semitic-forms
+https://www.nisanyansozluk.com/api/semitic-forms/fa%CB%81%C4%81la(t)
+https://www.nisanyansozluk.com/api/languages
+https://www.nisanyansozluk.com/api/affixes
+https://www.nisanyansozluk.com/api/affixes/%C3%A0%2B
+https://www.nisanyansozluk.com/api/sources
+
+.replace(/[.,/#!$@*%^&;:{}=\\_`~]/g, "")

@@ -1,0 +1,7818 @@
+{
+  "books": [
+    { "book_id": 1, "book_code": "q", "book_display": "Kuran kaynaklı ad" },
+    { "book_id": 2, "book_code": "s", "book_display": "Sahabi adı" },
+    { "book_id": 3, "book_code": "ş", "book_display": "Şahname kaynaklı ad" },
+    { "book_id": 4, "book_code": "t", "book_display": "Tevrat kaynaklı ad" },
+    {
+      "book_id": 5,
+      "book_code": "t q",
+      "book_display": "Tevrat ve Kuran kaynaklı ad"
+    },
+    {
+      "book_id": 6,
+      "book_code": "yt",
+      "book_display": "Yeni Türk adı (1934-35)"
+    },
+    {
+      "book_id": 7,
+      "book_code": "q s",
+      "book_display": "Kuran kaynaklı ad, sahabi adı"
+    },
+    { "book_id": 8, "book_code": "i", "book_display": "İncil kaynaklı ad" },
+    {
+      "book_id": 9,
+      "book_code": "t i",
+      "book_display": "Tevrat ve İncil kaynaklı ad"
+    },
+    {
+      "book_id": 10,
+      "book_code": "i q",
+      "book_display": "İncil ve Kuran kaynaklı ad"
+    },
+    {
+      "book_id": 11,
+      "book_code": "d",
+      "book_display": "Dede Korkut kaynaklı ad"
+    }
+  ],
+  "languages": [
+    {
+      "lang_id": 1,
+      "lang_code": "a",
+      "lang_display": "Ar",
+      "lang_fullname": "Arapça"
+    },
+    {
+      "lang_id": 2,
+      "lang_code": "alm",
+      "lang_display": "Alm",
+      "lang_fullname": "Almanca"
+    },
+    {
+      "lang_id": 3,
+      "lang_code": "arn",
+      "lang_display": "Arn",
+      "lang_fullname": "Arnavutça"
+    },
+    {
+      "lang_id": 4,
+      "lang_code": "az",
+      "lang_display": "Az",
+      "lang_fullname": "Azerice"
+    },
+    {
+      "lang_id": 5,
+      "lang_code": "bu",
+      "lang_display": "Bul",
+      "lang_fullname": "Bulgarca"
+    },
+    {
+      "lang_id": 6,
+      "lang_code": "ç",
+      "lang_display": "Çr",
+      "lang_fullname": "Çerkesçe"
+    },
+    {
+      "lang_id": 7,
+      "lang_code": "çin",
+      "lang_display": "Çin",
+      "lang_fullname": "Çince"
+    },
+    {
+      "lang_id": 8,
+      "lang_code": "coğ",
+      "lang_display": "coğ",
+      "lang_fullname": "Yer veya kavim adı"
+    },
+    {
+      "lang_id": 9,
+      "lang_code": "e",
+      "lang_display": "Erm",
+      "lang_fullname": "Ermenice"
+    },
+    {
+      "lang_id": 10,
+      "lang_code": "ealm",
+      "lang_display": "EAlm",
+      "lang_fullname": "Eski Almanca"
+    },
+    {
+      "lang_id": 11,
+      "lang_code": "eing",
+      "lang_display": "Eİng",
+      "lang_fullname": "Eski Anglosaksonca"
+    },
+    {
+      "lang_id": 12,
+      "lang_code": "f",
+      "lang_display": "Fa",
+      "lang_fullname": "Farsça"
+    },
+    {
+      "lang_id": 13,
+      "lang_code": "fr",
+      "lang_display": "Fr",
+      "lang_fullname": "Fransızca"
+    },
+    {
+      "lang_id": 14,
+      "lang_code": "g",
+      "lang_display": "Gü",
+      "lang_fullname": "Gürcüce"
+    },
+    {
+      "lang_id": 15,
+      "lang_code": "ger",
+      "lang_display": "Ger",
+      "lang_fullname": "Germence"
+    },
+    {
+      "lang_id": 16,
+      "lang_code": "h",
+      "lang_display": "Hint",
+      "lang_fullname": "Hintçe"
+    },
+    {
+      "lang_id": 17,
+      "lang_code": "ib",
+      "lang_display": "İbr",
+      "lang_fullname": "İbranice"
+    },
+    {
+      "lang_id": 18,
+      "lang_code": "ing",
+      "lang_display": "İng",
+      "lang_fullname": "İngilizce"
+    },
+    {
+      "lang_id": 19,
+      "lang_code": "irl",
+      "lang_display": "İrl",
+      "lang_fullname": "İrlandaca"
+    },
+    {
+      "lang_id": 20,
+      "lang_code": "isp",
+      "lang_display": "İsp",
+      "lang_fullname": "İspanyolca"
+    },
+    {
+      "lang_id": 21,
+      "lang_code": "isv",
+      "lang_display": "İsv",
+      "lang_fullname": "İsveççe"
+    },
+    {
+      "lang_id": 22,
+      "lang_code": "it",
+      "lang_display": "İt",
+      "lang_fullname": "İtalyanca"
+    },
+    {
+      "lang_id": 23,
+      "lang_code": "k",
+      "lang_display": "Kr",
+      "lang_fullname": "Kürtçe"
+    },
+    {
+      "lang_id": 24,
+      "lang_code": "kaz",
+      "lang_display": "Kaz",
+      "lang_fullname": "Kazakça"
+    },
+    {
+      "lang_id": 25,
+      "lang_code": "krg",
+      "lang_display": "Krg",
+      "lang_fullname": "Kırgızca"
+    },
+    {
+      "lang_id": 26,
+      "lang_code": "lat",
+      "lang_display": "Lat",
+      "lang_fullname": "Latince"
+    },
+    {
+      "lang_id": 27,
+      "lang_code": "lz",
+      "lang_display": "Laz",
+      "lang_fullname": "Lazca"
+    },
+    {
+      "lang_id": 28,
+      "lang_code": "mac",
+      "lang_display": "Mac",
+      "lang_fullname": "Macarca"
+    },
+    {
+      "lang_id": 29,
+      "lang_code": "moğ",
+      "lang_display": "Moğ",
+      "lang_fullname": "Moğolca"
+    },
+    {
+      "lang_id": 30,
+      "lang_code": "nor",
+      "lang_display": "Nor",
+      "lang_fullname": "Eski Norsça (Viking dili)"
+    },
+    {
+      "lang_id": 31,
+      "lang_code": "öz",
+      "lang_display": "öz",
+      "lang_fullname": "kişi adı"
+    },
+    {
+      "lang_id": 32,
+      "lang_code": "r",
+      "lang_display": "Rus",
+      "lang_fullname": "Rusça"
+    },
+    {
+      "lang_id": 33,
+      "lang_code": "ro",
+      "lang_display": "Rom",
+      "lang_fullname": "Romence"
+    },
+    {
+      "lang_id": 34,
+      "lang_code": "s",
+      "lang_display": "Sür",
+      "lang_fullname": "Süryanice"
+    },
+    {
+      "lang_id": 35,
+      "lang_code": "srp",
+      "lang_display": "Srp",
+      "lang_fullname": "Sırp/Hırvatça"
+    },
+    {
+      "lang_id": 36,
+      "lang_code": "t",
+      "lang_display": "Tr",
+      "lang_fullname": "Türkçe"
+    },
+    {
+      "lang_id": 37,
+      "lang_code": "x",
+      "lang_display": "Tr+",
+      "lang_fullname": "Türkçe (karışık)"
+    },
+    {
+      "lang_id": 38,
+      "lang_code": "yt",
+      "lang_display": "YTr",
+      "lang_fullname": "Yeni Türkçe"
+    },
+    {
+      "lang_id": 39,
+      "lang_code": "ef",
+      "lang_display": "İr",
+      "lang_fullname": "Eski İran dilleri"
+    },
+    {
+      "lang_id": 40,
+      "lang_code": "akad",
+      "lang_display": "Akad",
+      "lang_fullname": "Akatça"
+    },
+    {
+      "lang_id": 41,
+      "lang_code": "fen",
+      "lang_display": "Fen",
+      "lang_fullname": "Fenike dili"
+    },
+    {
+      "lang_id": 42,
+      "lang_code": "fin",
+      "lang_display": "Fin",
+      "lang_fullname": "Fince"
+    },
+    {
+      "lang_id": 43,
+      "lang_code": "tat",
+      "lang_display": "Tat",
+      "lang_fullname": "Tatarca"
+    },
+    {
+      "lang_id": 44,
+      "lang_code": "uk",
+      "lang_display": "Ukr",
+      "lang_fullname": "Ukrayna dili"
+    },
+    {
+      "lang_id": 45,
+      "lang_code": "ey",
+      "lang_display": "EYun",
+      "lang_fullname": "Eski Yunanca"
+    },
+    {
+      "lang_id": 46,
+      "lang_code": "y",
+      "lang_display": "Yun",
+      "lang_fullname": "Yunanca"
+    },
+    {
+      "lang_id": 47,
+      "lang_code": "mıs",
+      "lang_display": "Mıs",
+      "lang_fullname": "Eski Mısır dili"
+    },
+    {
+      "lang_id": 48,
+      "lang_code": "et",
+      "lang_display": "ETr",
+      "lang_fullname": "Eski Türkçe"
+    },
+    {
+      "lang_id": 49,
+      "lang_code": "ar",
+      "lang_display": "Aram",
+      "lang_fullname": "Arami/Süryanice"
+    },
+    {
+      "lang_id": 52,
+      "lang_code": "hol",
+      "lang_display": "Hol",
+      "lang_fullname": "Hollandaca"
+    },
+    {
+      "lang_id": 54,
+      "lang_code": "z",
+      "lang_display": "Zaz",
+      "lang_fullname": "Zazaca"
+    },
+    {
+      "lang_id": 55,
+      "lang_code": "br",
+      "lang_display": "Bret",
+      "lang_fullname": "Bretonca"
+    },
+    {
+      "lang_id": 56,
+      "lang_code": "eh",
+      "lang_display": "EHind",
+      "lang_fullname": "Eski Hintçe"
+    },
+    {
+      "lang_id": 57,
+      "lang_code": "pol",
+      "lang_display": "Pol",
+      "lang_fullname": "Polonya dili"
+    },
+    {
+      "lang_id": 58,
+      "lang_code": "gael",
+      "lang_display": "Gael",
+      "lang_fullname": "İskoç Gaelcesi"
+    },
+    {
+      "lang_id": 59,
+      "lang_code": "jap",
+      "lang_display": "Jap",
+      "lang_fullname": "Japonca"
+    },
+    {
+      "lang_id": 60,
+      "lang_code": "çağ",
+      "lang_display": "ÇağT",
+      "lang_fullname": "Çağatay Türkçesi"
+    },
+    {
+      "lang_id": 61,
+      "lang_code": "efr",
+      "lang_display": "EFr",
+      "lang_fullname": "Eski Fransızca"
+    },
+    {
+      "lang_id": 62,
+      "lang_code": "sl",
+      "lang_display": "Slav",
+      "lang_fullname": "Slavca"
+    },
+    {
+      "lang_id": 63,
+      "lang_code": "sogd",
+      "lang_display": "Sogd",
+      "lang_fullname": "Sogdca"
+    },
+    {
+      "lang_id": 64,
+      "lang_code": "sum",
+      "lang_display": "Sumer",
+      "lang_fullname": "Sumerce"
+    },
+    {
+      "lang_id": 65,
+      "lang_code": "hit",
+      "lang_display": "Hit",
+      "lang_fullname": "Hititçe"
+    },
+    {
+      "lang_id": 66,
+      "lang_code": "gal",
+      "lang_display": "Gal",
+      "lang_fullname": "Gal dili (Welsh)"
+    },
+    {
+      "lang_id": 67,
+      "lang_code": "özb",
+      "lang_display": "Özb",
+      "lang_fullname": "Özbekçe"
+    }
+  ],
+  "nations": [
+    { "nat_id": 1, "nat_code": "e", "nat_name": "Ermeni", "nat_gm": 1 },
+    { "nat_id": 2, "nat_code": "y", "nat_name": "Rum", "nat_gm": 1 },
+    { "nat_id": 3, "nat_code": "g", "nat_name": "Gürcü", "nat_gm": 0 },
+    { "nat_id": 4, "nat_code": "j", "nat_name": "Yahudi", "nat_gm": 1 },
+    { "nat_id": 5, "nat_code": "f", "nat_name": "Batı Avrupa", "nat_gm": 1 },
+    { "nat_id": 6, "nat_code": "k", "nat_name": "Kürt", "nat_gm": 0 },
+    { "nat_id": 7, "nat_code": "ar", "nat_name": "Arap", "nat_gm": 0 },
+    { "nat_id": 8, "nat_code": "s", "nat_name": "Süryani", "nat_gm": 1 },
+    { "nat_id": 9, "nat_code": "ah", "nat_name": "Ahıska", "nat_gm": 0 },
+    { "nat_id": 10, "nat_code": "az", "nat_name": "Azeri", "nat_gm": 0 },
+    { "nat_id": 11, "nat_code": "loc", "nat_name": "Yerel", "nat_gm": 0 },
+    {
+      "nat_id": 12,
+      "nat_code": "ha",
+      "nat_name": "Hristiyan Arap",
+      "nat_gm": 1
+    },
+    { "nat_id": 13, "nat_code": "al", "nat_name": "Alevi", "nat_gm": 0 },
+    {
+      "nat_id": 14,
+      "nat_code": "nu",
+      "nat_name": "Nusayri (Arap Alevi)",
+      "nat_gm": 1
+    },
+    { "nat_id": 15, "nat_code": "drs", "nat_name": "Dersimli", "nat_gm": 0 },
+    {
+      "nat_id": 16,
+      "nat_code": "rg",
+      "nat_name": "Rumeli göçmeni",
+      "nat_gm": 0
+    },
+    { "nat_id": 17, "nat_code": "r", "nat_name": "Doğu Avrupa", "nat_gm": 1 },
+    { "nat_id": 18, "nat_code": "ç", "nat_name": "Çerkes", "nat_gm": 0 },
+    { "nat_id": 19, "nat_code": "h", "nat_name": "Hint", "nat_gm": 1 },
+    {
+      "nat_id": 20,
+      "nat_code": "kp",
+      "nat_name": "Terekeme/Karapapak",
+      "nat_gm": 0
+    },
+    { "nat_id": 21, "nat_code": "arn", "nat_name": "Arnavut", "nat_gm": 0 },
+    {
+      "nat_id": 23,
+      "nat_code": "oa",
+      "nat_name": "Orta Asya/Afgan",
+      "nat_gm": 0
+    },
+    { "nat_id": 24, "nat_code": "ro", "nat_name": "Romen", "nat_gm": 1 },
+    { "nat_id": 25, "nat_code": "lz", "nat_name": "Laz", "nat_gm": 0 },
+    { "nat_id": 27, "nat_code": "bo", "nat_name": "Boşnak", "nat_gm": 0 },
+    { "nat_id": 28, "nat_code": "gm", "nat_name": "Gayrimüslim", "nat_gm": 0 },
+    {
+      "nat_id": 30,
+      "nat_code": "rs",
+      "nat_name": "Rus ve Sovyet",
+      "nat_gm": 0
+    },
+    {
+      "nat_id": 31,
+      "nat_code": "yg",
+      "nat_name": "Makedonya/Kosova/Bosna göçmeni",
+      "nat_gm": 0
+    },
+    {
+      "nat_id": 32,
+      "nat_code": "bg",
+      "nat_name": "Bulgaristan göçmeni",
+      "nat_gm": 0
+    },
+    { "nat_id": 33, "nat_code": "z", "nat_name": "Zaza", "nat_gm": 0 },
+    { "nat_id": 34, "nat_code": "bu", "nat_name": "Bulgar", "nat_gm": 0 },
+    { "nat_id": 35, "nat_code": "ir", "nat_name": "İranlı", "nat_gm": 0 },
+    { "nat_id": 36, "nat_code": "uk", "nat_name": "Ukrayna", "nat_gm": 0 },
+    {
+      "nat_id": 37,
+      "nat_code": "çç",
+      "nat_name": "Çeçen/Dağıstanlı",
+      "nat_gm": 0
+    },
+    { "nat_id": 39, "nat_code": "t", "nat_name": "Türk", "nat_gm": 0 },
+    { "nat_id": 41, "nat_code": "tat", "nat_name": "Tatar", "nat_gm": 0 },
+    {
+      "nat_id": 42,
+      "nat_code": "yt",
+      "nat_name": "Yeni Türk adı (1934-35)",
+      "nat_gm": 0
+    },
+    { "nat_id": 43, "nat_code": "uyg", "nat_name": "Uygur", "nat_gm": 0 },
+    { "nat_id": 44, "nat_code": "alk", "nat_name": "Alevi/Kürt", "nat_gm": 0 }
+  ],
+  "cities": [
+    {
+      "city_id": 1,
+      "city_name": "Adana",
+      "city_x": 37.1971,
+      "city_y": 35.4211
+    },
+    {
+      "city_id": 2,
+      "city_name": "Adıyaman",
+      "city_x": 37.7681,
+      "city_y": 38.36
+    },
+    {
+      "city_id": 3,
+      "city_name": "Afyon",
+      "city_x": 38.7558,
+      "city_y": 30.6531
+    },
+    { "city_id": 4, "city_name": "Ağrı", "city_x": 39.6328, "city_y": 43.1445 },
+    {
+      "city_id": 5,
+      "city_name": "Amasya",
+      "city_x": 40.7031,
+      "city_y": 35.8111
+    },
+    {
+      "city_id": 6,
+      "city_name": "Ankara",
+      "city_x": 39.8904,
+      "city_y": 32.6114
+    },
+    {
+      "city_id": 7,
+      "city_name": "Antalya",
+      "city_x": 37.0777,
+      "city_y": 31.037
+    },
+    {
+      "city_id": 8,
+      "city_name": "Artvin",
+      "city_x": 41.084,
+      "city_y": 41.7706
+    },
+    {
+      "city_id": 9,
+      "city_name": "Aydın",
+      "city_x": 37.7583,
+      "city_y": 28.0487
+    },
+    {
+      "city_id": 10,
+      "city_name": "Balıkesir",
+      "city_x": 39.657,
+      "city_y": 27.9828
+    },
+    {
+      "city_id": 11,
+      "city_name": "Bilecik",
+      "city_x": 40.1458,
+      "city_y": 30.1361
+    },
+    {
+      "city_id": 12,
+      "city_name": "Bingöl",
+      "city_x": 39.0667,
+      "city_y": 40.6885
+    },
+    {
+      "city_id": 13,
+      "city_name": "Bitlis",
+      "city_x": 38.4929,
+      "city_y": 42.1936
+    },
+    {
+      "city_id": 14,
+      "city_name": "Bolu",
+      "city_x": 40.6416,
+      "city_y": 31.8198
+    },
+    {
+      "city_id": 15,
+      "city_name": "Burdur",
+      "city_x": 37.549,
+      "city_y": 30.0809
+    },
+    {
+      "city_id": 16,
+      "city_name": "Bursa",
+      "city_x": 40.1064,
+      "city_y": 29.0221
+    },
+    {
+      "city_id": 17,
+      "city_name": "Çanakkale",
+      "city_x": 40.0223,
+      "city_y": 26.8743
+    },
+    {
+      "city_id": 18,
+      "city_name": "Çankırı",
+      "city_x": 40.6962,
+      "city_y": 33.4222
+    },
+    {
+      "city_id": 19,
+      "city_name": "Çorum",
+      "city_x": 40.5503,
+      "city_y": 34.6801
+    },
+    {
+      "city_id": 20,
+      "city_name": "Denizli",
+      "city_x": 37.813,
+      "city_y": 29.3243
+    },
+    {
+      "city_id": 21,
+      "city_name": "Diyarbakır",
+      "city_x": 38.0599,
+      "city_y": 40.4224
+    },
+    {
+      "city_id": 22,
+      "city_name": "Edirne",
+      "city_x": 41.5785,
+      "city_y": 26.7521
+    },
+    {
+      "city_id": 23,
+      "city_name": "Elazığ",
+      "city_x": 38.5188,
+      "city_y": 39.4588
+    },
+    {
+      "city_id": 24,
+      "city_name": "Erzincan",
+      "city_x": 39.7205,
+      "city_y": 39.2281
+    },
+    {
+      "city_id": 25,
+      "city_name": "Erzurum",
+      "city_x": 39.8725,
+      "city_y": 41.5901
+    },
+    {
+      "city_id": 26,
+      "city_name": "Eskişehir",
+      "city_x": 39.6783,
+      "city_y": 30.9993
+    },
+    {
+      "city_id": 27,
+      "city_name": "Antep",
+      "city_x": 37.1022,
+      "city_y": 37.4556
+    },
+    {
+      "city_id": 28,
+      "city_name": "Giresun",
+      "city_x": 40.6358,
+      "city_y": 38.4609
+    },
+    {
+      "city_id": 29,
+      "city_name": "Gümüşhane",
+      "city_x": 40.3852,
+      "city_y": 39.3618
+    },
+    {
+      "city_id": 30,
+      "city_name": "Hakkari",
+      "city_x": 37.4882,
+      "city_y": 44.1767
+    },
+    {
+      "city_id": 31,
+      "city_name": "Hatay",
+      "city_x": 36.4023,
+      "city_y": 36.2341
+    },
+    {
+      "city_id": 32,
+      "city_name": "Isparta",
+      "city_x": 37.9148,
+      "city_y": 30.9909
+    },
+    {
+      "city_id": 33,
+      "city_name": "Mersin",
+      "city_x": 36.7002,
+      "city_y": 34.0423
+    },
+    {
+      "city_id": 34,
+      "city_name": "İstanbul",
+      "city_x": 41.1238,
+      "city_y": 28.9188
+    },
+    {
+      "city_id": 35,
+      "city_name": "İzmir",
+      "city_x": 38.2629,
+      "city_y": 27.2654
+    },
+    { "city_id": 36, "city_name": "Kars", "city_x": 40.5266, "city_y": 43.123 },
+    {
+      "city_id": 37,
+      "city_name": "Kastamonu",
+      "city_x": 41.5294,
+      "city_y": 33.7516
+    },
+    {
+      "city_id": 38,
+      "city_name": "Kayseri",
+      "city_x": 38.6171,
+      "city_y": 35.8116
+    },
+    {
+      "city_id": 39,
+      "city_name": "Kırklareli",
+      "city_x": 41.7315,
+      "city_y": 27.4084
+    },
+    {
+      "city_id": 40,
+      "city_name": "Kırşehir",
+      "city_x": 39.3183,
+      "city_y": 34.0797
+    },
+    {
+      "city_id": 41,
+      "city_name": "Kocaeli",
+      "city_x": 40.8501,
+      "city_y": 29.9076
+    },
+    {
+      "city_id": 42,
+      "city_name": "Konya",
+      "city_x": 38.1075,
+      "city_y": 32.6542
+    },
+    {
+      "city_id": 43,
+      "city_name": "Kütahya",
+      "city_x": 39.3247,
+      "city_y": 29.5671
+    },
+    {
+      "city_id": 44,
+      "city_name": "Malatya",
+      "city_x": 38.4801,
+      "city_y": 37.9718
+    },
+    {
+      "city_id": 45,
+      "city_name": "Manisa",
+      "city_x": 38.8147,
+      "city_y": 28.1775
+    },
+    {
+      "city_id": 46,
+      "city_name": "Maraş",
+      "city_x": 37.8642,
+      "city_y": 36.9186
+    },
+    {
+      "city_id": 47,
+      "city_name": "Mardin",
+      "city_x": 37.3398,
+      "city_y": 40.8654
+    },
+    {
+      "city_id": 48,
+      "city_name": "Muğla",
+      "city_x": 37.0014,
+      "city_y": 28.4805
+    },
+    { "city_id": 49, "city_name": "Muş", "city_x": 38.9436, "city_y": 41.7334 },
+    {
+      "city_id": 50,
+      "city_name": "Nevşehir",
+      "city_x": 38.7869,
+      "city_y": 34.7261
+    },
+    {
+      "city_id": 51,
+      "city_name": "Niğde",
+      "city_x": 37.882,
+      "city_y": 34.6876
+    },
+    {
+      "city_id": 52,
+      "city_name": "Ordu",
+      "city_x": 40.8061,
+      "city_y": 37.5029
+    },
+    {
+      "city_id": 53,
+      "city_name": "Rize",
+      "city_x": 40.9058,
+      "city_y": 40.8262
+    },
+    {
+      "city_id": 54,
+      "city_name": "Sakarya",
+      "city_x": 40.6963,
+      "city_y": 30.5471
+    },
+    {
+      "city_id": 55,
+      "city_name": "Samsun",
+      "city_x": 41.2293,
+      "city_y": 35.9909
+    },
+    {
+      "city_id": 56,
+      "city_name": "Siirt",
+      "city_x": 37.9337,
+      "city_y": 42.1389
+    },
+    {
+      "city_id": 57,
+      "city_name": "Sinop",
+      "city_x": 41.6577,
+      "city_y": 34.9505
+    },
+    {
+      "city_id": 58,
+      "city_name": "Sivas",
+      "city_x": 39.6407,
+      "city_y": 37.2752
+    },
+    {
+      "city_id": 59,
+      "city_name": "Tekirdağ",
+      "city_x": 41.0399,
+      "city_y": 27.2106
+    },
+    {
+      "city_id": 60,
+      "city_name": "Tokat",
+      "city_x": 40.3841,
+      "city_y": 36.7111
+    },
+    {
+      "city_id": 61,
+      "city_name": "Trabzon",
+      "city_x": 40.8818,
+      "city_y": 39.8622
+    },
+    {
+      "city_id": 62,
+      "city_name": "Dersim",
+      "city_x": 39.204,
+      "city_y": 39.5271
+    },
+    {
+      "city_id": 63,
+      "city_name": "Urfa",
+      "city_x": 37.2888,
+      "city_y": 38.9888
+    },
+    {
+      "city_id": 64,
+      "city_name": "Uşak",
+      "city_x": 38.5669,
+      "city_y": 29.3208
+    },
+    { "city_id": 65, "city_name": "Van", "city_x": 38.4362, "city_y": 43.6219 },
+    {
+      "city_id": 66,
+      "city_name": "Yozgat",
+      "city_x": 39.6901,
+      "city_y": 35.3053
+    },
+    {
+      "city_id": 67,
+      "city_name": "Zonguldak",
+      "city_x": 41.2652,
+      "city_y": 31.8226
+    },
+    {
+      "city_id": 68,
+      "city_name": "Aksaray",
+      "city_x": 38.4768,
+      "city_y": 33.845
+    },
+    {
+      "city_id": 69,
+      "city_name": "Bayburt",
+      "city_x": 40.2854,
+      "city_y": 40.2116
+    },
+    {
+      "city_id": 70,
+      "city_name": "Karaman",
+      "city_x": 37.2121,
+      "city_y": 33.4126
+    },
+    {
+      "city_id": 71,
+      "city_name": "Kırıkkale",
+      "city_x": 39.8614,
+      "city_y": 33.6962
+    },
+    {
+      "city_id": 72,
+      "city_name": "Batman",
+      "city_x": 37.8035,
+      "city_y": 41.3181
+    },
+    {
+      "city_id": 73,
+      "city_name": "Şırnak",
+      "city_x": 37.4293,
+      "city_y": 42.5128
+    },
+    {
+      "city_id": 74,
+      "city_name": "Bartın",
+      "city_x": 41.6002,
+      "city_y": 32.5276
+    },
+    {
+      "city_id": 75,
+      "city_name": "Ardahan",
+      "city_x": 41.1069,
+      "city_y": 42.8093
+    },
+    {
+      "city_id": 76,
+      "city_name": "Iğdır",
+      "city_x": 39.9146,
+      "city_y": 43.9711
+    },
+    {
+      "city_id": 77,
+      "city_name": "Yalova",
+      "city_x": 40.6146,
+      "city_y": 29.2789
+    },
+    {
+      "city_id": 78,
+      "city_name": "Karabük",
+      "city_x": 41.1545,
+      "city_y": 32.6901
+    },
+    {
+      "city_id": 79,
+      "city_name": "Kilis",
+      "city_x": 36.7965,
+      "city_y": 37.1186
+    },
+    {
+      "city_id": 80,
+      "city_name": "Osmaniye",
+      "city_x": 37.1498,
+      "city_y": 36.3303
+    },
+    {
+      "city_id": 81,
+      "city_name": "Düzce",
+      "city_x": 40.8786,
+      "city_y": 31.2275
+    }
+  ],
+  "counties": [
+    {
+      "county_id": 1,
+      "county_city_id": 1,
+      "county_name": "Aladağ",
+      "county_x": 37.5471,
+      "county_y": 35.395
+    },
+    {
+      "county_id": 2,
+      "county_city_id": 1,
+      "county_name": "Ceyhan",
+      "county_x": 37.0288,
+      "county_y": 35.8125
+    },
+    {
+      "county_id": 3,
+      "county_city_id": 1,
+      "county_name": "Çukurova",
+      "county_x": 37.0486,
+      "county_y": 35.281
+    },
+    {
+      "county_id": 4,
+      "county_city_id": 1,
+      "county_name": "Feke",
+      "county_x": 37.8148,
+      "county_y": 35.9116
+    },
+    {
+      "county_id": 5,
+      "county_city_id": 1,
+      "county_name": "İmamoğlu",
+      "county_x": 37.2574,
+      "county_y": 35.6614
+    },
+    {
+      "county_id": 6,
+      "county_city_id": 1,
+      "county_name": "Karaisalı",
+      "county_x": 37.2572,
+      "county_y": 35.0587
+    },
+    {
+      "county_id": 7,
+      "county_city_id": 1,
+      "county_name": "Karataş",
+      "county_x": 36.5655,
+      "county_y": 35.3843
+    },
+    {
+      "county_id": 8,
+      "county_city_id": 1,
+      "county_name": "Kozan",
+      "county_x": 37.4522,
+      "county_y": 35.8193
+    },
+    {
+      "county_id": 9,
+      "county_city_id": 1,
+      "county_name": "Pozantı",
+      "county_x": 37.4267,
+      "county_y": 34.8744
+    },
+    {
+      "county_id": 10,
+      "county_city_id": 1,
+      "county_name": "Saimbeyli",
+      "county_x": 37.9851,
+      "county_y": 36.0893
+    },
+    {
+      "county_id": 11,
+      "county_city_id": 1,
+      "county_name": "Sarıçam",
+      "county_x": 37.0299,
+      "county_y": 35.4058
+    },
+    {
+      "county_id": 12,
+      "county_city_id": 1,
+      "county_name": "Seyhan",
+      "county_x": 36.9913,
+      "county_y": 35.3308
+    },
+    {
+      "county_id": 13,
+      "county_city_id": 1,
+      "county_name": "Tufanbeyli",
+      "county_x": 38.2625,
+      "county_y": 36.2204
+    },
+    {
+      "county_id": 14,
+      "county_city_id": 1,
+      "county_name": "Yumurtalık",
+      "county_x": 36.7674,
+      "county_y": 35.7917
+    },
+    {
+      "county_id": 15,
+      "county_city_id": 1,
+      "county_name": "Yüreğir",
+      "county_x": 36.99,
+      "county_y": 35.3382
+    },
+    {
+      "county_id": 16,
+      "county_city_id": 2,
+      "county_name": "Besni",
+      "county_x": 37.6934,
+      "county_y": 37.861
+    },
+    {
+      "county_id": 17,
+      "county_city_id": 2,
+      "county_name": "Çelikhan",
+      "county_x": 38.0328,
+      "county_y": 38.2381
+    },
+    {
+      "county_id": 18,
+      "county_city_id": 2,
+      "county_name": "Gerger",
+      "county_x": 38.029,
+      "county_y": 39.0333
+    },
+    {
+      "county_id": 19,
+      "county_city_id": 2,
+      "county_name": "Gölbaşı",
+      "county_x": 37.7844,
+      "county_y": 37.6396
+    },
+    {
+      "county_id": 20,
+      "county_city_id": 2,
+      "county_name": "Kahta",
+      "county_x": 37.7869,
+      "county_y": 38.6189
+    },
+    {
+      "county_id": 21,
+      "county_city_id": 2,
+      "county_name": "Merkez",
+      "county_x": 37.7636,
+      "county_y": 38.2773
+    },
+    {
+      "county_id": 22,
+      "county_city_id": 2,
+      "county_name": "Samsat",
+      "county_x": 37.5795,
+      "county_y": 38.4827
+    },
+    {
+      "county_id": 23,
+      "county_city_id": 2,
+      "county_name": "Sincik",
+      "county_x": 38.0291,
+      "county_y": 38.6196
+    },
+    {
+      "county_id": 24,
+      "county_city_id": 2,
+      "county_name": "Tut",
+      "county_x": 37.795,
+      "county_y": 37.9157
+    },
+    {
+      "county_id": 25,
+      "county_city_id": 3,
+      "county_name": "Başmakçı",
+      "county_x": 37.8973,
+      "county_y": 30.0103
+    },
+    {
+      "county_id": 26,
+      "county_city_id": 3,
+      "county_name": "Bayat",
+      "county_x": 38.9843,
+      "county_y": 30.9239
+    },
+    {
+      "county_id": 27,
+      "county_city_id": 3,
+      "county_name": "Bolvadin",
+      "county_x": 38.7106,
+      "county_y": 31.0479
+    },
+    {
+      "county_id": 28,
+      "county_city_id": 3,
+      "county_name": "Çay",
+      "county_x": 38.5925,
+      "county_y": 31.0273
+    },
+    {
+      "county_id": 29,
+      "county_city_id": 3,
+      "county_name": "Çobanlar",
+      "county_x": 38.7008,
+      "county_y": 30.7815
+    },
+    {
+      "county_id": 30,
+      "county_city_id": 3,
+      "county_name": "Dazkırı",
+      "county_x": 37.9196,
+      "county_y": 29.8604
+    },
+    {
+      "county_id": 31,
+      "county_city_id": 3,
+      "county_name": "Dinar",
+      "county_x": 38.0681,
+      "county_y": 30.166
+    },
+    {
+      "county_id": 32,
+      "county_city_id": 3,
+      "county_name": "Emirdağ",
+      "county_x": 39.0196,
+      "county_y": 31.1503
+    },
+    {
+      "county_id": 33,
+      "county_city_id": 3,
+      "county_name": "Evciler",
+      "county_x": 38.0411,
+      "county_y": 29.8863
+    },
+    {
+      "county_id": 34,
+      "county_city_id": 3,
+      "county_name": "Hocalar",
+      "county_x": 38.5764,
+      "county_y": 29.9698
+    },
+    {
+      "county_id": 35,
+      "county_city_id": 3,
+      "county_name": "İhsaniye",
+      "county_x": 39.0319,
+      "county_y": 30.4168
+    },
+    {
+      "county_id": 36,
+      "county_city_id": 3,
+      "county_name": "İscehisar",
+      "county_x": 38.8609,
+      "county_y": 30.7488
+    },
+    {
+      "county_id": 37,
+      "county_city_id": 3,
+      "county_name": "Kızılören",
+      "county_x": 38.2579,
+      "county_y": 30.1492
+    },
+    {
+      "county_id": 38,
+      "county_city_id": 3,
+      "county_name": "Merkez",
+      "county_x": 38.7568,
+      "county_y": 30.5388
+    },
+    {
+      "county_id": 39,
+      "county_city_id": 3,
+      "county_name": "Sandıklı",
+      "county_x": 38.4648,
+      "county_y": 30.2727
+    },
+    {
+      "county_id": 40,
+      "county_city_id": 3,
+      "county_name": "Sinanpaşa",
+      "county_x": 38.7451,
+      "county_y": 30.2453
+    },
+    {
+      "county_id": 41,
+      "county_city_id": 3,
+      "county_name": "Şuhut",
+      "county_x": 38.533,
+      "county_y": 30.5445
+    },
+    {
+      "county_id": 42,
+      "county_city_id": 3,
+      "county_name": "Sultandağı",
+      "county_x": 38.5316,
+      "county_y": 31.23
+    },
+    {
+      "county_id": 43,
+      "county_city_id": 4,
+      "county_name": "Diyadin",
+      "county_x": 39.5399,
+      "county_y": 43.6734
+    },
+    {
+      "county_id": 44,
+      "county_city_id": 4,
+      "county_name": "Doğubayazıt",
+      "county_x": 39.5471,
+      "county_y": 44.0685
+    },
+    {
+      "county_id": 45,
+      "county_city_id": 4,
+      "county_name": "Eleşkirt",
+      "county_x": 39.7986,
+      "county_y": 42.6742
+    },
+    {
+      "county_id": 46,
+      "county_city_id": 4,
+      "county_name": "Hamur",
+      "county_x": 39.6094,
+      "county_y": 42.9881
+    },
+    {
+      "county_id": 47,
+      "county_city_id": 4,
+      "county_name": "Merkez",
+      "county_x": 39.7191,
+      "county_y": 43.0505
+    },
+    {
+      "county_id": 48,
+      "county_city_id": 4,
+      "county_name": "Patnos",
+      "county_x": 39.2338,
+      "county_y": 42.8633
+    },
+    {
+      "county_id": 49,
+      "county_city_id": 4,
+      "county_name": "Taşlıçay",
+      "county_x": 39.6334,
+      "county_y": 43.3777
+    },
+    {
+      "county_id": 50,
+      "county_city_id": 4,
+      "county_name": "Tutak",
+      "county_x": 39.5395,
+      "county_y": 42.7729
+    },
+    {
+      "county_id": 51,
+      "county_city_id": 5,
+      "county_name": "Göynücek",
+      "county_x": 40.3977,
+      "county_y": 35.5237
+    },
+    {
+      "county_id": 52,
+      "county_city_id": 5,
+      "county_name": "Gümüşhacıköy",
+      "county_x": 40.8737,
+      "county_y": 35.2158
+    },
+    {
+      "county_id": 53,
+      "county_city_id": 5,
+      "county_name": "Hamamözü",
+      "county_x": 40.7829,
+      "county_y": 35.023
+    },
+    {
+      "county_id": 54,
+      "county_city_id": 5,
+      "county_name": "Merkez",
+      "county_x": 40.6572,
+      "county_y": 35.8357
+    },
+    {
+      "county_id": 55,
+      "county_city_id": 5,
+      "county_name": "Merzifon",
+      "county_x": 40.8749,
+      "county_y": 35.4617
+    },
+    {
+      "county_id": 56,
+      "county_city_id": 5,
+      "county_name": "Suluova",
+      "county_x": 40.8273,
+      "county_y": 35.6519
+    },
+    {
+      "county_id": 57,
+      "county_city_id": 5,
+      "county_name": "Taşova",
+      "county_x": 40.76,
+      "county_y": 36.3218
+    },
+    {
+      "county_id": 58,
+      "county_city_id": 6,
+      "county_name": "Akyurt",
+      "county_x": 40.1308,
+      "county_y": 33.0866
+    },
+    {
+      "county_id": 59,
+      "county_city_id": 6,
+      "county_name": "Altındağ",
+      "county_x": 39.9419,
+      "county_y": 32.8544
+    },
+    {
+      "county_id": 60,
+      "county_city_id": 6,
+      "county_name": "Ayaş",
+      "county_x": 40.0151,
+      "county_y": 32.3326
+    },
+    {
+      "county_id": 61,
+      "county_city_id": 6,
+      "county_name": "Bala",
+      "county_x": 39.5534,
+      "county_y": 33.1238
+    },
+    {
+      "county_id": 62,
+      "county_city_id": 6,
+      "county_name": "Beypazarı",
+      "county_x": 40.1691,
+      "county_y": 31.9182
+    },
+    {
+      "county_id": 63,
+      "county_city_id": 6,
+      "county_name": "Çamlıdere",
+      "county_x": 40.4918,
+      "county_y": 32.4768
+    },
+    {
+      "county_id": 64,
+      "county_city_id": 6,
+      "county_name": "Çankaya",
+      "county_x": 39.9208,
+      "county_y": 32.8541
+    },
+    {
+      "county_id": 65,
+      "county_city_id": 6,
+      "county_name": "Çubuk",
+      "county_x": 40.2387,
+      "county_y": 33.0326
+    },
+    {
+      "county_id": 66,
+      "county_city_id": 6,
+      "county_name": "Elmadağ",
+      "county_x": 39.9168,
+      "county_y": 33.2419
+    },
+    {
+      "county_id": 67,
+      "county_city_id": 6,
+      "county_name": "Etimesgut",
+      "county_x": 39.9465,
+      "county_y": 32.668
+    },
+    {
+      "county_id": 68,
+      "county_city_id": 6,
+      "county_name": "Evren",
+      "county_x": 39.0219,
+      "county_y": 33.8066
+    },
+    {
+      "county_id": 69,
+      "county_city_id": 6,
+      "county_name": "Gölbaşı",
+      "county_x": 39.7904,
+      "county_y": 32.8063
+    },
+    {
+      "county_id": 70,
+      "county_city_id": 6,
+      "county_name": "Güdül",
+      "county_x": 40.2104,
+      "county_y": 32.2455
+    },
+    {
+      "county_id": 71,
+      "county_city_id": 6,
+      "county_name": "Haymana",
+      "county_x": 39.4343,
+      "county_y": 32.4957
+    },
+    {
+      "county_id": 72,
+      "county_city_id": 6,
+      "county_name": "Kahramankazan",
+      "county_x": 40.2053,
+      "county_y": 32.6812
+    },
+    {
+      "county_id": 73,
+      "county_city_id": 6,
+      "county_name": "Kalecik",
+      "county_x": 40.0988,
+      "county_y": 33.4088
+    },
+    {
+      "county_id": 74,
+      "county_city_id": 6,
+      "county_name": "Keçiören",
+      "county_x": 39.9781,
+      "county_y": 32.8674
+    },
+    {
+      "county_id": 75,
+      "county_city_id": 6,
+      "county_name": "Kızılcahamam",
+      "county_x": 40.4704,
+      "county_y": 32.6484
+    },
+    {
+      "county_id": 76,
+      "county_city_id": 6,
+      "county_name": "Mamak",
+      "county_x": 39.9319,
+      "county_y": 32.9113
+    },
+    {
+      "county_id": 77,
+      "county_city_id": 6,
+      "county_name": "Nallıhan",
+      "county_x": 40.1888,
+      "county_y": 31.3504
+    },
+    {
+      "county_id": 78,
+      "county_city_id": 6,
+      "county_name": "Polatlı",
+      "county_x": 39.5851,
+      "county_y": 32.142
+    },
+    {
+      "county_id": 79,
+      "county_city_id": 6,
+      "county_name": "Pursaklar",
+      "county_x": 40.0385,
+      "county_y": 32.9033
+    },
+    {
+      "county_id": 80,
+      "county_city_id": 6,
+      "county_name": "Şereflikoçhisar",
+      "county_x": 38.9377,
+      "county_y": 33.546
+    },
+    {
+      "county_id": 81,
+      "county_city_id": 6,
+      "county_name": "Sincan",
+      "county_x": 39.9624,
+      "county_y": 32.5803
+    },
+    {
+      "county_id": 82,
+      "county_city_id": 6,
+      "county_name": "Yenimahalle",
+      "county_x": 39.963,
+      "county_y": 32.8085
+    },
+    {
+      "county_id": 83,
+      "county_city_id": 7,
+      "county_name": "Akseki",
+      "county_x": 37.0478,
+      "county_y": 31.7929
+    },
+    {
+      "county_id": 84,
+      "county_city_id": 7,
+      "county_name": "Aksu",
+      "county_x": 36.9477,
+      "county_y": 30.8496
+    },
+    {
+      "county_id": 85,
+      "county_city_id": 7,
+      "county_name": "Alanya",
+      "county_x": 36.5443,
+      "county_y": 31.9961
+    },
+    {
+      "county_id": 86,
+      "county_city_id": 7,
+      "county_name": "Demre",
+      "county_x": 36.2445,
+      "county_y": 29.9875
+    },
+    {
+      "county_id": 87,
+      "county_city_id": 7,
+      "county_name": "Döşemealtı",
+      "county_x": 37.0229,
+      "county_y": 30.6013
+    },
+    {
+      "county_id": 88,
+      "county_city_id": 7,
+      "county_name": "Elmalı",
+      "county_x": 36.7346,
+      "county_y": 29.9214
+    },
+    {
+      "county_id": 89,
+      "county_city_id": 7,
+      "county_name": "Finike",
+      "county_x": 36.2974,
+      "county_y": 30.1457
+    },
+    {
+      "county_id": 90,
+      "county_city_id": 7,
+      "county_name": "Gazipaşa",
+      "county_x": 36.2698,
+      "county_y": 32.3149
+    },
+    {
+      "county_id": 91,
+      "county_city_id": 7,
+      "county_name": "Gündoğmuş",
+      "county_x": 36.8124,
+      "county_y": 31.9995
+    },
+    {
+      "county_id": 92,
+      "county_city_id": 7,
+      "county_name": "İbradı",
+      "county_x": 37.0954,
+      "county_y": 31.5951
+    },
+    {
+      "county_id": 93,
+      "county_city_id": 7,
+      "county_name": "Kaş",
+      "county_x": 36.2,
+      "county_y": 29.6396
+    },
+    {
+      "county_id": 94,
+      "county_city_id": 7,
+      "county_name": "Kemer",
+      "county_x": 36.6026,
+      "county_y": 30.5597
+    },
+    {
+      "county_id": 95,
+      "county_city_id": 7,
+      "county_name": "Kepez",
+      "county_x": 36.9184,
+      "county_y": 30.6941
+    },
+    {
+      "county_id": 96,
+      "county_city_id": 7,
+      "county_name": "Konyaaltı",
+      "county_x": 36.865,
+      "county_y": 30.6335
+    },
+    {
+      "county_id": 97,
+      "county_city_id": 7,
+      "county_name": "Korkuteli",
+      "county_x": 37.0645,
+      "county_y": 30.1969
+    },
+    {
+      "county_id": 98,
+      "county_city_id": 7,
+      "county_name": "Kumluca",
+      "county_x": 36.3669,
+      "county_y": 30.2859
+    },
+    {
+      "county_id": 99,
+      "county_city_id": 7,
+      "county_name": "Manavgat",
+      "county_x": 36.7766,
+      "county_y": 31.3976
+    },
+    {
+      "county_id": 100,
+      "county_city_id": 7,
+      "county_name": "Muratpaşa",
+      "county_x": 36.8969,
+      "county_y": 30.7132
+    },
+    {
+      "county_id": 101,
+      "county_city_id": 7,
+      "county_name": "Serik",
+      "county_x": 36.9173,
+      "county_y": 31.1046
+    },
+    {
+      "county_id": 102,
+      "county_city_id": 8,
+      "county_name": "Ardanuç",
+      "county_x": 41.1223,
+      "county_y": 42.0664
+    },
+    {
+      "county_id": 103,
+      "county_city_id": 8,
+      "county_name": "Arhavi",
+      "county_x": 41.3507,
+      "county_y": 41.304
+    },
+    {
+      "county_id": 104,
+      "county_city_id": 8,
+      "county_name": "Borçka",
+      "county_x": 41.3554,
+      "county_y": 41.6774
+    },
+    {
+      "county_id": 105,
+      "county_city_id": 8,
+      "county_name": "Hopa",
+      "county_x": 41.3946,
+      "county_y": 41.4198
+    },
+    {
+      "county_id": 106,
+      "county_city_id": 8,
+      "county_name": "Merkez",
+      "county_x": 41.1809,
+      "county_y": 41.8208
+    },
+    {
+      "county_id": 107,
+      "county_city_id": 8,
+      "county_name": "Murgul",
+      "county_x": 41.2788,
+      "county_y": 41.5634
+    },
+    {
+      "county_id": 108,
+      "county_city_id": 8,
+      "county_name": "Şavşat",
+      "county_x": 41.2518,
+      "county_y": 42.3583
+    },
+    {
+      "county_id": 109,
+      "county_city_id": 8,
+      "county_name": "Yusufeli",
+      "county_x": 40.8206,
+      "county_y": 41.5436
+    },
+    {
+      "county_id": 110,
+      "county_city_id": 9,
+      "county_name": "Bozdoğan",
+      "county_x": 37.6729,
+      "county_y": 28.3106
+    },
+    {
+      "county_id": 111,
+      "county_city_id": 9,
+      "county_name": "Buharkent",
+      "county_x": 37.9653,
+      "county_y": 28.7435
+    },
+    {
+      "county_id": 112,
+      "county_city_id": 9,
+      "county_name": "Çine",
+      "county_x": 37.6141,
+      "county_y": 28.0612
+    },
+    {
+      "county_id": 113,
+      "county_city_id": 9,
+      "county_name": "Didim",
+      "county_x": 37.3762,
+      "county_y": 27.2647
+    },
+    {
+      "county_id": 114,
+      "county_city_id": 9,
+      "county_name": "Efeler",
+      "county_x": 37.8381,
+      "county_y": 27.8457
+    },
+    {
+      "county_id": 115,
+      "county_city_id": 9,
+      "county_name": "Germencik",
+      "county_x": 37.8703,
+      "county_y": 27.6027
+    },
+    {
+      "county_id": 116,
+      "county_city_id": 9,
+      "county_name": "İncirliova",
+      "county_x": 37.8531,
+      "county_y": 27.7232
+    },
+    {
+      "county_id": 117,
+      "county_city_id": 9,
+      "county_name": "Karacasu",
+      "county_x": 37.729,
+      "county_y": 28.6072
+    },
+    {
+      "county_id": 118,
+      "county_city_id": 9,
+      "county_name": "Karpuzlu",
+      "county_x": 37.5579,
+      "county_y": 27.8347
+    },
+    {
+      "county_id": 119,
+      "county_city_id": 9,
+      "county_name": "Koçarlı",
+      "county_x": 37.7619,
+      "county_y": 27.7039
+    },
+    {
+      "county_id": 120,
+      "county_city_id": 9,
+      "county_name": "Köşk",
+      "county_x": 37.8536,
+      "county_y": 28.0521
+    },
+    {
+      "county_id": 121,
+      "county_city_id": 9,
+      "county_name": "Kuşadası",
+      "county_x": 37.858,
+      "county_y": 27.261
+    },
+    {
+      "county_id": 122,
+      "county_city_id": 9,
+      "county_name": "Kuyucak",
+      "county_x": 37.9138,
+      "county_y": 28.4609
+    },
+    {
+      "county_id": 123,
+      "county_city_id": 9,
+      "county_name": "Nazilli",
+      "county_x": 37.9098,
+      "county_y": 28.3244
+    },
+    {
+      "county_id": 124,
+      "county_city_id": 9,
+      "county_name": "Söke",
+      "county_x": 37.7508,
+      "county_y": 27.4047
+    },
+    {
+      "county_id": 125,
+      "county_city_id": 9,
+      "county_name": "Sultanhisar",
+      "county_x": 37.8899,
+      "county_y": 28.1545
+    },
+    {
+      "county_id": 126,
+      "county_city_id": 9,
+      "county_name": "Yenipazar",
+      "county_x": 37.8233,
+      "county_y": 28.1958
+    },
+    {
+      "county_id": 127,
+      "county_city_id": 10,
+      "county_name": "Altıeylül",
+      "county_x": 39.6405,
+      "county_y": 27.8868
+    },
+    {
+      "county_id": 128,
+      "county_city_id": 10,
+      "county_name": "Ayvalık",
+      "county_x": 39.3182,
+      "county_y": 26.692
+    },
+    {
+      "county_id": 129,
+      "county_city_id": 10,
+      "county_name": "Balya",
+      "county_x": 39.7498,
+      "county_y": 27.5788
+    },
+    {
+      "county_id": 130,
+      "county_city_id": 10,
+      "county_name": "Bandırma",
+      "county_x": 40.3488,
+      "county_y": 27.9755
+    },
+    {
+      "county_id": 131,
+      "county_city_id": 10,
+      "county_name": "Bigadiç",
+      "county_x": 39.3936,
+      "county_y": 28.1306
+    },
+    {
+      "county_id": 132,
+      "county_city_id": 10,
+      "county_name": "Burhaniye",
+      "county_x": 39.5006,
+      "county_y": 26.9764
+    },
+    {
+      "county_id": 133,
+      "county_city_id": 10,
+      "county_name": "Dursunbey",
+      "county_x": 39.5849,
+      "county_y": 28.6282
+    },
+    {
+      "county_id": 134,
+      "county_city_id": 10,
+      "county_name": "Edremit",
+      "county_x": 39.5936,
+      "county_y": 27.0207
+    },
+    {
+      "county_id": 135,
+      "county_city_id": 10,
+      "county_name": "Erdek",
+      "county_x": 40.3981,
+      "county_y": 27.7916
+    },
+    {
+      "county_id": 136,
+      "county_city_id": 10,
+      "county_name": "Gömeç",
+      "county_x": 39.3901,
+      "county_y": 26.8411
+    },
+    {
+      "county_id": 137,
+      "county_city_id": 10,
+      "county_name": "Gönen",
+      "county_x": 40.1026,
+      "county_y": 27.6583
+    },
+    {
+      "county_id": 138,
+      "county_city_id": 10,
+      "county_name": "Havran",
+      "county_x": 39.5577,
+      "county_y": 27.1002
+    },
+    {
+      "county_id": 139,
+      "county_city_id": 10,
+      "county_name": "İvrindi",
+      "county_x": 39.5819,
+      "county_y": 27.4853
+    },
+    {
+      "county_id": 140,
+      "county_city_id": 10,
+      "county_name": "Karesi",
+      "county_x": 39.6532,
+      "county_y": 27.8902
+    },
+    {
+      "county_id": 141,
+      "county_city_id": 10,
+      "county_name": "Kepsut",
+      "county_x": 39.6867,
+      "county_y": 28.1566
+    },
+    {
+      "county_id": 142,
+      "county_city_id": 10,
+      "county_name": "Manyas",
+      "county_x": 40.0475,
+      "county_y": 27.9686
+    },
+    {
+      "county_id": 143,
+      "county_city_id": 10,
+      "county_name": "Marmara",
+      "county_x": 40.5861,
+      "county_y": 27.555
+    },
+    {
+      "county_id": 144,
+      "county_city_id": 10,
+      "county_name": "Savaştepe",
+      "county_x": 39.3825,
+      "county_y": 27.6551
+    },
+    {
+      "county_id": 145,
+      "county_city_id": 10,
+      "county_name": "Sındırgı",
+      "county_x": 39.2386,
+      "county_y": 28.1748
+    },
+    {
+      "county_id": 146,
+      "county_city_id": 10,
+      "county_name": "Susurluk",
+      "county_x": 39.9147,
+      "county_y": 28.157
+    },
+    {
+      "county_id": 147,
+      "county_city_id": 11,
+      "county_name": "Bozüyük",
+      "county_x": 39.9068,
+      "county_y": 30.0346
+    },
+    {
+      "county_id": 148,
+      "county_city_id": 11,
+      "county_name": "Gölpazarı",
+      "county_x": 40.2836,
+      "county_y": 30.3158
+    },
+    {
+      "county_id": 149,
+      "county_city_id": 11,
+      "county_name": "İnhisar",
+      "county_x": 40.0496,
+      "county_y": 30.3855
+    },
+    {
+      "county_id": 150,
+      "county_city_id": 11,
+      "county_name": "Merkez",
+      "county_x": 40.1426,
+      "county_y": 29.9793
+    },
+    {
+      "county_id": 151,
+      "county_city_id": 11,
+      "county_name": "Osmaneli",
+      "county_x": 40.3581,
+      "county_y": 30.0151
+    },
+    {
+      "county_id": 152,
+      "county_city_id": 11,
+      "county_name": "Pazaryeri",
+      "county_x": 39.9955,
+      "county_y": 29.9035
+    },
+    {
+      "county_id": 153,
+      "county_city_id": 11,
+      "county_name": "Söğüt",
+      "county_x": 40.0142,
+      "county_y": 30.1829
+    },
+    {
+      "county_id": 154,
+      "county_city_id": 11,
+      "county_name": "Yenipazar",
+      "county_x": 40.1766,
+      "county_y": 30.5196
+    },
+    {
+      "county_id": 155,
+      "county_city_id": 12,
+      "county_name": "Adaklı",
+      "county_x": 39.229,
+      "county_y": 40.4837
+    },
+    {
+      "county_id": 156,
+      "county_city_id": 12,
+      "county_name": "Genç",
+      "county_x": 38.7496,
+      "county_y": 40.5563
+    },
+    {
+      "county_id": 157,
+      "county_city_id": 12,
+      "county_name": "Karlıova",
+      "county_x": 39.2985,
+      "county_y": 41.0128
+    },
+    {
+      "county_id": 158,
+      "county_city_id": 12,
+      "county_name": "Kiğı",
+      "county_x": 39.3101,
+      "county_y": 40.3491
+    },
+    {
+      "county_id": 159,
+      "county_city_id": 12,
+      "county_name": "Merkez",
+      "county_x": 38.8851,
+      "county_y": 40.4968
+    },
+    {
+      "county_id": 160,
+      "county_city_id": 12,
+      "county_name": "Solhan",
+      "county_x": 38.9685,
+      "county_y": 41.0535
+    },
+    {
+      "county_id": 161,
+      "county_city_id": 12,
+      "county_name": "Yayladere",
+      "county_x": 39.226,
+      "county_y": 40.0685
+    },
+    {
+      "county_id": 162,
+      "county_city_id": 12,
+      "county_name": "Yedisu",
+      "county_x": 39.4339,
+      "county_y": 40.5453
+    },
+    {
+      "county_id": 163,
+      "county_city_id": 13,
+      "county_name": "Adilcevaz",
+      "county_x": 38.8048,
+      "county_y": 42.7364
+    },
+    {
+      "county_id": 164,
+      "county_city_id": 13,
+      "county_name": "Ahlat",
+      "county_x": 38.755,
+      "county_y": 42.4882
+    },
+    {
+      "county_id": 165,
+      "county_city_id": 13,
+      "county_name": "Güroymak",
+      "county_x": 38.5767,
+      "county_y": 42.02
+    },
+    {
+      "county_id": 166,
+      "county_city_id": 13,
+      "county_name": "Hizan",
+      "county_x": 38.2249,
+      "county_y": 42.4264
+    },
+    {
+      "county_id": 167,
+      "county_city_id": 13,
+      "county_name": "Merkez",
+      "county_x": 38.4008,
+      "county_y": 42.1095
+    },
+    {
+      "county_id": 168,
+      "county_city_id": 13,
+      "county_name": "Mutki",
+      "county_x": 38.409,
+      "county_y": 41.9222
+    },
+    {
+      "county_id": 169,
+      "county_city_id": 13,
+      "county_name": "Tatvan",
+      "county_x": 38.5019,
+      "county_y": 42.2811
+    },
+    {
+      "county_id": 170,
+      "county_city_id": 14,
+      "county_name": "Dörtdivan",
+      "county_x": 40.7207,
+      "county_y": 32.0627
+    },
+    {
+      "county_id": 171,
+      "county_city_id": 14,
+      "county_name": "Gerede",
+      "county_x": 40.8012,
+      "county_y": 32.1976
+    },
+    {
+      "county_id": 172,
+      "county_city_id": 14,
+      "county_name": "Göynük",
+      "county_x": 40.3983,
+      "county_y": 30.7846
+    },
+    {
+      "county_id": 173,
+      "county_city_id": 14,
+      "county_name": "Kıbrıscık",
+      "county_x": 40.409,
+      "county_y": 31.8513
+    },
+    {
+      "county_id": 174,
+      "county_city_id": 14,
+      "county_name": "Mengen",
+      "county_x": 40.9382,
+      "county_y": 32.0746
+    },
+    {
+      "county_id": 175,
+      "county_city_id": 14,
+      "county_name": "Merkez",
+      "county_x": 40.7305,
+      "county_y": 31.6047
+    },
+    {
+      "county_id": 176,
+      "county_city_id": 14,
+      "county_name": "Mudurnu",
+      "county_x": 40.466,
+      "county_y": 31.2114
+    },
+    {
+      "county_id": 177,
+      "county_city_id": 14,
+      "county_name": "Seben",
+      "county_x": 40.409,
+      "county_y": 31.5725
+    },
+    {
+      "county_id": 178,
+      "county_city_id": 14,
+      "county_name": "Yeniçağa",
+      "county_x": 40.7718,
+      "county_y": 32.0318
+    },
+    {
+      "county_id": 179,
+      "county_city_id": 15,
+      "county_name": "Ağlasun",
+      "county_x": 37.6493,
+      "county_y": 30.5337
+    },
+    {
+      "county_id": 180,
+      "county_city_id": 15,
+      "county_name": "Altınyayla",
+      "county_x": 36.9976,
+      "county_y": 29.5446
+    },
+    {
+      "county_id": 181,
+      "county_city_id": 15,
+      "county_name": "Bucak",
+      "county_x": 37.4565,
+      "county_y": 30.5902
+    },
+    {
+      "county_id": 182,
+      "county_city_id": 15,
+      "county_name": "Çavdır",
+      "county_x": 37.1552,
+      "county_y": 29.6897
+    },
+    {
+      "county_id": 183,
+      "county_city_id": 15,
+      "county_name": "Çeltikçi",
+      "county_x": 37.5338,
+      "county_y": 30.4826
+    },
+    {
+      "county_id": 184,
+      "county_city_id": 15,
+      "county_name": "Gölhisar",
+      "county_x": 37.1409,
+      "county_y": 29.5075
+    },
+    {
+      "county_id": 185,
+      "county_city_id": 15,
+      "county_name": "Karamanlı",
+      "county_x": 37.3729,
+      "county_y": 29.8238
+    },
+    {
+      "county_id": 186,
+      "county_city_id": 15,
+      "county_name": "Kemer",
+      "county_x": 37.3533,
+      "county_y": 30.0612
+    },
+    {
+      "county_id": 187,
+      "county_city_id": 15,
+      "county_name": "Merkez",
+      "county_x": 37.7183,
+      "county_y": 30.2819
+    },
+    {
+      "county_id": 188,
+      "county_city_id": 15,
+      "county_name": "Tefenni",
+      "county_x": 37.3095,
+      "county_y": 29.7747
+    },
+    {
+      "county_id": 189,
+      "county_city_id": 15,
+      "county_name": "Yeşilova",
+      "county_x": 37.507,
+      "county_y": 29.7528
+    },
+    {
+      "county_id": 190,
+      "county_city_id": 16,
+      "county_name": "Büyükorhan",
+      "county_x": 39.7704,
+      "county_y": 28.8864
+    },
+    {
+      "county_id": 191,
+      "county_city_id": 16,
+      "county_name": "Gemlik",
+      "county_x": 40.4318,
+      "county_y": 29.1554
+    },
+    {
+      "county_id": 192,
+      "county_city_id": 16,
+      "county_name": "Gürsu",
+      "county_x": 40.2179,
+      "county_y": 29.1936
+    },
+    {
+      "county_id": 193,
+      "county_city_id": 16,
+      "county_name": "Harmancık",
+      "county_x": 39.6769,
+      "county_y": 29.1544
+    },
+    {
+      "county_id": 194,
+      "county_city_id": 16,
+      "county_name": "İnegöl",
+      "county_x": 40.0801,
+      "county_y": 29.5096
+    },
+    {
+      "county_id": 195,
+      "county_city_id": 16,
+      "county_name": "İznik",
+      "county_x": 40.4294,
+      "county_y": 29.7198
+    },
+    {
+      "county_id": 196,
+      "county_city_id": 16,
+      "county_name": "Karacabey",
+      "county_x": 40.216,
+      "county_y": 28.359
+    },
+    {
+      "county_id": 197,
+      "county_city_id": 16,
+      "county_name": "Keles",
+      "county_x": 39.913,
+      "county_y": 29.2326
+    },
+    {
+      "county_id": 198,
+      "county_city_id": 16,
+      "county_name": "Kestel",
+      "county_x": 40.2008,
+      "county_y": 29.212
+    },
+    {
+      "county_id": 199,
+      "county_city_id": 16,
+      "county_name": "Mudanya",
+      "county_x": 40.3777,
+      "county_y": 28.8838
+    },
+    {
+      "county_id": 200,
+      "county_city_id": 16,
+      "county_name": "Mustafakemalpaşa",
+      "county_x": 40.0395,
+      "county_y": 28.4053
+    },
+    {
+      "county_id": 201,
+      "county_city_id": 16,
+      "county_name": "Nilüfer",
+      "county_x": 40.2117,
+      "county_y": 28.9852
+    },
+    {
+      "county_id": 202,
+      "county_city_id": 16,
+      "county_name": "Orhaneli",
+      "county_x": 39.9033,
+      "county_y": 28.9874
+    },
+    {
+      "county_id": 203,
+      "county_city_id": 16,
+      "county_name": "Orhangazi",
+      "county_x": 40.4905,
+      "county_y": 29.3085
+    },
+    {
+      "county_id": 204,
+      "county_city_id": 16,
+      "county_name": "Osmangazi",
+      "county_x": 40.1883,
+      "county_y": 29.061
+    },
+    {
+      "county_id": 205,
+      "county_city_id": 16,
+      "county_name": "Yenişehir",
+      "county_x": 40.2642,
+      "county_y": 29.6507
+    },
+    {
+      "county_id": 206,
+      "county_city_id": 16,
+      "county_name": "Yıldırım",
+      "county_x": 40.1915,
+      "county_y": 29.0909
+    },
+    {
+      "county_id": 207,
+      "county_city_id": 17,
+      "county_name": "Ayvacık",
+      "county_x": 39.6012,
+      "county_y": 26.404
+    },
+    {
+      "county_id": 208,
+      "county_city_id": 17,
+      "county_name": "Bayramiç",
+      "county_x": 39.8091,
+      "county_y": 26.6124
+    },
+    {
+      "county_id": 209,
+      "county_city_id": 17,
+      "county_name": "Biga",
+      "county_x": 40.2267,
+      "county_y": 27.2427
+    },
+    {
+      "county_id": 210,
+      "county_city_id": 17,
+      "county_name": "Bozcaada",
+      "county_x": 39.8349,
+      "county_y": 26.0703
+    },
+    {
+      "county_id": 211,
+      "county_city_id": 17,
+      "county_name": "Çan",
+      "county_x": 40.03,
+      "county_y": 27.0505
+    },
+    {
+      "county_id": 212,
+      "county_city_id": 17,
+      "county_name": "Eceabat",
+      "county_x": 40.1843,
+      "county_y": 26.3594
+    },
+    {
+      "county_id": 213,
+      "county_city_id": 17,
+      "county_name": "Ezine",
+      "county_x": 39.7871,
+      "county_y": 26.3358
+    },
+    {
+      "county_id": 214,
+      "county_city_id": 17,
+      "county_name": "Gelibolu",
+      "county_x": 40.4084,
+      "county_y": 26.6716
+    },
+    {
+      "county_id": 215,
+      "county_city_id": 17,
+      "county_name": "Gökçeada",
+      "county_x": 40.1939,
+      "county_y": 25.9048
+    },
+    {
+      "county_id": 216,
+      "county_city_id": 17,
+      "county_name": "Lapseki",
+      "county_x": 40.3448,
+      "county_y": 26.6849
+    },
+    {
+      "county_id": 217,
+      "county_city_id": 17,
+      "county_name": "Merkez",
+      "county_x": 40.1467,
+      "county_y": 26.4086
+    },
+    {
+      "county_id": 218,
+      "county_city_id": 17,
+      "county_name": "Yenice",
+      "county_x": 39.9296,
+      "county_y": 27.2596
+    },
+    {
+      "county_id": 219,
+      "county_city_id": 18,
+      "county_name": "Atkaracalar",
+      "county_x": 40.8155,
+      "county_y": 33.0753
+    },
+    {
+      "county_id": 220,
+      "county_city_id": 18,
+      "county_name": "Bayramören",
+      "county_x": 40.943,
+      "county_y": 33.204
+    },
+    {
+      "county_id": 221,
+      "county_city_id": 18,
+      "county_name": "Çerkeş",
+      "county_x": 40.8119,
+      "county_y": 32.8926
+    },
+    {
+      "county_id": 222,
+      "county_city_id": 18,
+      "county_name": "Eldivan",
+      "county_x": 40.5304,
+      "county_y": 33.497
+    },
+    {
+      "county_id": 223,
+      "county_city_id": 18,
+      "county_name": "Ilgaz",
+      "county_x": 40.925,
+      "county_y": 33.6254
+    },
+    {
+      "county_id": 224,
+      "county_city_id": 18,
+      "county_name": "Kızılırmak",
+      "county_x": 40.3475,
+      "county_y": 33.9871
+    },
+    {
+      "county_id": 225,
+      "county_city_id": 18,
+      "county_name": "Korgun",
+      "county_x": 40.7355,
+      "county_y": 33.5167
+    },
+    {
+      "county_id": 226,
+      "county_city_id": 18,
+      "county_name": "Kurşunlu",
+      "county_x": 40.8407,
+      "county_y": 33.2613
+    },
+    {
+      "county_id": 227,
+      "county_city_id": 18,
+      "county_name": "Merkez",
+      "county_x": 40.6003,
+      "county_y": 33.6164
+    },
+    {
+      "county_id": 228,
+      "county_city_id": 18,
+      "county_name": "Orta",
+      "county_x": 40.6271,
+      "county_y": 33.1078
+    },
+    {
+      "county_id": 229,
+      "county_city_id": 18,
+      "county_name": "Şabanözü",
+      "county_x": 40.4832,
+      "county_y": 33.2822
+    },
+    {
+      "county_id": 230,
+      "county_city_id": 18,
+      "county_name": "Yapraklı",
+      "county_x": 40.7571,
+      "county_y": 33.7788
+    },
+    {
+      "county_id": 231,
+      "county_city_id": 19,
+      "county_name": "Alaca",
+      "county_x": 40.1672,
+      "county_y": 34.8404
+    },
+    {
+      "county_id": 232,
+      "county_city_id": 19,
+      "county_name": "Bayat",
+      "county_x": 40.6438,
+      "county_y": 34.2577
+    },
+    {
+      "county_id": 233,
+      "county_city_id": 19,
+      "county_name": "Boğazkale",
+      "county_x": 40.0216,
+      "county_y": 34.6092
+    },
+    {
+      "county_id": 234,
+      "county_city_id": 19,
+      "county_name": "Dodurga",
+      "county_x": 40.8575,
+      "county_y": 34.811
+    },
+    {
+      "county_id": 235,
+      "county_city_id": 19,
+      "county_name": "İskilip",
+      "county_x": 40.733,
+      "county_y": 34.4723
+    },
+    {
+      "county_id": 236,
+      "county_city_id": 19,
+      "county_name": "Kargı",
+      "county_x": 41.1344,
+      "county_y": 34.4874
+    },
+    {
+      "county_id": 237,
+      "county_city_id": 19,
+      "county_name": "Laçin",
+      "county_x": 40.7738,
+      "county_y": 34.8863
+    },
+    {
+      "county_id": 238,
+      "county_city_id": 19,
+      "county_name": "Mecitözü",
+      "county_x": 40.5206,
+      "county_y": 35.2953
+    },
+    {
+      "county_id": 239,
+      "county_city_id": 19,
+      "county_name": "Merkez",
+      "county_x": 40.55,
+      "county_y": 34.9538
+    },
+    {
+      "county_id": 240,
+      "county_city_id": 19,
+      "county_name": "Oğuzlar",
+      "county_x": 40.7541,
+      "county_y": 34.7029
+    },
+    {
+      "county_id": 241,
+      "county_city_id": 19,
+      "county_name": "Ortaköy",
+      "county_x": 40.2728,
+      "county_y": 35.2484
+    },
+    {
+      "county_id": 242,
+      "county_city_id": 19,
+      "county_name": "Osmancık",
+      "county_x": 40.9722,
+      "county_y": 34.7993
+    },
+    {
+      "county_id": 243,
+      "county_city_id": 19,
+      "county_name": "Sungurlu",
+      "county_x": 40.1622,
+      "county_y": 34.3739
+    },
+    {
+      "county_id": 244,
+      "county_city_id": 19,
+      "county_name": "Uğurludağ",
+      "county_x": 40.446,
+      "county_y": 34.449
+    },
+    {
+      "county_id": 245,
+      "county_city_id": 20,
+      "county_name": "Acıpayam",
+      "county_x": 37.4273,
+      "county_y": 29.3506
+    },
+    {
+      "county_id": 246,
+      "county_city_id": 20,
+      "county_name": "Babadağ",
+      "county_x": 37.8089,
+      "county_y": 28.8576
+    },
+    {
+      "county_id": 247,
+      "county_city_id": 20,
+      "county_name": "Baklan",
+      "county_x": 37.9768,
+      "county_y": 29.6069
+    },
+    {
+      "county_id": 248,
+      "county_city_id": 20,
+      "county_name": "Bekilli",
+      "county_x": 38.2296,
+      "county_y": 29.4207
+    },
+    {
+      "county_id": 249,
+      "county_city_id": 20,
+      "county_name": "Beyağaç",
+      "county_x": 37.2356,
+      "county_y": 28.8961
+    },
+    {
+      "county_id": 250,
+      "county_city_id": 20,
+      "county_name": "Bozkurt",
+      "county_x": 37.8206,
+      "county_y": 29.6098
+    },
+    {
+      "county_id": 251,
+      "county_city_id": 20,
+      "county_name": "Buldan",
+      "county_x": 38.0442,
+      "county_y": 28.8328
+    },
+    {
+      "county_id": 252,
+      "county_city_id": 20,
+      "county_name": "Çal",
+      "county_x": 38.0817,
+      "county_y": 29.3974
+    },
+    {
+      "county_id": 253,
+      "county_city_id": 20,
+      "county_name": "Çameli",
+      "county_x": 37.0758,
+      "county_y": 29.3441
+    },
+    {
+      "county_id": 254,
+      "county_city_id": 20,
+      "county_name": "Çardak",
+      "county_x": 37.8243,
+      "county_y": 29.6742
+    },
+    {
+      "county_id": 255,
+      "county_city_id": 20,
+      "county_name": "Çivril",
+      "county_x": 38.2999,
+      "county_y": 29.7403
+    },
+    {
+      "county_id": 256,
+      "county_city_id": 20,
+      "county_name": "Güney",
+      "county_x": 38.154,
+      "county_y": 29.0641
+    },
+    {
+      "county_id": 257,
+      "county_city_id": 20,
+      "county_name": "Honaz",
+      "county_x": 37.7524,
+      "county_y": 29.2697
+    },
+    {
+      "county_id": 258,
+      "county_city_id": 20,
+      "county_name": "Kale",
+      "county_x": 37.4436,
+      "county_y": 28.8453
+    },
+    {
+      "county_id": 259,
+      "county_city_id": 20,
+      "county_name": "Merkezefendi",
+      "county_x": 37.7829,
+      "county_y": 29.0963
+    },
+    {
+      "county_id": 260,
+      "county_city_id": 20,
+      "county_name": "Akköy",
+      "county_x": 37.9553,
+      "county_y": 29.0781
+    },
+    {
+      "county_id": 261,
+      "county_city_id": 20,
+      "county_name": "Sarayköy",
+      "county_x": 37.9241,
+      "county_y": 28.9254
+    },
+    {
+      "county_id": 262,
+      "county_city_id": 20,
+      "county_name": "Serinhisar",
+      "county_x": 37.5802,
+      "county_y": 29.264
+    },
+    {
+      "county_id": 263,
+      "county_city_id": 20,
+      "county_name": "Tavas",
+      "county_x": 37.573,
+      "county_y": 29.0712
+    },
+    {
+      "county_id": 264,
+      "county_city_id": 21,
+      "county_name": "Bağlar",
+      "county_x": 37.9315,
+      "county_y": 40.2
+    },
+    {
+      "county_id": 265,
+      "county_city_id": 21,
+      "county_name": "Bismil",
+      "county_x": 37.8501,
+      "county_y": 40.6634
+    },
+    {
+      "county_id": 266,
+      "county_city_id": 21,
+      "county_name": "Çermik",
+      "county_x": 38.1357,
+      "county_y": 39.4516
+    },
+    {
+      "county_id": 267,
+      "county_city_id": 21,
+      "county_name": "Çınar",
+      "county_x": 37.7242,
+      "county_y": 40.4137
+    },
+    {
+      "county_id": 268,
+      "county_city_id": 21,
+      "county_name": "Çüngüş",
+      "county_x": 38.212,
+      "county_y": 39.2881
+    },
+    {
+      "county_id": 269,
+      "county_city_id": 21,
+      "county_name": "Dicle",
+      "county_x": 38.3739,
+      "county_y": 40.0727
+    },
+    {
+      "county_id": 270,
+      "county_city_id": 21,
+      "county_name": "Eğil",
+      "county_x": 38.2576,
+      "county_y": 40.0845
+    },
+    {
+      "county_id": 271,
+      "county_city_id": 21,
+      "county_name": "Ergani",
+      "county_x": 38.268,
+      "county_y": 39.7618
+    },
+    {
+      "county_id": 272,
+      "county_city_id": 21,
+      "county_name": "Hani",
+      "county_x": 38.4115,
+      "county_y": 40.3952
+    },
+    {
+      "county_id": 273,
+      "county_city_id": 21,
+      "county_name": "Hazro",
+      "county_x": 38.2538,
+      "county_y": 40.7809
+    },
+    {
+      "county_id": 274,
+      "county_city_id": 21,
+      "county_name": "Kayapınar",
+      "county_x": 37.9337,
+      "county_y": 40.1957
+    },
+    {
+      "county_id": 275,
+      "county_city_id": 21,
+      "county_name": "Kocaköy",
+      "county_x": 38.2924,
+      "county_y": 40.5043
+    },
+    {
+      "county_id": 276,
+      "county_city_id": 21,
+      "county_name": "Kulp",
+      "county_x": 38.5006,
+      "county_y": 41.012
+    },
+    {
+      "county_id": 277,
+      "county_city_id": 21,
+      "county_name": "Lice",
+      "county_x": 38.4604,
+      "county_y": 40.6475
+    },
+    {
+      "county_id": 278,
+      "county_city_id": 21,
+      "county_name": "Silvan",
+      "county_x": 38.1419,
+      "county_y": 41.0071
+    },
+    {
+      "county_id": 279,
+      "county_city_id": 21,
+      "county_name": "Sur",
+      "county_x": 37.9142,
+      "county_y": 40.2369
+    },
+    {
+      "county_id": 280,
+      "county_city_id": 21,
+      "county_name": "Yenişehir",
+      "county_x": 37.925,
+      "county_y": 40.211
+    },
+    {
+      "county_id": 281,
+      "county_city_id": 22,
+      "county_name": "Enez",
+      "county_x": 40.725,
+      "county_y": 26.0845
+    },
+    {
+      "county_id": 282,
+      "county_city_id": 22,
+      "county_name": "Havsa",
+      "county_x": 41.5492,
+      "county_y": 26.8217
+    },
+    {
+      "county_id": 283,
+      "county_city_id": 22,
+      "county_name": "İpsala",
+      "county_x": 40.9222,
+      "county_y": 26.3837
+    },
+    {
+      "county_id": 284,
+      "county_city_id": 22,
+      "county_name": "Keşan",
+      "county_x": 40.8546,
+      "county_y": 26.6306
+    },
+    {
+      "county_id": 285,
+      "county_city_id": 22,
+      "county_name": "Lalapaşa",
+      "county_x": 41.8394,
+      "county_y": 26.7338
+    },
+    {
+      "county_id": 286,
+      "county_city_id": 22,
+      "county_name": "Meriç",
+      "county_x": 41.19,
+      "county_y": 26.4189
+    },
+    {
+      "county_id": 287,
+      "county_city_id": 22,
+      "county_name": "Merkez",
+      "county_x": 41.6771,
+      "county_y": 26.5559
+    },
+    {
+      "county_id": 288,
+      "county_city_id": 22,
+      "county_name": "Süloğlu",
+      "county_x": 41.7669,
+      "county_y": 26.9083
+    },
+    {
+      "county_id": 289,
+      "county_city_id": 22,
+      "county_name": "Uzunköprü",
+      "county_x": 41.2661,
+      "county_y": 26.6886
+    },
+    {
+      "county_id": 290,
+      "county_city_id": 23,
+      "county_name": "Ağın",
+      "county_x": 38.9442,
+      "county_y": 38.7146
+    },
+    {
+      "county_id": 291,
+      "county_city_id": 23,
+      "county_name": "Alacakaya",
+      "county_x": 38.462,
+      "county_y": 39.8624
+    },
+    {
+      "county_id": 292,
+      "county_city_id": 23,
+      "county_name": "Arıcak",
+      "county_x": 38.5635,
+      "county_y": 40.1346
+    },
+    {
+      "county_id": 293,
+      "county_city_id": 23,
+      "county_name": "Baskil",
+      "county_x": 38.5678,
+      "county_y": 38.8237
+    },
+    {
+      "county_id": 294,
+      "county_city_id": 23,
+      "county_name": "Karakoçan",
+      "county_x": 38.956,
+      "county_y": 40.0359
+    },
+    {
+      "county_id": 295,
+      "county_city_id": 23,
+      "county_name": "Keban",
+      "county_x": 38.7936,
+      "county_y": 38.745
+    },
+    {
+      "county_id": 296,
+      "county_city_id": 23,
+      "county_name": "Kovancılar",
+      "county_x": 38.7179,
+      "county_y": 39.8668
+    },
+    {
+      "county_id": 297,
+      "county_city_id": 23,
+      "county_name": "Maden",
+      "county_x": 38.3922,
+      "county_y": 39.6697
+    },
+    {
+      "county_id": 298,
+      "county_city_id": 23,
+      "county_name": "Merkez",
+      "county_x": 38.6746,
+      "county_y": 39.223
+    },
+    {
+      "county_id": 299,
+      "county_city_id": 23,
+      "county_name": "Palu",
+      "county_x": 38.692,
+      "county_y": 39.9271
+    },
+    {
+      "county_id": 300,
+      "county_city_id": 23,
+      "county_name": "Sivrice",
+      "county_x": 38.4481,
+      "county_y": 39.309
+    },
+    {
+      "county_id": 301,
+      "county_city_id": 24,
+      "county_name": "Çayırlı",
+      "county_x": 39.804,
+      "county_y": 40.0368
+    },
+    {
+      "county_id": 302,
+      "county_city_id": 24,
+      "county_name": "İliç",
+      "county_x": 39.4559,
+      "county_y": 38.5637
+    },
+    {
+      "county_id": 303,
+      "county_city_id": 24,
+      "county_name": "Kemah",
+      "county_x": 39.602,
+      "county_y": 39.0351
+    },
+    {
+      "county_id": 304,
+      "county_city_id": 24,
+      "county_name": "Kemaliye",
+      "county_x": 39.2622,
+      "county_y": 38.4967
+    },
+    {
+      "county_id": 305,
+      "county_city_id": 24,
+      "county_name": "Merkez",
+      "county_x": 39.7469,
+      "county_y": 39.4908
+    },
+    {
+      "county_id": 306,
+      "county_city_id": 24,
+      "county_name": "Otlukbeli",
+      "county_x": 39.9709,
+      "county_y": 40.0211
+    },
+    {
+      "county_id": 307,
+      "county_city_id": 24,
+      "county_name": "Refahiye",
+      "county_x": 39.8997,
+      "county_y": 38.7681
+    },
+    {
+      "county_id": 308,
+      "county_city_id": 24,
+      "county_name": "Tercan",
+      "county_x": 39.7766,
+      "county_y": 40.3832
+    },
+    {
+      "county_id": 309,
+      "county_city_id": 24,
+      "county_name": "Üzümlü",
+      "county_x": 39.7103,
+      "county_y": 39.7011
+    },
+    {
+      "county_id": 310,
+      "county_city_id": 25,
+      "county_name": "Aşkale",
+      "county_x": 39.9214,
+      "county_y": 40.6912
+    },
+    {
+      "county_id": 311,
+      "county_city_id": 25,
+      "county_name": "Aziziye",
+      "county_x": 39.9449,
+      "county_y": 41.106
+    },
+    {
+      "county_id": 312,
+      "county_city_id": 25,
+      "county_name": "Çat",
+      "county_x": 39.612,
+      "county_y": 40.9774
+    },
+    {
+      "county_id": 313,
+      "county_city_id": 25,
+      "county_name": "Hınıs",
+      "county_x": 39.3581,
+      "county_y": 41.7013
+    },
+    {
+      "county_id": 314,
+      "county_city_id": 25,
+      "county_name": "Horasan",
+      "county_x": 40.04,
+      "county_y": 42.1691
+    },
+    {
+      "county_id": 315,
+      "county_city_id": 25,
+      "county_name": "İspir",
+      "county_x": 40.483,
+      "county_y": 40.9999
+    },
+    {
+      "county_id": 316,
+      "county_city_id": 25,
+      "county_name": "Karaçoban",
+      "county_x": 39.3467,
+      "county_y": 42.0987
+    },
+    {
+      "county_id": 317,
+      "county_city_id": 25,
+      "county_name": "Karayazı",
+      "county_x": 39.7022,
+      "county_y": 42.1447
+    },
+    {
+      "county_id": 318,
+      "county_city_id": 25,
+      "county_name": "Köprüköy",
+      "county_x": 39.9692,
+      "county_y": 41.8709
+    },
+    {
+      "county_id": 319,
+      "county_city_id": 25,
+      "county_name": "Narman",
+      "county_x": 40.3453,
+      "county_y": 41.871
+    },
+    {
+      "county_id": 320,
+      "county_city_id": 25,
+      "county_name": "Oltu",
+      "county_x": 40.5437,
+      "county_y": 41.9963
+    },
+    {
+      "county_id": 321,
+      "county_city_id": 25,
+      "county_name": "Olur",
+      "county_x": 40.8269,
+      "county_y": 42.1327
+    },
+    {
+      "county_id": 322,
+      "county_city_id": 25,
+      "county_name": "Merkez",
+      "county_x": 39.8894,
+      "county_y": 41.2649
+    },
+    {
+      "county_id": 323,
+      "county_city_id": 25,
+      "county_name": "Pasinler",
+      "county_x": 39.977,
+      "county_y": 41.6742
+    },
+    {
+      "county_id": 324,
+      "county_city_id": 25,
+      "county_name": "Pazaryolu",
+      "county_x": 40.4143,
+      "county_y": 40.7737
+    },
+    {
+      "county_id": 325,
+      "county_city_id": 25,
+      "county_name": "Şenkaya",
+      "county_x": 40.5601,
+      "county_y": 42.3443
+    },
+    {
+      "county_id": 326,
+      "county_city_id": 25,
+      "county_name": "Tekman",
+      "county_x": 39.6455,
+      "county_y": 41.5075
+    },
+    {
+      "county_id": 327,
+      "county_city_id": 25,
+      "county_name": "Tortum",
+      "county_x": 40.297,
+      "county_y": 41.5508
+    },
+    {
+      "county_id": 328,
+      "county_city_id": 25,
+      "county_name": "Uzundere",
+      "county_x": 40.5328,
+      "county_y": 41.548
+    },
+    {
+      "county_id": 329,
+      "county_city_id": 25,
+      "county_name": "Yakutiye",
+      "county_x": 39.9054,
+      "county_y": 41.2573
+    },
+    {
+      "county_id": 330,
+      "county_city_id": 26,
+      "county_name": "Alpu",
+      "county_x": 39.7657,
+      "county_y": 30.9588
+    },
+    {
+      "county_id": 331,
+      "county_city_id": 26,
+      "county_name": "Beylikova",
+      "county_x": 39.6892,
+      "county_y": 31.206
+    },
+    {
+      "county_id": 332,
+      "county_city_id": 26,
+      "county_name": "Çifteler",
+      "county_x": 39.3776,
+      "county_y": 31.0375
+    },
+    {
+      "county_id": 333,
+      "county_city_id": 26,
+      "county_name": "Günyüzü",
+      "county_x": 39.3842,
+      "county_y": 31.8095
+    },
+    {
+      "county_id": 334,
+      "county_city_id": 26,
+      "county_name": "Han",
+      "county_x": 39.1585,
+      "county_y": 30.8634
+    },
+    {
+      "county_id": 335,
+      "county_city_id": 26,
+      "county_name": "İnönü",
+      "county_x": 39.8163,
+      "county_y": 30.1429
+    },
+    {
+      "county_id": 336,
+      "county_city_id": 26,
+      "county_name": "Mahmudiye",
+      "county_x": 39.4944,
+      "county_y": 30.9864
+    },
+    {
+      "county_id": 337,
+      "county_city_id": 26,
+      "county_name": "Mihalgazi",
+      "county_x": 40.0262,
+      "county_y": 30.577
+    },
+    {
+      "county_id": 338,
+      "county_city_id": 26,
+      "county_name": "Mihalıççık",
+      "county_x": 39.8652,
+      "county_y": 31.4963
+    },
+    {
+      "county_id": 339,
+      "county_city_id": 26,
+      "county_name": "Odunpazarı",
+      "county_x": 39.7667,
+      "county_y": 30.5255
+    },
+    {
+      "county_id": 340,
+      "county_city_id": 26,
+      "county_name": "Sarıcakaya",
+      "county_x": 40.0376,
+      "county_y": 30.6211
+    },
+    {
+      "county_id": 341,
+      "county_city_id": 26,
+      "county_name": "Seyitgazi",
+      "county_x": 39.4456,
+      "county_y": 30.6939
+    },
+    {
+      "county_id": 342,
+      "county_city_id": 26,
+      "county_name": "Sivrihisar",
+      "county_x": 39.4509,
+      "county_y": 31.537
+    },
+    {
+      "county_id": 343,
+      "county_city_id": 26,
+      "county_name": "Tepebaşı",
+      "county_x": 39.7879,
+      "county_y": 30.4809
+    },
+    {
+      "county_id": 344,
+      "county_city_id": 27,
+      "county_name": "Araban",
+      "county_x": 37.4252,
+      "county_y": 37.6886
+    },
+    {
+      "county_id": 345,
+      "county_city_id": 27,
+      "county_name": "İslahiye",
+      "county_x": 37.0256,
+      "county_y": 36.6311
+    },
+    {
+      "county_id": 346,
+      "county_city_id": 27,
+      "county_name": "Karkamış",
+      "county_x": 36.8328,
+      "county_y": 37.9997
+    },
+    {
+      "county_id": 347,
+      "county_city_id": 27,
+      "county_name": "Nizip",
+      "county_x": 37.0102,
+      "county_y": 37.7972
+    },
+    {
+      "county_id": 348,
+      "county_city_id": 27,
+      "county_name": "Nurdağı",
+      "county_x": 37.1757,
+      "county_y": 36.7405
+    },
+    {
+      "county_id": 349,
+      "county_city_id": 27,
+      "county_name": "Oğuzeli",
+      "county_x": 36.9654,
+      "county_y": 37.5106
+    },
+    {
+      "county_id": 350,
+      "county_city_id": 27,
+      "county_name": "Şahinbey",
+      "county_x": 37.0615,
+      "county_y": 37.3869
+    },
+    {
+      "county_id": 351,
+      "county_city_id": 27,
+      "county_name": "Şehitkamil",
+      "county_x": 37.0655,
+      "county_y": 37.3777
+    },
+    {
+      "county_id": 352,
+      "county_city_id": 27,
+      "county_name": "Yavuzeli",
+      "county_x": 37.3172,
+      "county_y": 37.5679
+    },
+    {
+      "county_id": 353,
+      "county_city_id": 28,
+      "county_name": "Alucra",
+      "county_x": 40.3203,
+      "county_y": 38.7637
+    },
+    {
+      "county_id": 354,
+      "county_city_id": 28,
+      "county_name": "Bulancak",
+      "county_x": 40.9383,
+      "county_y": 38.2319
+    },
+    {
+      "county_id": 355,
+      "county_city_id": 28,
+      "county_name": "Çamoluk",
+      "county_x": 40.1297,
+      "county_y": 38.7475
+    },
+    {
+      "county_id": 356,
+      "county_city_id": 28,
+      "county_name": "Çanakçı",
+      "county_x": 40.9169,
+      "county_y": 39.0092
+    },
+    {
+      "county_id": 357,
+      "county_city_id": 28,
+      "county_name": "Dereli",
+      "county_x": 40.7388,
+      "county_y": 38.449
+    },
+    {
+      "county_id": 358,
+      "county_city_id": 28,
+      "county_name": "Doğankent",
+      "county_x": 40.81,
+      "county_y": 38.9163
+    },
+    {
+      "county_id": 359,
+      "county_city_id": 28,
+      "county_name": "Espiye",
+      "county_x": 40.9483,
+      "county_y": 38.7067
+    },
+    {
+      "county_id": 360,
+      "county_city_id": 28,
+      "county_name": "Eynesil",
+      "county_x": 41.0639,
+      "county_y": 39.1422
+    },
+    {
+      "county_id": 361,
+      "county_city_id": 28,
+      "county_name": "Görele",
+      "county_x": 41.0324,
+      "county_y": 39.003
+    },
+    {
+      "county_id": 362,
+      "county_city_id": 28,
+      "county_name": "Güce",
+      "county_x": 40.8931,
+      "county_y": 38.8074
+    },
+    {
+      "county_id": 363,
+      "county_city_id": 28,
+      "county_name": "Keşap",
+      "county_x": 40.9162,
+      "county_y": 38.511
+    },
+    {
+      "county_id": 364,
+      "county_city_id": 28,
+      "county_name": "Merkez",
+      "county_x": 40.9176,
+      "county_y": 38.3927
+    },
+    {
+      "county_id": 365,
+      "county_city_id": 28,
+      "county_name": "Piraziz",
+      "county_x": 40.9528,
+      "county_y": 38.1247
+    },
+    {
+      "county_id": 366,
+      "county_city_id": 28,
+      "county_name": "Şebinkarahisar",
+      "county_x": 40.2886,
+      "county_y": 38.4234
+    },
+    {
+      "county_id": 367,
+      "county_city_id": 28,
+      "county_name": "Tirebolu",
+      "county_x": 41.0068,
+      "county_y": 38.8147
+    },
+    {
+      "county_id": 368,
+      "county_city_id": 28,
+      "county_name": "Yağlıdere",
+      "county_x": 40.8606,
+      "county_y": 38.6253
+    },
+    {
+      "county_id": 369,
+      "county_city_id": 29,
+      "county_name": "Kelkit",
+      "county_x": 40.1273,
+      "county_y": 39.4351
+    },
+    {
+      "county_id": 370,
+      "county_city_id": 29,
+      "county_name": "Köse",
+      "county_x": 40.2101,
+      "county_y": 39.6533
+    },
+    {
+      "county_id": 371,
+      "county_city_id": 29,
+      "county_name": "Kürtün",
+      "county_x": 40.7013,
+      "county_y": 39.0864
+    },
+    {
+      "county_id": 372,
+      "county_city_id": 29,
+      "county_name": "Merkez",
+      "county_x": 40.4595,
+      "county_y": 39.4796
+    },
+    {
+      "county_id": 373,
+      "county_city_id": 29,
+      "county_name": "Şiran",
+      "county_x": 40.1898,
+      "county_y": 39.1251
+    },
+    {
+      "county_id": 374,
+      "county_city_id": 29,
+      "county_name": "Torul",
+      "county_x": 40.5575,
+      "county_y": 39.2927
+    },
+    {
+      "county_id": 375,
+      "county_city_id": 30,
+      "county_name": "Çukurca",
+      "county_x": 37.2472,
+      "county_y": 43.6122
+    },
+    {
+      "county_id": 376,
+      "county_city_id": 30,
+      "county_name": "Merkez",
+      "county_x": 37.5774,
+      "county_y": 43.7366
+    },
+    {
+      "county_id": 377,
+      "county_city_id": 30,
+      "county_name": "Şemdinli",
+      "county_x": 37.3049,
+      "county_y": 44.5746
+    },
+    {
+      "county_id": 378,
+      "county_city_id": 30,
+      "county_name": "Yüksekova",
+      "county_x": 37.5718,
+      "county_y": 44.2822
+    },
+    {
+      "county_id": 379,
+      "county_city_id": 31,
+      "county_name": "Altınözü",
+      "county_x": 36.1153,
+      "county_y": 36.2473
+    },
+    {
+      "county_id": 380,
+      "county_city_id": 31,
+      "county_name": "Antakya",
+      "county_x": 36.2026,
+      "county_y": 36.1603
+    },
+    {
+      "county_id": 381,
+      "county_city_id": 31,
+      "county_name": "Arsuz",
+      "county_x": 36.4122,
+      "county_y": 35.8903
+    },
+    {
+      "county_id": 382,
+      "county_city_id": 31,
+      "county_name": "Belen",
+      "county_x": 36.4915,
+      "county_y": 36.1952
+    },
+    {
+      "county_id": 383,
+      "county_city_id": 31,
+      "county_name": "Defne",
+      "county_x": 36.1953,
+      "county_y": 36.1477
+    },
+    {
+      "county_id": 384,
+      "county_city_id": 31,
+      "county_name": "Dörtyol",
+      "county_x": 36.8371,
+      "county_y": 36.2273
+    },
+    {
+      "county_id": 385,
+      "county_city_id": 31,
+      "county_name": "Erzin",
+      "county_x": 36.9559,
+      "county_y": 36.199
+    },
+    {
+      "county_id": 386,
+      "county_city_id": 31,
+      "county_name": "Hassa",
+      "county_x": 36.7986,
+      "county_y": 36.522
+    },
+    {
+      "county_id": 387,
+      "county_city_id": 31,
+      "county_name": "İskenderun",
+      "county_x": 36.583,
+      "county_y": 36.1684
+    },
+    {
+      "county_id": 388,
+      "county_city_id": 31,
+      "county_name": "Kırıkhan",
+      "county_x": 36.4967,
+      "county_y": 36.3607
+    },
+    {
+      "county_id": 389,
+      "county_city_id": 31,
+      "county_name": "Kumlu",
+      "county_x": 36.3648,
+      "county_y": 36.4542
+    },
+    {
+      "county_id": 390,
+      "county_city_id": 31,
+      "county_name": "Payas",
+      "county_x": 36.7559,
+      "county_y": 36.2152
+    },
+    {
+      "county_id": 391,
+      "county_city_id": 31,
+      "county_name": "Reyhanlı",
+      "county_x": 36.2685,
+      "county_y": 36.5674
+    },
+    {
+      "county_id": 392,
+      "county_city_id": 31,
+      "county_name": "Samandağ",
+      "county_x": 36.0833,
+      "county_y": 35.981
+    },
+    {
+      "county_id": 393,
+      "county_city_id": 31,
+      "county_name": "Yayladağı",
+      "county_x": 35.9026,
+      "county_y": 36.0634
+    },
+    {
+      "county_id": 394,
+      "county_city_id": 32,
+      "county_name": "Aksu",
+      "county_x": 37.7995,
+      "county_y": 31.0717
+    },
+    {
+      "county_id": 395,
+      "county_city_id": 32,
+      "county_name": "Atabey",
+      "county_x": 37.9508,
+      "county_y": 30.639
+    },
+    {
+      "county_id": 396,
+      "county_city_id": 32,
+      "county_name": "Eğirdir",
+      "county_x": 37.8737,
+      "county_y": 30.8504
+    },
+    {
+      "county_id": 397,
+      "county_city_id": 32,
+      "county_name": "Gelendost",
+      "county_x": 38.1207,
+      "county_y": 31.0147
+    },
+    {
+      "county_id": 398,
+      "county_city_id": 32,
+      "county_name": "Gönen",
+      "county_x": 37.9562,
+      "county_y": 30.5111
+    },
+    {
+      "county_id": 399,
+      "county_city_id": 32,
+      "county_name": "Keçiborlu",
+      "county_x": 37.9419,
+      "county_y": 30.3008
+    },
+    {
+      "county_id": 400,
+      "county_city_id": 32,
+      "county_name": "Merkez",
+      "county_x": 37.7626,
+      "county_y": 30.5536
+    },
+    {
+      "county_id": 401,
+      "county_city_id": 32,
+      "county_name": "Şarkikaraağaç",
+      "county_x": 38.0807,
+      "county_y": 31.366
+    },
+    {
+      "county_id": 402,
+      "county_city_id": 32,
+      "county_name": "Senirkent",
+      "county_x": 38.1075,
+      "county_y": 30.5499
+    },
+    {
+      "county_id": 403,
+      "county_city_id": 32,
+      "county_name": "Sütçüler",
+      "county_x": 37.4947,
+      "county_y": 30.9814
+    },
+    {
+      "county_id": 404,
+      "county_city_id": 32,
+      "county_name": "Uluborlu",
+      "county_x": 38.0787,
+      "county_y": 30.4491
+    },
+    {
+      "county_id": 405,
+      "county_city_id": 32,
+      "county_name": "Yalvaç",
+      "county_x": 38.2969,
+      "county_y": 31.1798
+    },
+    {
+      "county_id": 406,
+      "county_city_id": 32,
+      "county_name": "Yenişarbademli",
+      "county_x": 37.7099,
+      "county_y": 31.3907
+    },
+    {
+      "county_id": 407,
+      "county_city_id": 33,
+      "county_name": "Akdeniz",
+      "county_x": 36.812,
+      "county_y": 34.6416
+    },
+    {
+      "county_id": 408,
+      "county_city_id": 33,
+      "county_name": "Anamur",
+      "county_x": 36.0753,
+      "county_y": 32.833
+    },
+    {
+      "county_id": 409,
+      "county_city_id": 33,
+      "county_name": "Aydıncık",
+      "county_x": 36.1454,
+      "county_y": 33.3233
+    },
+    {
+      "county_id": 410,
+      "county_city_id": 33,
+      "county_name": "Bozyazı",
+      "county_x": 36.1028,
+      "county_y": 32.9759
+    },
+    {
+      "county_id": 411,
+      "county_city_id": 33,
+      "county_name": "Çamlıyayla",
+      "county_x": 37.1666,
+      "county_y": 34.5935
+    },
+    {
+      "county_id": 412,
+      "county_city_id": 33,
+      "county_name": "Erdemli",
+      "county_x": 36.6058,
+      "county_y": 34.3104
+    },
+    {
+      "county_id": 413,
+      "county_city_id": 33,
+      "county_name": "Gülnar",
+      "county_x": 36.3386,
+      "county_y": 33.3991
+    },
+    {
+      "county_id": 414,
+      "county_city_id": 33,
+      "county_name": "Mezitli",
+      "county_x": 36.7497,
+      "county_y": 34.5307
+    },
+    {
+      "county_id": 415,
+      "county_city_id": 33,
+      "county_name": "Mut",
+      "county_x": 36.6439,
+      "county_y": 33.4369
+    },
+    {
+      "county_id": 416,
+      "county_city_id": 33,
+      "county_name": "Silifke",
+      "county_x": 36.3763,
+      "county_y": 33.9253
+    },
+    {
+      "county_id": 417,
+      "county_city_id": 33,
+      "county_name": "Tarsus",
+      "county_x": 36.9166,
+      "county_y": 34.8953
+    },
+    {
+      "county_id": 418,
+      "county_city_id": 33,
+      "county_name": "Toroslar",
+      "county_x": 36.8165,
+      "county_y": 34.6149
+    },
+    {
+      "county_id": 419,
+      "county_city_id": 33,
+      "county_name": "Yenişehir",
+      "county_x": 36.7984,
+      "county_y": 34.5952
+    },
+    {
+      "county_id": 420,
+      "county_city_id": 34,
+      "county_name": "Adalar",
+      "county_x": 40.8743,
+      "county_y": 29.1286
+    },
+    {
+      "county_id": 421,
+      "county_city_id": 34,
+      "county_name": "Arnavutköy",
+      "county_x": 41.1837,
+      "county_y": 28.7413
+    },
+    {
+      "county_id": 422,
+      "county_city_id": 34,
+      "county_name": "Ataşehir",
+      "county_x": 40.9926,
+      "county_y": 29.1272
+    },
+    {
+      "county_id": 423,
+      "county_city_id": 34,
+      "county_name": "Avcılar",
+      "county_x": 40.9799,
+      "county_y": 28.7217
+    },
+    {
+      "county_id": 424,
+      "county_city_id": 34,
+      "county_name": "Bağcılar",
+      "county_x": 41.0346,
+      "county_y": 28.8566
+    },
+    {
+      "county_id": 425,
+      "county_city_id": 34,
+      "county_name": "Bahçelievler",
+      "county_x": 40.9986,
+      "county_y": 28.852
+    },
+    {
+      "county_id": 426,
+      "county_city_id": 34,
+      "county_name": "Bakırköy",
+      "county_x": 40.981,
+      "county_y": 28.8738
+    },
+    {
+      "county_id": 427,
+      "county_city_id": 34,
+      "county_name": "Başakşehir",
+      "county_x": 41.102,
+      "county_y": 28.7884
+    },
+    {
+      "county_id": 428,
+      "county_city_id": 34,
+      "county_name": "Bayrampaşa",
+      "county_x": 41.0346,
+      "county_y": 28.9119
+    },
+    {
+      "county_id": 429,
+      "county_city_id": 34,
+      "county_name": "Beşiktaş",
+      "county_x": 41.0417,
+      "county_y": 29.0073
+    },
+    {
+      "county_id": 430,
+      "county_city_id": 34,
+      "county_name": "Beykoz",
+      "county_x": 41.1342,
+      "county_y": 29.092
+    },
+    {
+      "county_id": 431,
+      "county_city_id": 34,
+      "county_name": "Beylikdüzü",
+      "county_x": 41.0094,
+      "county_y": 28.6574
+    },
+    {
+      "county_id": 432,
+      "county_city_id": 34,
+      "county_name": "Beyoğlu",
+      "county_x": 41.0373,
+      "county_y": 28.9852
+    },
+    {
+      "county_id": 433,
+      "county_city_id": 34,
+      "county_name": "Büyükçekmece",
+      "county_x": 41.0227,
+      "county_y": 28.585
+    },
+    {
+      "county_id": 434,
+      "county_city_id": 34,
+      "county_name": "Çatalca",
+      "county_x": 41.1424,
+      "county_y": 28.459
+    },
+    {
+      "county_id": 435,
+      "county_city_id": 34,
+      "county_name": "Çekmeköy",
+      "county_x": 41.0177,
+      "county_y": 29.1918
+    },
+    {
+      "county_id": 436,
+      "county_city_id": 34,
+      "county_name": "Esenler",
+      "county_x": 41.0381,
+      "county_y": 28.8822
+    },
+    {
+      "county_id": 437,
+      "county_city_id": 34,
+      "county_name": "Esenyurt",
+      "county_x": 41.0344,
+      "county_y": 28.6794
+    },
+    {
+      "county_id": 438,
+      "county_city_id": 34,
+      "county_name": "Eyüp",
+      "county_x": 41.0475,
+      "county_y": 28.9336
+    },
+    {
+      "county_id": 439,
+      "county_city_id": 34,
+      "county_name": "Fatih",
+      "county_x": 41.0168,
+      "county_y": 28.9505
+    },
+    {
+      "county_id": 440,
+      "county_city_id": 34,
+      "county_name": "Gaziosmanpaşa",
+      "county_x": 41.058,
+      "county_y": 28.9139
+    },
+    {
+      "county_id": 441,
+      "county_city_id": 34,
+      "county_name": "Güngören",
+      "county_x": 41.0252,
+      "county_y": 28.8727
+    },
+    {
+      "county_id": 442,
+      "county_city_id": 34,
+      "county_name": "Kadıköy",
+      "county_x": 40.9917,
+      "county_y": 29.0241
+    },
+    {
+      "county_id": 443,
+      "county_city_id": 34,
+      "county_name": "Kağıthane",
+      "county_x": 41.0816,
+      "county_y": 28.9735
+    },
+    {
+      "county_id": 444,
+      "county_city_id": 34,
+      "county_name": "Kartal",
+      "county_x": 40.8884,
+      "county_y": 29.1896
+    },
+    {
+      "county_id": 445,
+      "county_city_id": 34,
+      "county_name": "Küçükçekmece",
+      "county_x": 40.9908,
+      "county_y": 28.7716
+    },
+    {
+      "county_id": 446,
+      "county_city_id": 34,
+      "county_name": "Maltepe",
+      "county_x": 40.9248,
+      "county_y": 29.1311
+    },
+    {
+      "county_id": 447,
+      "county_city_id": 34,
+      "county_name": "Pendik",
+      "county_x": 40.8799,
+      "county_y": 29.2319
+    },
+    {
+      "county_id": 448,
+      "county_city_id": 34,
+      "county_name": "Sancaktepe",
+      "county_x": 40.9905,
+      "county_y": 29.2288
+    },
+    {
+      "county_id": 449,
+      "county_city_id": 34,
+      "county_name": "Sarıyer",
+      "county_x": 41.1692,
+      "county_y": 29.0577
+    },
+    {
+      "county_id": 450,
+      "county_city_id": 34,
+      "county_name": "Şile",
+      "county_x": 41.1776,
+      "county_y": 29.6128
+    },
+    {
+      "county_id": 451,
+      "county_city_id": 34,
+      "county_name": "Silivri",
+      "county_x": 41.0737,
+      "county_y": 28.2478
+    },
+    {
+      "county_id": 452,
+      "county_city_id": 34,
+      "county_name": "Şişli",
+      "county_x": 41.0592,
+      "county_y": 28.9872
+    },
+    {
+      "county_id": 453,
+      "county_city_id": 34,
+      "county_name": "Sultanbeyli",
+      "county_x": 40.9666,
+      "county_y": 29.2687
+    },
+    {
+      "county_id": 454,
+      "county_city_id": 34,
+      "county_name": "Sultangazi",
+      "county_x": 41.1104,
+      "county_y": 28.8586
+    },
+    {
+      "county_id": 455,
+      "county_city_id": 34,
+      "county_name": "Tuzla",
+      "county_x": 40.8156,
+      "county_y": 29.303
+    },
+    {
+      "county_id": 456,
+      "county_city_id": 34,
+      "county_name": "Ümraniye",
+      "county_x": 41.0252,
+      "county_y": 29.0916
+    },
+    {
+      "county_id": 457,
+      "county_city_id": 34,
+      "county_name": "Üsküdar",
+      "county_x": 41.0272,
+      "county_y": 29.0157
+    },
+    {
+      "county_id": 458,
+      "county_city_id": 34,
+      "county_name": "Zeytinburnu",
+      "county_x": 40.9884,
+      "county_y": 28.904
+    },
+    {
+      "county_id": 459,
+      "county_city_id": 35,
+      "county_name": "Aliağa",
+      "county_x": 38.7996,
+      "county_y": 26.9707
+    },
+    {
+      "county_id": 460,
+      "county_city_id": 35,
+      "county_name": "Balçova",
+      "county_x": 38.3931,
+      "county_y": 27.058
+    },
+    {
+      "county_id": 461,
+      "county_city_id": 35,
+      "county_name": "Bayındır",
+      "county_x": 38.2224,
+      "county_y": 27.6488
+    },
+    {
+      "county_id": 462,
+      "county_city_id": 35,
+      "county_name": "Bayraklı",
+      "county_x": 38.4642,
+      "county_y": 27.1663
+    },
+    {
+      "county_id": 463,
+      "county_city_id": 35,
+      "county_name": "Bergama",
+      "county_x": 39.1215,
+      "county_y": 27.1799
+    },
+    {
+      "county_id": 464,
+      "county_city_id": 35,
+      "county_name": "Beydağ",
+      "county_x": 38.0856,
+      "county_y": 28.2094
+    },
+    {
+      "county_id": 465,
+      "county_city_id": 35,
+      "county_name": "Bornova",
+      "county_x": 38.466,
+      "county_y": 27.2193
+    },
+    {
+      "county_id": 466,
+      "county_city_id": 35,
+      "county_name": "Buca",
+      "county_x": 38.388,
+      "county_y": 27.1733
+    },
+    {
+      "county_id": 467,
+      "county_city_id": 35,
+      "county_name": "Çeşme",
+      "county_x": 38.3237,
+      "county_y": 26.303
+    },
+    {
+      "county_id": 468,
+      "county_city_id": 35,
+      "county_name": "Çiğli",
+      "county_x": 38.4915,
+      "county_y": 27.0649
+    },
+    {
+      "county_id": 469,
+      "county_city_id": 35,
+      "county_name": "Dikili",
+      "county_x": 39.0749,
+      "county_y": 26.8892
+    },
+    {
+      "county_id": 470,
+      "county_city_id": 35,
+      "county_name": "Foça",
+      "county_x": 38.6688,
+      "county_y": 26.7548
+    },
+    {
+      "county_id": 471,
+      "county_city_id": 35,
+      "county_name": "Gaziemir",
+      "county_x": 38.3213,
+      "county_y": 27.1311
+    },
+    {
+      "county_id": 472,
+      "county_city_id": 35,
+      "county_name": "Güzelbahçe",
+      "county_x": 38.3627,
+      "county_y": 26.8825
+    },
+    {
+      "county_id": 473,
+      "county_city_id": 35,
+      "county_name": "Karabağlar",
+      "county_x": 38.374,
+      "county_y": 27.1349
+    },
+    {
+      "county_id": 474,
+      "county_city_id": 35,
+      "county_name": "Karaburun",
+      "county_x": 38.6377,
+      "county_y": 26.5124
+    },
+    {
+      "county_id": 475,
+      "county_city_id": 35,
+      "county_name": "Karşıyaka",
+      "county_x": 38.4555,
+      "county_y": 27.1199
+    },
+    {
+      "county_id": 476,
+      "county_city_id": 35,
+      "county_name": "Kemalpaşa",
+      "county_x": 38.4276,
+      "county_y": 27.4164
+    },
+    {
+      "county_id": 477,
+      "county_city_id": 35,
+      "county_name": "Kınık",
+      "county_x": 39.0858,
+      "county_y": 27.3821
+    },
+    {
+      "county_id": 478,
+      "county_city_id": 35,
+      "county_name": "Kiraz",
+      "county_x": 38.2313,
+      "county_y": 28.2058
+    },
+    {
+      "county_id": 479,
+      "county_city_id": 35,
+      "county_name": "Konak",
+      "county_x": 38.4236,
+      "county_y": 27.1429
+    },
+    {
+      "county_id": 480,
+      "county_city_id": 35,
+      "county_name": "Menderes",
+      "county_x": 38.2517,
+      "county_y": 27.133
+    },
+    {
+      "county_id": 481,
+      "county_city_id": 35,
+      "county_name": "Menemen",
+      "county_x": 38.6089,
+      "county_y": 27.0703
+    },
+    {
+      "county_id": 482,
+      "county_city_id": 35,
+      "county_name": "Narlıdere",
+      "county_x": 38.3942,
+      "county_y": 27.0099
+    },
+    {
+      "county_id": 483,
+      "county_city_id": 35,
+      "county_name": "Ödemiş",
+      "county_x": 38.2281,
+      "county_y": 27.9772
+    },
+    {
+      "county_id": 484,
+      "county_city_id": 35,
+      "county_name": "Seferihisar",
+      "county_x": 38.1954,
+      "county_y": 26.8385
+    },
+    {
+      "county_id": 485,
+      "county_city_id": 35,
+      "county_name": "Selçuk",
+      "county_x": 37.948,
+      "county_y": 27.3685
+    },
+    {
+      "county_id": 486,
+      "county_city_id": 35,
+      "county_name": "Tire",
+      "county_x": 38.0895,
+      "county_y": 27.7319
+    },
+    {
+      "county_id": 487,
+      "county_city_id": 35,
+      "county_name": "Torbalı",
+      "county_x": 38.1501,
+      "county_y": 27.3632
+    },
+    {
+      "county_id": 488,
+      "county_city_id": 35,
+      "county_name": "Urla",
+      "county_x": 38.3229,
+      "county_y": 26.7674
+    },
+    {
+      "county_id": 489,
+      "county_city_id": 36,
+      "county_name": "Akyaka",
+      "county_x": 40.7401,
+      "county_y": 43.6239
+    },
+    {
+      "county_id": 490,
+      "county_city_id": 36,
+      "county_name": "Arpaçay",
+      "county_x": 40.8465,
+      "county_y": 43.3293
+    },
+    {
+      "county_id": 491,
+      "county_city_id": 36,
+      "county_name": "Digor",
+      "county_x": 40.3757,
+      "county_y": 43.4131
+    },
+    {
+      "county_id": 492,
+      "county_city_id": 36,
+      "county_name": "Kağızman",
+      "county_x": 40.1406,
+      "county_y": 43.1192
+    },
+    {
+      "county_id": 493,
+      "county_city_id": 36,
+      "county_name": "Merkez",
+      "county_x": 40.6014,
+      "county_y": 43.0975
+    },
+    {
+      "county_id": 494,
+      "county_city_id": 36,
+      "county_name": "Sarıkamış",
+      "county_x": 40.3337,
+      "county_y": 42.5894
+    },
+    {
+      "county_id": 495,
+      "county_city_id": 36,
+      "county_name": "Selim",
+      "county_x": 40.4644,
+      "county_y": 42.7906
+    },
+    {
+      "county_id": 496,
+      "county_city_id": 36,
+      "county_name": "Susuz",
+      "county_x": 40.7794,
+      "county_y": 43.1283
+    },
+    {
+      "county_id": 497,
+      "county_city_id": 37,
+      "county_name": "Abana",
+      "county_x": 41.9785,
+      "county_y": 34.0077
+    },
+    {
+      "county_id": 498,
+      "county_city_id": 37,
+      "county_name": "Ağlı",
+      "county_x": 41.687,
+      "county_y": 33.5539
+    },
+    {
+      "county_id": 499,
+      "county_city_id": 37,
+      "county_name": "Araç",
+      "county_x": 41.2423,
+      "county_y": 33.3274
+    },
+    {
+      "county_id": 500,
+      "county_city_id": 37,
+      "county_name": "Azdavay",
+      "county_x": 41.6425,
+      "county_y": 33.306
+    },
+    {
+      "county_id": 501,
+      "county_city_id": 37,
+      "county_name": "Bozkurt",
+      "county_x": 41.9572,
+      "county_y": 34.0112
+    },
+    {
+      "county_id": 502,
+      "county_city_id": 37,
+      "county_name": "Çatalzeytin",
+      "county_x": 41.9538,
+      "county_y": 34.2135
+    },
+    {
+      "county_id": 503,
+      "county_city_id": 37,
+      "county_name": "Cide",
+      "county_x": 41.8921,
+      "county_y": 33.0039
+    },
+    {
+      "county_id": 504,
+      "county_city_id": 37,
+      "county_name": "Daday",
+      "county_x": 41.4767,
+      "county_y": 33.4642
+    },
+    {
+      "county_id": 505,
+      "county_city_id": 37,
+      "county_name": "Devrekani",
+      "county_x": 41.6018,
+      "county_y": 33.84
+    },
+    {
+      "county_id": 506,
+      "county_city_id": 37,
+      "county_name": "Doğanyurt",
+      "county_x": 42.0054,
+      "county_y": 33.4613
+    },
+    {
+      "county_id": 507,
+      "county_city_id": 37,
+      "county_name": "Hanönü",
+      "county_x": 41.6253,
+      "county_y": 34.4633
+    },
+    {
+      "county_id": 508,
+      "county_city_id": 37,
+      "county_name": "İhsangazi",
+      "county_x": 41.2039,
+      "county_y": 33.5549
+    },
+    {
+      "county_id": 509,
+      "county_city_id": 37,
+      "county_name": "İnebolu",
+      "county_x": 41.9786,
+      "county_y": 33.7607
+    },
+    {
+      "county_id": 510,
+      "county_city_id": 37,
+      "county_name": "Küre",
+      "county_x": 41.8064,
+      "county_y": 33.711
+    },
+    {
+      "county_id": 511,
+      "county_city_id": 37,
+      "county_name": "Merkez",
+      "county_x": 41.3763,
+      "county_y": 33.778
+    },
+    {
+      "county_id": 512,
+      "county_city_id": 37,
+      "county_name": "Pınarbaşı",
+      "county_x": 41.6038,
+      "county_y": 33.1107
+    },
+    {
+      "county_id": 513,
+      "county_city_id": 37,
+      "county_name": "Şenpazar",
+      "county_x": 41.8091,
+      "county_y": 33.233
+    },
+    {
+      "county_id": 514,
+      "county_city_id": 37,
+      "county_name": "Seydiler",
+      "county_x": 41.6189,
+      "county_y": 33.7185
+    },
+    {
+      "county_id": 515,
+      "county_city_id": 37,
+      "county_name": "Taşköprü",
+      "county_x": 41.5099,
+      "county_y": 34.215
+    },
+    {
+      "county_id": 516,
+      "county_city_id": 37,
+      "county_name": "Tosya",
+      "county_x": 41.0165,
+      "county_y": 34.0386
+    },
+    {
+      "county_id": 517,
+      "county_city_id": 38,
+      "county_name": "Akkışla",
+      "county_x": 39.0029,
+      "county_y": 36.1691
+    },
+    {
+      "county_id": 518,
+      "county_city_id": 38,
+      "county_name": "Bünyan",
+      "county_x": 38.8462,
+      "county_y": 35.8581
+    },
+    {
+      "county_id": 519,
+      "county_city_id": 38,
+      "county_name": "Develi",
+      "county_x": 38.3883,
+      "county_y": 35.4926
+    },
+    {
+      "county_id": 520,
+      "county_city_id": 38,
+      "county_name": "Felahiye",
+      "county_x": 39.09,
+      "county_y": 35.5673
+    },
+    {
+      "county_id": 521,
+      "county_city_id": 38,
+      "county_name": "Hacılar",
+      "county_x": 38.6459,
+      "county_y": 35.4526
+    },
+    {
+      "county_id": 522,
+      "county_city_id": 38,
+      "county_name": "İncesu",
+      "county_x": 38.6238,
+      "county_y": 35.1798
+    },
+    {
+      "county_id": 523,
+      "county_city_id": 38,
+      "county_name": "Kocasinan",
+      "county_x": 41.0177,
+      "county_y": 28.8417
+    },
+    {
+      "county_id": 524,
+      "county_city_id": 38,
+      "county_name": "Melikgazi",
+      "county_x": 38.7206,
+      "county_y": 35.4829
+    },
+    {
+      "county_id": 525,
+      "county_city_id": 38,
+      "county_name": "Özvatan",
+      "county_x": 39.1059,
+      "county_y": 35.6992
+    },
+    {
+      "county_id": 526,
+      "county_city_id": 38,
+      "county_name": "Pınarbaşı",
+      "county_x": 38.7218,
+      "county_y": 36.3948
+    },
+    {
+      "county_id": 527,
+      "county_city_id": 38,
+      "county_name": "Sarıoğlan",
+      "county_x": 39.0772,
+      "county_y": 35.9667
+    },
+    {
+      "county_id": 528,
+      "county_city_id": 38,
+      "county_name": "Sarız",
+      "county_x": 38.4805,
+      "county_y": 36.4978
+    },
+    {
+      "county_id": 529,
+      "county_city_id": 38,
+      "county_name": "Talas",
+      "county_x": 38.6929,
+      "county_y": 35.5495
+    },
+    {
+      "county_id": 530,
+      "county_city_id": 38,
+      "county_name": "Tomarza",
+      "county_x": 38.4481,
+      "county_y": 35.7989
+    },
+    {
+      "county_id": 531,
+      "county_city_id": 38,
+      "county_name": "Yahyalı",
+      "county_x": 38.0992,
+      "county_y": 35.3592
+    },
+    {
+      "county_id": 532,
+      "county_city_id": 38,
+      "county_name": "Yeşilhisar",
+      "county_x": 38.3523,
+      "county_y": 35.0888
+    },
+    {
+      "county_id": 533,
+      "county_city_id": 39,
+      "county_name": "Babaeski",
+      "county_x": 41.4285,
+      "county_y": 27.0947
+    },
+    {
+      "county_id": 534,
+      "county_city_id": 39,
+      "county_name": "Demirköy",
+      "county_x": 41.8247,
+      "county_y": 27.7656
+    },
+    {
+      "county_id": 535,
+      "county_city_id": 39,
+      "county_name": "Kofçaz",
+      "county_x": 41.9429,
+      "county_y": 27.157
+    },
+    {
+      "county_id": 536,
+      "county_city_id": 39,
+      "county_name": "Lüleburgaz",
+      "county_x": 41.4072,
+      "county_y": 27.3528
+    },
+    {
+      "county_id": 537,
+      "county_city_id": 39,
+      "county_name": "Merkez",
+      "county_x": 41.7356,
+      "county_y": 27.2245
+    },
+    {
+      "county_id": 538,
+      "county_city_id": 39,
+      "county_name": "Pehlivanköy",
+      "county_x": 41.3469,
+      "county_y": 26.9195
+    },
+    {
+      "county_id": 539,
+      "county_city_id": 39,
+      "county_name": "Pınarhisar",
+      "county_x": 41.6243,
+      "county_y": 27.5178
+    },
+    {
+      "county_id": 540,
+      "county_city_id": 39,
+      "county_name": "Vize",
+      "county_x": 41.5731,
+      "county_y": 27.7673
+    },
+    {
+      "county_id": 541,
+      "county_city_id": 40,
+      "county_name": "Akçakent",
+      "county_x": 39.625,
+      "county_y": 34.0962
+    },
+    {
+      "county_id": 542,
+      "county_city_id": 40,
+      "county_name": "Akpınar",
+      "county_x": 39.4511,
+      "county_y": 33.9659
+    },
+    {
+      "county_id": 543,
+      "county_city_id": 40,
+      "county_name": "Boztepe",
+      "county_x": 39.2701,
+      "county_y": 34.2639
+    },
+    {
+      "county_id": 544,
+      "county_city_id": 40,
+      "county_name": "Çiçekdağı",
+      "county_x": 39.6048,
+      "county_y": 34.4188
+    },
+    {
+      "county_id": 545,
+      "county_city_id": 40,
+      "county_name": "Kaman",
+      "county_x": 39.359,
+      "county_y": 33.7243
+    },
+    {
+      "county_id": 546,
+      "county_city_id": 40,
+      "county_name": "Merkez",
+      "county_x": 39.1462,
+      "county_y": 34.1604
+    },
+    {
+      "county_id": 547,
+      "county_city_id": 40,
+      "county_name": "Mucur",
+      "county_x": 39.0638,
+      "county_y": 34.3768
+    },
+    {
+      "county_id": 548,
+      "county_city_id": 41,
+      "county_name": "Başiskele",
+      "county_x": 40.7145,
+      "county_y": 29.9324
+    },
+    {
+      "county_id": 549,
+      "county_city_id": 41,
+      "county_name": "Çayırova",
+      "county_x": 40.8244,
+      "county_y": 29.3724
+    },
+    {
+      "county_id": 550,
+      "county_city_id": 41,
+      "county_name": "Darıca",
+      "county_x": 40.7772,
+      "county_y": 29.4049
+    },
+    {
+      "county_id": 551,
+      "county_city_id": 41,
+      "county_name": "Derince",
+      "county_x": 40.756,
+      "county_y": 29.831
+    },
+    {
+      "county_id": 552,
+      "county_city_id": 41,
+      "county_name": "Dilovası",
+      "county_x": 40.7854,
+      "county_y": 29.5415
+    },
+    {
+      "county_id": 553,
+      "county_city_id": 41,
+      "county_name": "Gebze",
+      "county_x": 40.7975,
+      "county_y": 29.4356
+    },
+    {
+      "county_id": 554,
+      "county_city_id": 41,
+      "county_name": "Gölcük",
+      "county_x": 40.7192,
+      "county_y": 29.8207
+    },
+    {
+      "county_id": 555,
+      "county_city_id": 41,
+      "county_name": "İzmit",
+      "county_x": 40.7653,
+      "county_y": 29.9409
+    },
+    {
+      "county_id": 556,
+      "county_city_id": 41,
+      "county_name": "Kandıra",
+      "county_x": 41.0703,
+      "county_y": 30.1524
+    },
+    {
+      "county_id": 557,
+      "county_city_id": 41,
+      "county_name": "Karamürsel",
+      "county_x": 40.6936,
+      "county_y": 29.6154
+    },
+    {
+      "county_id": 558,
+      "county_city_id": 41,
+      "county_name": "Kartepe",
+      "county_x": 40.7533,
+      "county_y": 30.0233
+    },
+    {
+      "county_id": 559,
+      "county_city_id": 41,
+      "county_name": "Körfez",
+      "county_x": 40.7607,
+      "county_y": 29.7881
+    },
+    {
+      "county_id": 560,
+      "county_city_id": 42,
+      "county_name": "Ahırlı",
+      "county_x": 37.2392,
+      "county_y": 32.1209
+    },
+    {
+      "county_id": 561,
+      "county_city_id": 42,
+      "county_name": "Akören",
+      "county_x": 37.4524,
+      "county_y": 32.3715
+    },
+    {
+      "county_id": 562,
+      "county_city_id": 42,
+      "county_name": "Akşehir",
+      "county_x": 38.3595,
+      "county_y": 31.4155
+    },
+    {
+      "county_id": 563,
+      "county_city_id": 42,
+      "county_name": "Altınekin",
+      "county_x": 38.308,
+      "county_y": 32.8685
+    },
+    {
+      "county_id": 564,
+      "county_city_id": 42,
+      "county_name": "Beyşehir",
+      "county_x": 37.678,
+      "county_y": 31.7248
+    },
+    {
+      "county_id": 565,
+      "county_city_id": 42,
+      "county_name": "Bozkır",
+      "county_x": 37.1894,
+      "county_y": 32.245
+    },
+    {
+      "county_id": 566,
+      "county_city_id": 42,
+      "county_name": "Çeltik",
+      "county_x": 39.0234,
+      "county_y": 31.7904
+    },
+    {
+      "county_id": 567,
+      "county_city_id": 42,
+      "county_name": "Cihanbeyli",
+      "county_x": 38.656,
+      "county_y": 32.9226
+    },
+    {
+      "county_id": 568,
+      "county_city_id": 42,
+      "county_name": "Çumra",
+      "county_x": 37.571,
+      "county_y": 32.782
+    },
+    {
+      "county_id": 569,
+      "county_city_id": 42,
+      "county_name": "Derbent",
+      "county_x": 38.014,
+      "county_y": 32.0164
+    },
+    {
+      "county_id": 570,
+      "county_city_id": 42,
+      "county_name": "Derebucak",
+      "county_x": 37.3913,
+      "county_y": 31.5105
+    },
+    {
+      "county_id": 571,
+      "county_city_id": 42,
+      "county_name": "Doğanhisar",
+      "county_x": 38.1451,
+      "county_y": 31.6773
+    },
+    {
+      "county_id": 572,
+      "county_city_id": 42,
+      "county_name": "Emirgazi",
+      "county_x": 37.9041,
+      "county_y": 33.8363
+    },
+    {
+      "county_id": 573,
+      "county_city_id": 42,
+      "county_name": "Ereğli",
+      "county_x": 37.5127,
+      "county_y": 34.0487
+    },
+    {
+      "county_id": 574,
+      "county_city_id": 42,
+      "county_name": "Güneysınır",
+      "county_x": 37.2699,
+      "county_y": 32.7274
+    },
+    {
+      "county_id": 575,
+      "county_city_id": 42,
+      "county_name": "Hadim",
+      "county_x": 36.9863,
+      "county_y": 32.4554
+    },
+    {
+      "county_id": 576,
+      "county_city_id": 42,
+      "county_name": "Halkapınar",
+      "county_x": 37.4338,
+      "county_y": 34.1869
+    },
+    {
+      "county_id": 577,
+      "county_city_id": 42,
+      "county_name": "Hüyük",
+      "county_x": 37.9518,
+      "county_y": 31.5981
+    },
+    {
+      "county_id": 578,
+      "county_city_id": 42,
+      "county_name": "Ilgın",
+      "county_x": 38.2817,
+      "county_y": 31.9145
+    },
+    {
+      "county_id": 579,
+      "county_city_id": 42,
+      "county_name": "Kadınhanı",
+      "county_x": 38.2401,
+      "county_y": 32.2112
+    },
+    {
+      "county_id": 580,
+      "county_city_id": 42,
+      "county_name": "Karapınar",
+      "county_x": 37.7155,
+      "county_y": 33.5474
+    },
+    {
+      "county_id": 581,
+      "county_city_id": 42,
+      "county_name": "Karatay",
+      "county_x": 37.8745,
+      "county_y": 32.4934
+    },
+    {
+      "county_id": 582,
+      "county_city_id": 42,
+      "county_name": "Kulu",
+      "county_x": 39.0903,
+      "county_y": 33.0808
+    },
+    {
+      "county_id": 583,
+      "county_city_id": 42,
+      "county_name": "Meram",
+      "county_x": 37.868,
+      "county_y": 32.4674
+    },
+    {
+      "county_id": 584,
+      "county_city_id": 42,
+      "county_name": "Sarayönü",
+      "county_x": 38.2648,
+      "county_y": 32.4071
+    },
+    {
+      "county_id": 585,
+      "county_city_id": 42,
+      "county_name": "Selçuklu",
+      "county_x": 37.9294,
+      "county_y": 32.5034
+    },
+    {
+      "county_id": 586,
+      "county_city_id": 42,
+      "county_name": "Seydişehir",
+      "county_x": 37.4191,
+      "county_y": 31.849
+    },
+    {
+      "county_id": 587,
+      "county_city_id": 42,
+      "county_name": "Taşkent",
+      "county_x": 36.9247,
+      "county_y": 32.4945
+    },
+    {
+      "county_id": 588,
+      "county_city_id": 42,
+      "county_name": "Tuzlukçu",
+      "county_x": 38.4737,
+      "county_y": 31.6278
+    },
+    {
+      "county_id": 589,
+      "county_city_id": 42,
+      "county_name": "Yalıhüyük",
+      "county_x": 37.3013,
+      "county_y": 32.0848
+    },
+    {
+      "county_id": 590,
+      "county_city_id": 42,
+      "county_name": "Yunak",
+      "county_x": 38.8167,
+      "county_y": 31.7315
+    },
+    {
+      "county_id": 591,
+      "county_city_id": 43,
+      "county_name": "Altıntaş",
+      "county_x": 39.0603,
+      "county_y": 30.1082
+    },
+    {
+      "county_id": 592,
+      "county_city_id": 43,
+      "county_name": "Aslanapa",
+      "county_x": 39.2148,
+      "county_y": 29.8703
+    },
+    {
+      "county_id": 593,
+      "county_city_id": 43,
+      "county_name": "Çavdarhisar",
+      "county_x": 39.1964,
+      "county_y": 29.6179
+    },
+    {
+      "county_id": 594,
+      "county_city_id": 43,
+      "county_name": "Domaniç",
+      "county_x": 39.801,
+      "county_y": 29.6128
+    },
+    {
+      "county_id": 595,
+      "county_city_id": 43,
+      "county_name": "Dumlupınar",
+      "county_x": 38.8545,
+      "county_y": 29.978
+    },
+    {
+      "county_id": 596,
+      "county_city_id": 43,
+      "county_name": "Emet",
+      "county_x": 39.3441,
+      "county_y": 29.2585
+    },
+    {
+      "county_id": 597,
+      "county_city_id": 43,
+      "county_name": "Gediz",
+      "county_x": 38.99,
+      "county_y": 29.3951
+    },
+    {
+      "county_id": 598,
+      "county_city_id": 43,
+      "county_name": "Hisarcık",
+      "county_x": 39.2503,
+      "county_y": 29.2311
+    },
+    {
+      "county_id": 599,
+      "county_city_id": 43,
+      "county_name": "Merkez",
+      "county_x": 39.4192,
+      "county_y": 29.9853
+    },
+    {
+      "county_id": 600,
+      "county_city_id": 43,
+      "county_name": "Pazarlar",
+      "county_x": 38.9945,
+      "county_y": 29.123
+    },
+    {
+      "county_id": 601,
+      "county_city_id": 43,
+      "county_name": "Şaphane",
+      "county_x": 39.0255,
+      "county_y": 29.2199
+    },
+    {
+      "county_id": 602,
+      "county_city_id": 43,
+      "county_name": "Simav",
+      "county_x": 39.0885,
+      "county_y": 28.979
+    },
+    {
+      "county_id": 603,
+      "county_city_id": 43,
+      "county_name": "Tavşanlı",
+      "county_x": 39.5438,
+      "county_y": 29.491
+    },
+    {
+      "county_id": 604,
+      "county_city_id": 44,
+      "county_name": "Akçadağ",
+      "county_x": 38.3444,
+      "county_y": 37.9711
+    },
+    {
+      "county_id": 605,
+      "county_city_id": 44,
+      "county_name": "Arapgir",
+      "county_x": 39.0431,
+      "county_y": 38.4881
+    },
+    {
+      "county_id": 606,
+      "county_city_id": 44,
+      "county_name": "Arguvan",
+      "county_x": 38.7819,
+      "county_y": 38.2627
+    },
+    {
+      "county_id": 607,
+      "county_city_id": 44,
+      "county_name": "Battalgazi",
+      "county_x": 38.3484,
+      "county_y": 38.3242
+    },
+    {
+      "county_id": 608,
+      "county_city_id": 44,
+      "county_name": "Darende",
+      "county_x": 38.5563,
+      "county_y": 37.4906
+    },
+    {
+      "county_id": 609,
+      "county_city_id": 44,
+      "county_name": "Doğanşehir",
+      "county_x": 38.092,
+      "county_y": 37.8768
+    },
+    {
+      "county_id": 610,
+      "county_city_id": 44,
+      "county_name": "Doğanyol",
+      "county_x": 38.3104,
+      "county_y": 39.0378
+    },
+    {
+      "county_id": 611,
+      "county_city_id": 44,
+      "county_name": "Hekimhan",
+      "county_x": 38.8165,
+      "county_y": 37.9307
+    },
+    {
+      "county_id": 612,
+      "county_city_id": 44,
+      "county_name": "Kale",
+      "county_x": 38.4173,
+      "county_y": 38.7693
+    },
+    {
+      "county_id": 613,
+      "county_city_id": 44,
+      "county_name": "Kuluncak",
+      "county_x": 38.8833,
+      "county_y": 37.6705
+    },
+    {
+      "county_id": 614,
+      "county_city_id": 44,
+      "county_name": "Pütürge",
+      "county_x": 38.1977,
+      "county_y": 38.8727
+    },
+    {
+      "county_id": 615,
+      "county_city_id": 44,
+      "county_name": "Yazıhan",
+      "county_x": 38.5943,
+      "county_y": 38.1803
+    },
+    {
+      "county_id": 616,
+      "county_city_id": 44,
+      "county_name": "Yeşilyurt",
+      "county_x": 38.2956,
+      "county_y": 38.2475
+    },
+    {
+      "county_id": 617,
+      "county_city_id": 45,
+      "county_name": "Ahmetli",
+      "county_x": 38.5162,
+      "county_y": 27.9378
+    },
+    {
+      "county_id": 618,
+      "county_city_id": 45,
+      "county_name": "Akhisar",
+      "county_x": 38.9211,
+      "county_y": 27.8406
+    },
+    {
+      "county_id": 619,
+      "county_city_id": 45,
+      "county_name": "Alaşehir",
+      "county_x": 38.3509,
+      "county_y": 28.5156
+    },
+    {
+      "county_id": 620,
+      "county_city_id": 45,
+      "county_name": "Demirci",
+      "county_x": 39.0456,
+      "county_y": 28.6561
+    },
+    {
+      "county_id": 621,
+      "county_city_id": 45,
+      "county_name": "Gölmarmara",
+      "county_x": 38.7076,
+      "county_y": 27.9169
+    },
+    {
+      "county_id": 622,
+      "county_city_id": 45,
+      "county_name": "Gördes",
+      "county_x": 38.933,
+      "county_y": 28.2886
+    },
+    {
+      "county_id": 623,
+      "county_city_id": 45,
+      "county_name": "Kırkağaç",
+      "county_x": 39.1056,
+      "county_y": 27.6735
+    },
+    {
+      "county_id": 624,
+      "county_city_id": 45,
+      "county_name": "Köprübaşı",
+      "county_x": 38.7475,
+      "county_y": 28.4032
+    },
+    {
+      "county_id": 625,
+      "county_city_id": 45,
+      "county_name": "Kula",
+      "county_x": 38.5446,
+      "county_y": 28.6439
+    },
+    {
+      "county_id": 626,
+      "county_city_id": 45,
+      "county_name": "Salihli",
+      "county_x": 38.4863,
+      "county_y": 28.1366
+    },
+    {
+      "county_id": 627,
+      "county_city_id": 45,
+      "county_name": "Sarıgöl",
+      "county_x": 38.238,
+      "county_y": 28.6971
+    },
+    {
+      "county_id": 628,
+      "county_city_id": 45,
+      "county_name": "Saruhanlı",
+      "county_x": 38.735,
+      "county_y": 27.5698
+    },
+    {
+      "county_id": 629,
+      "county_city_id": 44,
+      "county_name": "Merkez",
+      "county_x": 38.3553,
+      "county_y": 38.3335
+    },
+    {
+      "county_id": 630,
+      "county_city_id": 45,
+      "county_name": "Selendi",
+      "county_x": 38.7437,
+      "county_y": 28.8667
+    },
+    {
+      "county_id": 631,
+      "county_city_id": 45,
+      "county_name": "Soma",
+      "county_x": 39.1852,
+      "county_y": 27.6089
+    },
+    {
+      "county_id": 632,
+      "county_city_id": 45,
+      "county_name": "Turgutlu",
+      "county_x": 38.4978,
+      "county_y": 27.7062
+    },
+    {
+      "county_id": 633,
+      "county_city_id": 45,
+      "county_name": "Şehzadeler",
+      "county_x": 38.6228,
+      "county_y": 27.3831
+    },
+    {
+      "county_id": 634,
+      "county_city_id": 46,
+      "county_name": "Afşin",
+      "county_x": 38.2437,
+      "county_y": 36.9147
+    },
+    {
+      "county_id": 635,
+      "county_city_id": 46,
+      "county_name": "Andırın",
+      "county_x": 37.5755,
+      "county_y": 36.3503
+    },
+    {
+      "county_id": 636,
+      "county_city_id": 46,
+      "county_name": "Çağlayancerit",
+      "county_x": 37.75,
+      "county_y": 37.2918
+    },
+    {
+      "county_id": 637,
+      "county_city_id": 46,
+      "county_name": "Dulkadiroğlu",
+      "county_x": 37.5759,
+      "county_y": 36.9297
+    },
+    {
+      "county_id": 638,
+      "county_city_id": 46,
+      "county_name": "Ekinözü",
+      "county_x": 38.0592,
+      "county_y": 37.1886
+    },
+    {
+      "county_id": 639,
+      "county_city_id": 46,
+      "county_name": "Elbistan",
+      "county_x": 38.2065,
+      "county_y": 37.1929
+    },
+    {
+      "county_id": 640,
+      "county_city_id": 46,
+      "county_name": "Göksun",
+      "county_x": 38.0188,
+      "county_y": 36.4932
+    },
+    {
+      "county_id": 641,
+      "county_city_id": 46,
+      "county_name": "Nurhak",
+      "county_x": 37.9658,
+      "county_y": 37.4489
+    },
+    {
+      "county_id": 642,
+      "county_city_id": 46,
+      "county_name": "Onikişubat",
+      "county_x": 37.5753,
+      "county_y": 36.9228
+    },
+    {
+      "county_id": 643,
+      "county_city_id": 46,
+      "county_name": "Pazarcık",
+      "county_x": 37.4894,
+      "county_y": 37.2935
+    },
+    {
+      "county_id": 644,
+      "county_city_id": 46,
+      "county_name": "Türkoğlu",
+      "county_x": 37.3848,
+      "county_y": 36.8463
+    },
+    {
+      "county_id": 645,
+      "county_city_id": 47,
+      "county_name": "Artuklu",
+      "county_x": 37.3129,
+      "county_y": 40.735
+    },
+    {
+      "county_id": 646,
+      "county_city_id": 47,
+      "county_name": "Dargeçit",
+      "county_x": 37.546,
+      "county_y": 41.7205
+    },
+    {
+      "county_id": 647,
+      "county_city_id": 47,
+      "county_name": "Derik",
+      "county_x": 37.3645,
+      "county_y": 40.2681
+    },
+    {
+      "county_id": 648,
+      "county_city_id": 47,
+      "county_name": "Kızıltepe",
+      "county_x": 37.1931,
+      "county_y": 40.5868
+    },
+    {
+      "county_id": 649,
+      "county_city_id": 47,
+      "county_name": "Mazıdağı",
+      "county_x": 37.4772,
+      "county_y": 40.4867
+    },
+    {
+      "county_id": 650,
+      "county_city_id": 47,
+      "county_name": "Midyat",
+      "county_x": 37.4153,
+      "county_y": 41.3734
+    },
+    {
+      "county_id": 651,
+      "county_city_id": 47,
+      "county_name": "Nusaybin",
+      "county_x": 37.0695,
+      "county_y": 41.2144
+    },
+    {
+      "county_id": 652,
+      "county_city_id": 47,
+      "county_name": "Ömerli",
+      "county_x": 37.4028,
+      "county_y": 40.9544
+    },
+    {
+      "county_id": 653,
+      "county_city_id": 47,
+      "county_name": "Savur",
+      "county_x": 37.5379,
+      "county_y": 40.8875
+    },
+    {
+      "county_id": 654,
+      "county_city_id": 47,
+      "county_name": "Yeşilli",
+      "county_x": 37.3395,
+      "county_y": 40.8231
+    },
+    {
+      "county_id": 655,
+      "county_city_id": 48,
+      "county_name": "Bodrum",
+      "county_x": 37.0341,
+      "county_y": 27.4308
+    },
+    {
+      "county_id": 656,
+      "county_city_id": 48,
+      "county_name": "Dalaman",
+      "county_x": 36.7664,
+      "county_y": 28.8023
+    },
+    {
+      "county_id": 657,
+      "county_city_id": 48,
+      "county_name": "Datça",
+      "county_x": 36.7257,
+      "county_y": 27.6857
+    },
+    {
+      "county_id": 658,
+      "county_city_id": 48,
+      "county_name": "Fethiye",
+      "county_x": 36.6217,
+      "county_y": 29.1148
+    },
+    {
+      "county_id": 659,
+      "county_city_id": 48,
+      "county_name": "Kavaklıdere",
+      "county_x": 37.4459,
+      "county_y": 28.3637
+    },
+    {
+      "county_id": 660,
+      "county_city_id": 48,
+      "county_name": "Köyceğiz",
+      "county_x": 36.9573,
+      "county_y": 28.6883
+    },
+    {
+      "county_id": 661,
+      "county_city_id": 48,
+      "county_name": "Marmaris",
+      "county_x": 36.8549,
+      "county_y": 28.2706
+    },
+    {
+      "county_id": 662,
+      "county_city_id": 48,
+      "county_name": "Menteşe",
+      "county_x": 37.2153,
+      "county_y": 28.3636
+    },
+    {
+      "county_id": 663,
+      "county_city_id": 48,
+      "county_name": "Milas",
+      "county_x": 37.2963,
+      "county_y": 27.7813
+    },
+    {
+      "county_id": 664,
+      "county_city_id": 48,
+      "county_name": "Ortaca",
+      "county_x": 36.8389,
+      "county_y": 28.7655
+    },
+    {
+      "county_id": 665,
+      "county_city_id": 48,
+      "county_name": "Seydikemer",
+      "county_x": 36.6479,
+      "county_y": 29.3621
+    },
+    {
+      "county_id": 666,
+      "county_city_id": 48,
+      "county_name": "Ula",
+      "county_x": 37.1028,
+      "county_y": 28.4167
+    },
+    {
+      "county_id": 667,
+      "county_city_id": 48,
+      "county_name": "Yatağan",
+      "county_x": 37.3402,
+      "county_y": 28.1402
+    },
+    {
+      "county_id": 668,
+      "county_city_id": 49,
+      "county_name": "Bulanık",
+      "county_x": 39.0944,
+      "county_y": 42.2681
+    },
+    {
+      "county_id": 669,
+      "county_city_id": 49,
+      "county_name": "Hasköy",
+      "county_x": 38.6835,
+      "county_y": 41.6902
+    },
+    {
+      "county_id": 670,
+      "county_city_id": 49,
+      "county_name": "Korkut",
+      "county_x": 38.7386,
+      "county_y": 41.7829
+    },
+    {
+      "county_id": 671,
+      "county_city_id": 49,
+      "county_name": "Malazgirt",
+      "county_x": 39.1463,
+      "county_y": 42.5412
+    },
+    {
+      "county_id": 672,
+      "county_city_id": 49,
+      "county_name": "Merkez",
+      "county_x": 38.733,
+      "county_y": 41.4895
+    },
+    {
+      "county_id": 673,
+      "county_city_id": 49,
+      "county_name": "Varto",
+      "county_x": 39.1733,
+      "county_y": 41.4559
+    },
+    {
+      "county_id": 674,
+      "county_city_id": 50,
+      "county_name": "Acıgöl",
+      "county_x": 38.5502,
+      "county_y": 34.5089
+    },
+    {
+      "county_id": 675,
+      "county_city_id": 50,
+      "county_name": "Avanos",
+      "county_x": 38.7131,
+      "county_y": 34.843
+    },
+    {
+      "county_id": 676,
+      "county_city_id": 50,
+      "county_name": "Derinkuyu",
+      "county_x": 38.3742,
+      "county_y": 34.7337
+    },
+    {
+      "county_id": 677,
+      "county_city_id": 50,
+      "county_name": "Gülşehir",
+      "county_x": 38.7426,
+      "county_y": 34.6193
+    },
+    {
+      "county_id": 678,
+      "county_city_id": 50,
+      "county_name": "Hacıbektaş",
+      "county_x": 38.9429,
+      "county_y": 34.5612
+    },
+    {
+      "county_id": 679,
+      "county_city_id": 50,
+      "county_name": "Kozaklı",
+      "county_x": 39.2141,
+      "county_y": 34.8529
+    },
+    {
+      "county_id": 680,
+      "county_city_id": 50,
+      "county_name": "Merkez",
+      "county_x": 38.6268,
+      "county_y": 34.7199
+    },
+    {
+      "county_id": 681,
+      "county_city_id": 50,
+      "county_name": "Ürgüp",
+      "county_x": 38.6306,
+      "county_y": 34.9123
+    },
+    {
+      "county_id": 682,
+      "county_city_id": 51,
+      "county_name": "Altunhisar",
+      "county_x": 37.9976,
+      "county_y": 34.3716
+    },
+    {
+      "county_id": 683,
+      "county_city_id": 51,
+      "county_name": "Bor",
+      "county_x": 37.8937,
+      "county_y": 34.5613
+    },
+    {
+      "county_id": 684,
+      "county_city_id": 51,
+      "county_name": "Çamardı",
+      "county_x": 37.8327,
+      "county_y": 34.986
+    },
+    {
+      "county_id": 685,
+      "county_city_id": 51,
+      "county_name": "Çiftlik",
+      "county_x": 38.1751,
+      "county_y": 34.4848
+    },
+    {
+      "county_id": 686,
+      "county_city_id": 51,
+      "county_name": "Merkez",
+      "county_x": 37.9701,
+      "county_y": 34.6767
+    },
+    {
+      "county_id": 687,
+      "county_city_id": 51,
+      "county_name": "Ulukışla",
+      "county_x": 37.5479,
+      "county_y": 34.4819
+    },
+    {
+      "county_id": 688,
+      "county_city_id": 52,
+      "county_name": "Akkuş",
+      "county_x": 40.7909,
+      "county_y": 37.0172
+    },
+    {
+      "county_id": 689,
+      "county_city_id": 52,
+      "county_name": "Altınordu",
+      "county_x": 40.9863,
+      "county_y": 37.8795
+    },
+    {
+      "county_id": 690,
+      "county_city_id": 52,
+      "county_name": "Aybastı",
+      "county_x": 40.6846,
+      "county_y": 37.3989
+    },
+    {
+      "county_id": 691,
+      "county_city_id": 52,
+      "county_name": "Çamaş",
+      "county_x": 40.9026,
+      "county_y": 37.5281
+    },
+    {
+      "county_id": 692,
+      "county_city_id": 52,
+      "county_name": "Çatalpınar",
+      "county_x": 40.8792,
+      "county_y": 37.4532
+    },
+    {
+      "county_id": 693,
+      "county_city_id": 52,
+      "county_name": "Çaybaşı",
+      "county_x": 41.0171,
+      "county_y": 37.0987
+    },
+    {
+      "county_id": 694,
+      "county_city_id": 52,
+      "county_name": "Fatsa",
+      "county_x": 41.0293,
+      "county_y": 37.5
+    },
+    {
+      "county_id": 695,
+      "county_city_id": 52,
+      "county_name": "Gölköy",
+      "county_x": 40.6862,
+      "county_y": 37.6129
+    },
+    {
+      "county_id": 696,
+      "county_city_id": 52,
+      "county_name": "Gülyalı",
+      "county_x": 40.967,
+      "county_y": 38.0563
+    },
+    {
+      "county_id": 697,
+      "county_city_id": 52,
+      "county_name": "Gürgentepe",
+      "county_x": 40.7894,
+      "county_y": 37.6005
+    },
+    {
+      "county_id": 698,
+      "county_city_id": 52,
+      "county_name": "İkizce",
+      "county_x": 41.0539,
+      "county_y": 37.0777
+    },
+    {
+      "county_id": 699,
+      "county_city_id": 52,
+      "county_name": "Kabadüz",
+      "county_x": 40.859,
+      "county_y": 37.8899
+    },
+    {
+      "county_id": 700,
+      "county_city_id": 52,
+      "county_name": "Kabataş",
+      "county_x": 40.7511,
+      "county_y": 37.4504
+    },
+    {
+      "county_id": 701,
+      "county_city_id": 52,
+      "county_name": "Korgan",
+      "county_x": 40.8285,
+      "county_y": 37.3442
+    },
+    {
+      "county_id": 702,
+      "county_city_id": 52,
+      "county_name": "Kumru",
+      "county_x": 40.8728,
+      "county_y": 37.2613
+    },
+    {
+      "county_id": 703,
+      "county_city_id": 52,
+      "county_name": "Mesudiye",
+      "county_x": 40.4633,
+      "county_y": 37.7733
+    },
+    {
+      "county_id": 704,
+      "county_city_id": 52,
+      "county_name": "Perşembe",
+      "county_x": 41.0669,
+      "county_y": 37.7734
+    },
+    {
+      "county_id": 705,
+      "county_city_id": 52,
+      "county_name": "Ulubey",
+      "county_x": 40.8732,
+      "county_y": 37.7588
+    },
+    {
+      "county_id": 706,
+      "county_city_id": 52,
+      "county_name": "Ünye",
+      "county_x": 41.1278,
+      "county_y": 37.2884
+    },
+    {
+      "county_id": 707,
+      "county_city_id": 53,
+      "county_name": "Ardeşen",
+      "county_x": 41.1921,
+      "county_y": 40.9918
+    },
+    {
+      "county_id": 708,
+      "county_city_id": 53,
+      "county_name": "Çamlıhemşin",
+      "county_x": 41.049,
+      "county_y": 41.0034
+    },
+    {
+      "county_id": 709,
+      "county_city_id": 53,
+      "county_name": "Çayeli",
+      "county_x": 41.0892,
+      "county_y": 40.724
+    },
+    {
+      "county_id": 710,
+      "county_city_id": 53,
+      "county_name": "Derepazarı",
+      "county_x": 41.0248,
+      "county_y": 40.4257
+    },
+    {
+      "county_id": 711,
+      "county_city_id": 53,
+      "county_name": "Fındıklı",
+      "county_x": 41.2701,
+      "county_y": 41.1393
+    },
+    {
+      "county_id": 712,
+      "county_city_id": 53,
+      "county_name": "Güneysu",
+      "county_x": 40.9772,
+      "county_y": 40.6135
+    },
+    {
+      "county_id": 713,
+      "county_city_id": 53,
+      "county_name": "Hemşin",
+      "county_x": 41.0483,
+      "county_y": 40.899
+    },
+    {
+      "county_id": 714,
+      "county_city_id": 53,
+      "county_name": "İkizdere",
+      "county_x": 40.7781,
+      "county_y": 40.5597
+    },
+    {
+      "county_id": 715,
+      "county_city_id": 53,
+      "county_name": "İyidere",
+      "county_x": 41.0122,
+      "county_y": 40.3609
+    },
+    {
+      "county_id": 716,
+      "county_city_id": 53,
+      "county_name": "Kalkandere",
+      "county_x": 40.9279,
+      "county_y": 40.4421
+    },
+    {
+      "county_id": 717,
+      "county_city_id": 53,
+      "county_name": "Merkez",
+      "county_x": 41.0252,
+      "county_y": 40.519
+    },
+    {
+      "county_id": 718,
+      "county_city_id": 53,
+      "county_name": "Pazar",
+      "county_x": 41.1806,
+      "county_y": 40.8868
+    },
+    {
+      "county_id": 719,
+      "county_city_id": 54,
+      "county_name": "Adapazarı",
+      "county_x": 40.775,
+      "county_y": 30.4021
+    },
+    {
+      "county_id": 720,
+      "county_city_id": 54,
+      "county_name": "Akyazı",
+      "county_x": 40.6834,
+      "county_y": 30.6248
+    },
+    {
+      "county_id": 721,
+      "county_city_id": 54,
+      "county_name": "Arifiye",
+      "county_x": 40.714,
+      "county_y": 30.3621
+    },
+    {
+      "county_id": 722,
+      "county_city_id": 54,
+      "county_name": "Erenler",
+      "county_x": 40.7619,
+      "county_y": 30.4038
+    },
+    {
+      "county_id": 723,
+      "county_city_id": 54,
+      "county_name": "Ferizli",
+      "county_x": 40.9401,
+      "county_y": 30.4846
+    },
+    {
+      "county_id": 724,
+      "county_city_id": 54,
+      "county_name": "Geyve",
+      "county_x": 40.5082,
+      "county_y": 30.2902
+    },
+    {
+      "county_id": 725,
+      "county_city_id": 54,
+      "county_name": "Hendek",
+      "county_x": 40.7958,
+      "county_y": 30.7433
+    },
+    {
+      "county_id": 726,
+      "county_city_id": 54,
+      "county_name": "Karapürçek",
+      "county_x": 40.6419,
+      "county_y": 30.5385
+    },
+    {
+      "county_id": 727,
+      "county_city_id": 54,
+      "county_name": "Karasu",
+      "county_x": 41.0957,
+      "county_y": 30.6924
+    },
+    {
+      "county_id": 728,
+      "county_city_id": 54,
+      "county_name": "Kaynarca",
+      "county_x": 41.0331,
+      "county_y": 30.3062
+    },
+    {
+      "county_id": 729,
+      "county_city_id": 54,
+      "county_name": "Kocaali",
+      "county_x": 41.0546,
+      "county_y": 30.8507
+    },
+    {
+      "county_id": 730,
+      "county_city_id": 54,
+      "county_name": "Pamukova",
+      "county_x": 40.5068,
+      "county_y": 30.1694
+    },
+    {
+      "county_id": 731,
+      "county_city_id": 54,
+      "county_name": "Sapanca",
+      "county_x": 40.6924,
+      "county_y": 30.2687
+    },
+    {
+      "county_id": 732,
+      "county_city_id": 54,
+      "county_name": "Serdivan",
+      "county_x": 40.7716,
+      "county_y": 30.3624
+    },
+    {
+      "county_id": 733,
+      "county_city_id": 54,
+      "county_name": "Söğütlü",
+      "county_x": 40.905,
+      "county_y": 30.473
+    },
+    {
+      "county_id": 734,
+      "county_city_id": 54,
+      "county_name": "Taraklı",
+      "county_x": 40.3963,
+      "county_y": 30.4922
+    },
+    {
+      "county_id": 735,
+      "county_city_id": 55,
+      "county_name": "Ondokuzmayıs",
+      "county_x": 41.4945,
+      "county_y": 36.0787
+    },
+    {
+      "county_id": 736,
+      "county_city_id": 55,
+      "county_name": "Alaçam",
+      "county_x": 41.6068,
+      "county_y": 35.5963
+    },
+    {
+      "county_id": 737,
+      "county_city_id": 55,
+      "county_name": "Asarcık",
+      "county_x": 41.0364,
+      "county_y": 36.2345
+    },
+    {
+      "county_id": 738,
+      "county_city_id": 55,
+      "county_name": "Atakum",
+      "county_x": 41.3327,
+      "county_y": 36.2838
+    },
+    {
+      "county_id": 739,
+      "county_city_id": 55,
+      "county_name": "Ayvacık",
+      "county_x": 40.9896,
+      "county_y": 36.6326
+    },
+    {
+      "county_id": 740,
+      "county_city_id": 55,
+      "county_name": "Bafra",
+      "county_x": 41.5621,
+      "county_y": 35.9059
+    },
+    {
+      "county_id": 741,
+      "county_city_id": 55,
+      "county_name": "Canik",
+      "county_x": 41.2683,
+      "county_y": 36.3596
+    },
+    {
+      "county_id": 742,
+      "county_city_id": 55,
+      "county_name": "Çarşamba",
+      "county_x": 41.1984,
+      "county_y": 36.7218
+    },
+    {
+      "county_id": 743,
+      "county_city_id": 55,
+      "county_name": "Havza",
+      "county_x": 40.9683,
+      "county_y": 35.6666
+    },
+    {
+      "county_id": 744,
+      "county_city_id": 55,
+      "county_name": "İlkadım",
+      "county_x": 41.2797,
+      "county_y": 36.336
+    },
+    {
+      "county_id": 745,
+      "county_city_id": 55,
+      "county_name": "Kavak",
+      "county_x": 41.0774,
+      "county_y": 36.0424
+    },
+    {
+      "county_id": 746,
+      "county_city_id": 55,
+      "county_name": "Ladik",
+      "county_x": 40.912,
+      "county_y": 35.8948
+    },
+    {
+      "county_id": 747,
+      "county_city_id": 55,
+      "county_name": "Salıpazarı",
+      "county_x": 41.0802,
+      "county_y": 36.8277
+    },
+    {
+      "county_id": 748,
+      "county_city_id": 55,
+      "county_name": "Tekkeköy",
+      "county_x": 41.2128,
+      "county_y": 36.459
+    },
+    {
+      "county_id": 749,
+      "county_city_id": 55,
+      "county_name": "Terme",
+      "county_x": 41.2091,
+      "county_y": 36.9721
+    },
+    {
+      "county_id": 750,
+      "county_city_id": 55,
+      "county_name": "Vezirköprü",
+      "county_x": 41.142,
+      "county_y": 35.462
+    },
+    {
+      "county_id": 751,
+      "county_city_id": 55,
+      "county_name": "Yakakent",
+      "county_x": 41.6334,
+      "county_y": 35.5298
+    },
+    {
+      "county_id": 752,
+      "county_city_id": 56,
+      "county_name": "Baykan",
+      "county_x": 38.1624,
+      "county_y": 41.7839
+    },
+    {
+      "county_id": 753,
+      "county_city_id": 56,
+      "county_name": "Eruh",
+      "county_x": 37.7491,
+      "county_y": 42.1801
+    },
+    {
+      "county_id": 754,
+      "county_city_id": 56,
+      "county_name": "Kurtalan",
+      "county_x": 37.9246,
+      "county_y": 41.7011
+    },
+    {
+      "county_id": 755,
+      "county_city_id": 56,
+      "county_name": "Merkez",
+      "county_x": 37.9274,
+      "county_y": 41.9423
+    },
+    {
+      "county_id": 756,
+      "county_city_id": 56,
+      "county_name": "Pervari",
+      "county_x": 37.9328,
+      "county_y": 42.5474
+    },
+    {
+      "county_id": 757,
+      "county_city_id": 56,
+      "county_name": "Şirvan",
+      "county_x": 38.0621,
+      "county_y": 42.0295
+    },
+    {
+      "county_id": 758,
+      "county_city_id": 56,
+      "county_name": "Tillo",
+      "county_x": 37.95,
+      "county_y": 42.0125
+    },
+    {
+      "county_id": 759,
+      "county_city_id": 57,
+      "county_name": "Ayancık",
+      "county_x": 41.9458,
+      "county_y": 34.5883
+    },
+    {
+      "county_id": 760,
+      "county_city_id": 57,
+      "county_name": "Boyabat",
+      "county_x": 41.4662,
+      "county_y": 34.771
+    },
+    {
+      "county_id": 761,
+      "county_city_id": 57,
+      "county_name": "Dikmen",
+      "county_x": 41.6512,
+      "county_y": 35.264
+    },
+    {
+      "county_id": 762,
+      "county_city_id": 57,
+      "county_name": "Durağan",
+      "county_x": 41.4154,
+      "county_y": 35.0561
+    },
+    {
+      "county_id": 763,
+      "county_city_id": 57,
+      "county_name": "Erfelek",
+      "county_x": 41.8801,
+      "county_y": 34.9069
+    },
+    {
+      "county_id": 764,
+      "county_city_id": 57,
+      "county_name": "Gerze",
+      "county_x": 41.8028,
+      "county_y": 35.1968
+    },
+    {
+      "county_id": 765,
+      "county_city_id": 57,
+      "county_name": "Merkez",
+      "county_x": 42.0265,
+      "county_y": 35.1511
+    },
+    {
+      "county_id": 766,
+      "county_city_id": 57,
+      "county_name": "Saraydüzü",
+      "county_x": 41.3301,
+      "county_y": 34.8488
+    },
+    {
+      "county_id": 767,
+      "county_city_id": 57,
+      "county_name": "Türkeli",
+      "county_x": 41.9464,
+      "county_y": 34.3365
+    },
+    {
+      "county_id": 768,
+      "county_city_id": 58,
+      "county_name": "Akıncılar",
+      "county_x": 40.0789,
+      "county_y": 38.347
+    },
+    {
+      "county_id": 769,
+      "county_city_id": 58,
+      "county_name": "Altınyayla",
+      "county_x": 39.2718,
+      "county_y": 36.7513
+    },
+    {
+      "county_id": 770,
+      "county_city_id": 58,
+      "county_name": "Divriği",
+      "county_x": 39.372,
+      "county_y": 38.1174
+    },
+    {
+      "county_id": 771,
+      "county_city_id": 58,
+      "county_name": "Doğanşar",
+      "county_x": 40.2141,
+      "county_y": 37.5357
+    },
+    {
+      "county_id": 772,
+      "county_city_id": 58,
+      "county_name": "Gemerek",
+      "county_x": 39.1834,
+      "county_y": 36.0683
+    },
+    {
+      "county_id": 773,
+      "county_city_id": 58,
+      "county_name": "Gölova",
+      "county_x": 40.061,
+      "county_y": 38.6081
+    },
+    {
+      "county_id": 774,
+      "county_city_id": 58,
+      "county_name": "Gürün",
+      "county_x": 38.7213,
+      "county_y": 37.2709
+    },
+    {
+      "county_id": 775,
+      "county_city_id": 58,
+      "county_name": "Hafik",
+      "county_x": 39.855,
+      "county_y": 37.3929
+    },
+    {
+      "county_id": 776,
+      "county_city_id": 58,
+      "county_name": "İmranlı",
+      "county_x": 39.8715,
+      "county_y": 38.1112
+    },
+    {
+      "county_id": 777,
+      "county_city_id": 58,
+      "county_name": "Kangal",
+      "county_x": 39.2356,
+      "county_y": 37.3909
+    },
+    {
+      "county_id": 778,
+      "county_city_id": 58,
+      "county_name": "Koyulhisar",
+      "county_x": 40.3015,
+      "county_y": 37.8323
+    },
+    {
+      "county_id": 779,
+      "county_city_id": 58,
+      "county_name": "Merkez",
+      "county_x": 39.7505,
+      "county_y": 37.0149
+    },
+    {
+      "county_id": 780,
+      "county_city_id": 58,
+      "county_name": "Şarkışla",
+      "county_x": 39.3504,
+      "county_y": 36.4094
+    },
+    {
+      "county_id": 781,
+      "county_city_id": 58,
+      "county_name": "Suşehri",
+      "county_x": 40.1628,
+      "county_y": 38.0901
+    },
+    {
+      "county_id": 782,
+      "county_city_id": 58,
+      "county_name": "Ulaş",
+      "county_x": 39.4441,
+      "county_y": 37.0397
+    },
+    {
+      "county_id": 783,
+      "county_city_id": 58,
+      "county_name": "Yıldızeli",
+      "county_x": 39.867,
+      "county_y": 36.5982
+    },
+    {
+      "county_id": 784,
+      "county_city_id": 58,
+      "county_name": "Zara",
+      "county_x": 39.8979,
+      "county_y": 37.7562
+    },
+    {
+      "county_id": 785,
+      "county_city_id": 59,
+      "county_name": "Çerkezköy",
+      "county_x": 41.2825,
+      "county_y": 28.0006
+    },
+    {
+      "county_id": 786,
+      "county_city_id": 59,
+      "county_name": "Çorlu",
+      "county_x": 41.1557,
+      "county_y": 27.8135
+    },
+    {
+      "county_id": 787,
+      "county_city_id": 59,
+      "county_name": "Ergene",
+      "county_x": 41.1851,
+      "county_y": 27.77
+    },
+    {
+      "county_id": 788,
+      "county_city_id": 59,
+      "county_name": "Hayrabolu",
+      "county_x": 41.2136,
+      "county_y": 27.1067
+    },
+    {
+      "county_id": 789,
+      "county_city_id": 59,
+      "county_name": "Kapaklı",
+      "county_x": 41.3246,
+      "county_y": 27.977
+    },
+    {
+      "county_id": 790,
+      "county_city_id": 59,
+      "county_name": "Malkara",
+      "county_x": 40.8938,
+      "county_y": 26.9039
+    },
+    {
+      "county_id": 791,
+      "county_city_id": 59,
+      "county_name": "Marmaraereğlisi",
+      "county_x": 40.9693,
+      "county_y": 27.955
+    },
+    {
+      "county_id": 792,
+      "county_city_id": 59,
+      "county_name": "Muratlı",
+      "county_x": 41.1717,
+      "county_y": 27.4955
+    },
+    {
+      "county_id": 793,
+      "county_city_id": 59,
+      "county_name": "Saray",
+      "county_x": 41.4414,
+      "county_y": 27.9217
+    },
+    {
+      "county_id": 794,
+      "county_city_id": 59,
+      "county_name": "Şarköy",
+      "county_x": 40.6149,
+      "county_y": 27.1131
+    },
+    {
+      "county_id": 795,
+      "county_city_id": 59,
+      "county_name": "Süleymanpaşa",
+      "county_x": 40.9788,
+      "county_y": 27.5158
+    },
+    {
+      "county_id": 796,
+      "county_city_id": 60,
+      "county_name": "Almus",
+      "county_x": 40.376,
+      "county_y": 36.9035
+    },
+    {
+      "county_id": 797,
+      "county_city_id": 60,
+      "county_name": "Artova",
+      "county_x": 40.118,
+      "county_y": 36.3014
+    },
+    {
+      "county_id": 798,
+      "county_city_id": 60,
+      "county_name": "Başçiftlik",
+      "county_x": 40.547,
+      "county_y": 37.1683
+    },
+    {
+      "county_id": 799,
+      "county_city_id": 60,
+      "county_name": "Erbaa",
+      "county_x": 40.6728,
+      "county_y": 36.5714
+    },
+    {
+      "county_id": 800,
+      "county_city_id": 60,
+      "county_name": "Merkez",
+      "county_x": 40.3234,
+      "county_y": 36.5522
+    },
+    {
+      "county_id": 801,
+      "county_city_id": 60,
+      "county_name": "Niksar",
+      "county_x": 40.5905,
+      "county_y": 36.9495
+    },
+    {
+      "county_id": 802,
+      "county_city_id": 60,
+      "county_name": "Pazar",
+      "county_x": 40.2763,
+      "county_y": 36.2833
+    },
+    {
+      "county_id": 803,
+      "county_city_id": 60,
+      "county_name": "Reşadiye",
+      "county_x": 40.3928,
+      "county_y": 37.3373
+    },
+    {
+      "county_id": 804,
+      "county_city_id": 60,
+      "county_name": "Sulusaray",
+      "county_x": 39.9974,
+      "county_y": 36.0837
+    },
+    {
+      "county_id": 805,
+      "county_city_id": 60,
+      "county_name": "Turhal",
+      "county_x": 40.386,
+      "county_y": 36.0874
+    },
+    {
+      "county_id": 806,
+      "county_city_id": 60,
+      "county_name": "Yeşilyurt",
+      "county_x": 40.0066,
+      "county_y": 36.2203
+    },
+    {
+      "county_id": 807,
+      "county_city_id": 60,
+      "county_name": "Zile",
+      "county_x": 40.3019,
+      "county_y": 35.8868
+    },
+    {
+      "county_id": 808,
+      "county_city_id": 61,
+      "county_name": "Akçaabat",
+      "county_x": 41.0219,
+      "county_y": 39.5706
+    },
+    {
+      "county_id": 809,
+      "county_city_id": 61,
+      "county_name": "Araklı",
+      "county_x": 40.9385,
+      "county_y": 40.0566
+    },
+    {
+      "county_id": 810,
+      "county_city_id": 61,
+      "county_name": "Arsin",
+      "county_x": 40.9547,
+      "county_y": 39.9366
+    },
+    {
+      "county_id": 811,
+      "county_city_id": 61,
+      "county_name": "Beşikdüzü",
+      "county_x": 41.0516,
+      "county_y": 39.2313
+    },
+    {
+      "county_id": 812,
+      "county_city_id": 61,
+      "county_name": "Çarşıbaşı",
+      "county_x": 41.0828,
+      "county_y": 39.3795
+    },
+    {
+      "county_id": 813,
+      "county_city_id": 61,
+      "county_name": "Çaykara",
+      "county_x": 40.7475,
+      "county_y": 40.2423
+    },
+    {
+      "county_id": 814,
+      "county_city_id": 61,
+      "county_name": "Dernekpazarı",
+      "county_x": 40.7994,
+      "county_y": 40.2478
+    },
+    {
+      "county_id": 815,
+      "county_city_id": 61,
+      "county_name": "Düzköy",
+      "county_x": 40.8744,
+      "county_y": 39.4253
+    },
+    {
+      "county_id": 816,
+      "county_city_id": 61,
+      "county_name": "Hayrat",
+      "county_x": 40.8892,
+      "county_y": 40.3682
+    },
+    {
+      "county_id": 817,
+      "county_city_id": 61,
+      "county_name": "Köprübaşı",
+      "county_x": 40.8085,
+      "county_y": 40.1238
+    },
+    {
+      "county_id": 818,
+      "county_city_id": 61,
+      "county_name": "Maçka",
+      "county_x": 40.8129,
+      "county_y": 39.6119
+    },
+    {
+      "county_id": 819,
+      "county_city_id": 61,
+      "county_name": "Of",
+      "county_x": 40.9461,
+      "county_y": 40.2662
+    },
+    {
+      "county_id": 820,
+      "county_city_id": 61,
+      "county_name": "Ortahisar",
+      "county_x": 41.0027,
+      "county_y": 39.7168
+    },
+    {
+      "county_id": 821,
+      "county_city_id": 61,
+      "county_name": "Şalpazarı",
+      "county_x": 40.9418,
+      "county_y": 39.1941
+    },
+    {
+      "county_id": 822,
+      "county_city_id": 61,
+      "county_name": "Sürmene",
+      "county_x": 40.9119,
+      "county_y": 40.119
+    },
+    {
+      "county_id": 823,
+      "county_city_id": 61,
+      "county_name": "Tonya",
+      "county_x": 40.8864,
+      "county_y": 39.2911
+    },
+    {
+      "county_id": 824,
+      "county_city_id": 61,
+      "county_name": "Vakfıkebir",
+      "county_x": 41.0479,
+      "county_y": 39.2773
+    },
+    {
+      "county_id": 825,
+      "county_city_id": 61,
+      "county_name": "Yomra",
+      "county_x": 40.9542,
+      "county_y": 39.8659
+    },
+    {
+      "county_id": 826,
+      "county_city_id": 62,
+      "county_name": "Çemişgezek",
+      "county_x": 39.063,
+      "county_y": 38.9113
+    },
+    {
+      "county_id": 827,
+      "county_city_id": 62,
+      "county_name": "Hozat",
+      "county_x": 39.1085,
+      "county_y": 39.2191
+    },
+    {
+      "county_id": 828,
+      "county_city_id": 62,
+      "county_name": "Mazgirt",
+      "county_x": 39.0186,
+      "county_y": 39.6051
+    },
+    {
+      "county_id": 829,
+      "county_city_id": 62,
+      "county_name": "Merkez",
+      "county_x": 39.1062,
+      "county_y": 39.5483
+    },
+    {
+      "county_id": 830,
+      "county_city_id": 62,
+      "county_name": "Nazımiye",
+      "county_x": 39.1802,
+      "county_y": 39.8285
+    },
+    {
+      "county_id": 831,
+      "county_city_id": 62,
+      "county_name": "Ovacık",
+      "county_x": 39.3572,
+      "county_y": 39.2155
+    },
+    {
+      "county_id": 832,
+      "county_city_id": 62,
+      "county_name": "Pertek",
+      "county_x": 38.8675,
+      "county_y": 39.3247
+    },
+    {
+      "county_id": 833,
+      "county_city_id": 62,
+      "county_name": "Pülümür",
+      "county_x": 39.4866,
+      "county_y": 39.8988
+    },
+    {
+      "county_id": 834,
+      "county_city_id": 63,
+      "county_name": "Akçakale",
+      "county_x": 36.7133,
+      "county_y": 38.9485
+    },
+    {
+      "county_id": 835,
+      "county_city_id": 63,
+      "county_name": "Birecik",
+      "county_x": 37.0267,
+      "county_y": 37.9777
+    },
+    {
+      "county_id": 836,
+      "county_city_id": 63,
+      "county_name": "Bozova",
+      "county_x": 37.3615,
+      "county_y": 38.5263
+    },
+    {
+      "county_id": 837,
+      "county_city_id": 63,
+      "county_name": "Ceylanpınar",
+      "county_x": 36.8462,
+      "county_y": 40.0524
+    },
+    {
+      "county_id": 838,
+      "county_city_id": 63,
+      "county_name": "Eyyübiye",
+      "county_x": 37.1411,
+      "county_y": 38.7884
+    },
+    {
+      "county_id": 839,
+      "county_city_id": 63,
+      "county_name": "Halfeti",
+      "county_x": 37.2444,
+      "county_y": 37.8692
+    },
+    {
+      "county_id": 840,
+      "county_city_id": 63,
+      "county_name": "Haliliye",
+      "county_x": 37.1676,
+      "county_y": 38.7953
+    },
+    {
+      "county_id": 841,
+      "county_city_id": 63,
+      "county_name": "Harran",
+      "county_x": 36.8632,
+      "county_y": 39.0234
+    },
+    {
+      "county_id": 842,
+      "county_city_id": 63,
+      "county_name": "Hilvan",
+      "county_x": 37.5862,
+      "county_y": 38.9548
+    },
+    {
+      "county_id": 843,
+      "county_city_id": 63,
+      "county_name": "Karaköprü",
+      "county_x": 37.2002,
+      "county_y": 38.8002
+    },
+    {
+      "county_id": 844,
+      "county_city_id": 63,
+      "county_name": "Siverek",
+      "county_x": 37.7541,
+      "county_y": 39.3176
+    },
+    {
+      "county_id": 845,
+      "county_city_id": 63,
+      "county_name": "Suruç",
+      "county_x": 36.9752,
+      "county_y": 38.4243
+    },
+    {
+      "county_id": 846,
+      "county_city_id": 63,
+      "county_name": "Viranşehir",
+      "county_x": 37.2358,
+      "county_y": 39.7623
+    },
+    {
+      "county_id": 847,
+      "county_city_id": 64,
+      "county_name": "Banaz",
+      "county_x": 38.7394,
+      "county_y": 29.7531
+    },
+    {
+      "county_id": 848,
+      "county_city_id": 64,
+      "county_name": "Eşme",
+      "county_x": 38.3992,
+      "county_y": 28.9694
+    },
+    {
+      "county_id": 849,
+      "county_city_id": 64,
+      "county_name": "Karahallı",
+      "county_x": 38.3205,
+      "county_y": 29.5313
+    },
+    {
+      "county_id": 850,
+      "county_city_id": 64,
+      "county_name": "Merkez",
+      "county_x": 38.674,
+      "county_y": 29.4056
+    },
+    {
+      "county_id": 851,
+      "county_city_id": 64,
+      "county_name": "Sivaslı",
+      "county_x": 38.4981,
+      "county_y": 29.6794
+    },
+    {
+      "county_id": 852,
+      "county_city_id": 64,
+      "county_name": "Ulubey",
+      "county_x": 38.4216,
+      "county_y": 29.2905
+    },
+    {
+      "county_id": 853,
+      "county_city_id": 65,
+      "county_name": "Bahçesaray",
+      "county_x": 38.1246,
+      "county_y": 42.8069
+    },
+    {
+      "county_id": 854,
+      "county_city_id": 65,
+      "county_name": "Başkale",
+      "county_x": 38.0449,
+      "county_y": 44.0163
+    },
+    {
+      "county_id": 855,
+      "county_city_id": 65,
+      "county_name": "Çaldıran",
+      "county_x": 39.1361,
+      "county_y": 43.9038
+    },
+    {
+      "county_id": 856,
+      "county_city_id": 65,
+      "county_name": "Çatak",
+      "county_x": 38.0073,
+      "county_y": 43.0593
+    },
+    {
+      "county_id": 857,
+      "county_city_id": 65,
+      "county_name": "Edremit",
+      "county_x": 38.4258,
+      "county_y": 43.2603
+    },
+    {
+      "county_id": 858,
+      "county_city_id": 65,
+      "county_name": "Erciş",
+      "county_x": 39.0291,
+      "county_y": 43.3592
+    },
+    {
+      "county_id": 859,
+      "county_city_id": 65,
+      "county_name": "Gevaş",
+      "county_x": 38.2962,
+      "county_y": 43.1065
+    },
+    {
+      "county_id": 860,
+      "county_city_id": 65,
+      "county_name": "Gürpınar",
+      "county_x": 38.324,
+      "county_y": 43.4092
+    },
+    {
+      "county_id": 861,
+      "county_city_id": 65,
+      "county_name": "İpekyolu",
+      "county_x": 38.5011,
+      "county_y": 43.3729
+    },
+    {
+      "county_id": 862,
+      "county_city_id": 65,
+      "county_name": "Muradiye",
+      "county_x": 38.9897,
+      "county_y": 43.7601
+    },
+    {
+      "county_id": 863,
+      "county_city_id": 65,
+      "county_name": "Özalp",
+      "county_x": 38.657,
+      "county_y": 43.9893
+    },
+    {
+      "county_id": 864,
+      "county_city_id": 65,
+      "county_name": "Saray",
+      "county_x": 38.6487,
+      "county_y": 44.1698
+    },
+    {
+      "county_id": 865,
+      "county_city_id": 65,
+      "county_name": "Tuşba",
+      "county_x": 38.5125,
+      "county_y": 43.3752
+    },
+    {
+      "county_id": 866,
+      "county_city_id": 66,
+      "county_name": "Akdağmadeni",
+      "county_x": 39.6597,
+      "county_y": 35.8825
+    },
+    {
+      "county_id": 867,
+      "county_city_id": 66,
+      "county_name": "Aydıncık",
+      "county_x": 40.1291,
+      "county_y": 35.2858
+    },
+    {
+      "county_id": 868,
+      "county_city_id": 66,
+      "county_name": "Boğazlıyan",
+      "county_x": 39.1928,
+      "county_y": 35.2461
+    },
+    {
+      "county_id": 869,
+      "county_city_id": 66,
+      "county_name": "Çandır",
+      "county_x": 39.2435,
+      "county_y": 35.5145
+    },
+    {
+      "county_id": 870,
+      "county_city_id": 66,
+      "county_name": "Çayıralan",
+      "county_x": 39.3049,
+      "county_y": 35.6445
+    },
+    {
+      "county_id": 871,
+      "county_city_id": 66,
+      "county_name": "Çekerek",
+      "county_x": 40.0693,
+      "county_y": 35.4949
+    },
+    {
+      "county_id": 872,
+      "county_city_id": 66,
+      "county_name": "Kadışehri",
+      "county_x": 39.9983,
+      "county_y": 35.7922
+    },
+    {
+      "county_id": 873,
+      "county_city_id": 66,
+      "county_name": "Merkez",
+      "county_x": 39.821,
+      "county_y": 34.8086
+    },
+    {
+      "county_id": 874,
+      "county_city_id": 66,
+      "county_name": "Saraykent",
+      "county_x": 39.6937,
+      "county_y": 35.5097
+    },
+    {
+      "county_id": 875,
+      "county_city_id": 66,
+      "county_name": "Sarıkaya",
+      "county_x": 39.4936,
+      "county_y": 35.3755
+    },
+    {
+      "county_id": 876,
+      "county_city_id": 66,
+      "county_name": "Şefaatli",
+      "county_x": 39.4993,
+      "county_y": 34.7558
+    },
+    {
+      "county_id": 877,
+      "county_city_id": 66,
+      "county_name": "Sorgun",
+      "county_x": 39.8127,
+      "county_y": 35.1902
+    },
+    {
+      "county_id": 878,
+      "county_city_id": 66,
+      "county_name": "Yenifakılı",
+      "county_x": 39.2115,
+      "county_y": 35.0033
+    },
+    {
+      "county_id": 879,
+      "county_city_id": 66,
+      "county_name": "Yerköy",
+      "county_x": 39.6378,
+      "county_y": 34.4679
+    },
+    {
+      "county_id": 880,
+      "county_city_id": 67,
+      "county_name": "Alaplı",
+      "county_x": 41.1802,
+      "county_y": 31.3864
+    },
+    {
+      "county_id": 881,
+      "county_city_id": 67,
+      "county_name": "Çaycuma",
+      "county_x": 41.4268,
+      "county_y": 32.0758
+    },
+    {
+      "county_id": 882,
+      "county_city_id": 67,
+      "county_name": "Devrek",
+      "county_x": 41.219,
+      "county_y": 31.9559
+    },
+    {
+      "county_id": 883,
+      "county_city_id": 67,
+      "county_name": "Ereğli",
+      "county_x": 41.2804,
+      "county_y": 31.4228
+    },
+    {
+      "county_id": 884,
+      "county_city_id": 67,
+      "county_name": "Gökçebey",
+      "county_x": 41.3054,
+      "county_y": 32.1418
+    },
+    {
+      "county_id": 885,
+      "county_city_id": 67,
+      "county_name": "Kilimli",
+      "county_x": 41.4858,
+      "county_y": 31.8381
+    },
+    {
+      "county_id": 886,
+      "county_city_id": 67,
+      "county_name": "Kozlu",
+      "county_x": 41.4346,
+      "county_y": 31.7458
+    },
+    {
+      "county_id": 887,
+      "county_city_id": 67,
+      "county_name": "Merkez",
+      "county_x": 41.4515,
+      "county_y": 31.7889
+    },
+    {
+      "county_id": 888,
+      "county_city_id": 68,
+      "county_name": "Ağaçören",
+      "county_x": 38.8691,
+      "county_y": 33.9141
+    },
+    {
+      "county_id": 889,
+      "county_city_id": 68,
+      "county_name": "Eskil",
+      "county_x": 38.4018,
+      "county_y": 33.4126
+    },
+    {
+      "county_id": 890,
+      "county_city_id": 68,
+      "county_name": "Gülağaç",
+      "county_x": 38.393,
+      "county_y": 34.3459
+    },
+    {
+      "county_id": 891,
+      "county_city_id": 68,
+      "county_name": "Güzelyurt",
+      "county_x": 38.2777,
+      "county_y": 34.3712
+    },
+    {
+      "county_id": 892,
+      "county_city_id": 68,
+      "county_name": "Merkez",
+      "county_x": 38.3703,
+      "county_y": 34.0271
+    },
+    {
+      "county_id": 893,
+      "county_city_id": 68,
+      "county_name": "Ortaköy",
+      "county_x": 38.7367,
+      "county_y": 34.0411
+    },
+    {
+      "county_id": 894,
+      "county_city_id": 68,
+      "county_name": "Sarıyahşi",
+      "county_x": 38.9835,
+      "county_y": 33.8441
+    },
+    {
+      "county_id": 895,
+      "county_city_id": 69,
+      "county_name": "Aydıntepe",
+      "county_x": 40.3886,
+      "county_y": 40.1504
+    },
+    {
+      "county_id": 896,
+      "county_city_id": 69,
+      "county_name": "Demirözü",
+      "county_x": 40.1638,
+      "county_y": 39.8921
+    },
+    {
+      "county_id": 897,
+      "county_city_id": 69,
+      "county_name": "Merkez",
+      "county_x": 40.2606,
+      "county_y": 40.2273
+    },
+    {
+      "county_id": 898,
+      "county_city_id": 70,
+      "county_name": "Ayrancı",
+      "county_x": 37.3611,
+      "county_y": 33.6875
+    },
+    {
+      "county_id": 899,
+      "county_city_id": 70,
+      "county_name": "Başyayla",
+      "county_x": 36.7527,
+      "county_y": 32.681
+    },
+    {
+      "county_id": 900,
+      "county_city_id": 70,
+      "county_name": "Ermenek",
+      "county_x": 36.6402,
+      "county_y": 32.8877
+    },
+    {
+      "county_id": 901,
+      "county_city_id": 70,
+      "county_name": "Kazımkarabekir",
+      "county_x": 37.2271,
+      "county_y": 32.959
+    },
+    {
+      "county_id": 902,
+      "county_city_id": 70,
+      "county_name": "Merkez",
+      "county_x": 37.1812,
+      "county_y": 33.2223
+    },
+    {
+      "county_id": 903,
+      "county_city_id": 70,
+      "county_name": "Sarıveliler",
+      "county_x": 36.6985,
+      "county_y": 32.618
+    },
+    {
+      "county_id": 904,
+      "county_city_id": 71,
+      "county_name": "Bahşili",
+      "county_x": 39.8129,
+      "county_y": 33.4714
+    },
+    {
+      "county_id": 905,
+      "county_city_id": 71,
+      "county_name": "Balışeyh",
+      "county_x": 39.9098,
+      "county_y": 33.7183
+    },
+    {
+      "county_id": 906,
+      "county_city_id": 71,
+      "county_name": "Çelebi",
+      "county_x": 39.4637,
+      "county_y": 33.5246
+    },
+    {
+      "county_id": 907,
+      "county_city_id": 71,
+      "county_name": "Delice",
+      "county_x": 39.9433,
+      "county_y": 34.0322
+    },
+    {
+      "county_id": 908,
+      "county_city_id": 71,
+      "county_name": "Karakeçili",
+      "county_x": 39.5933,
+      "county_y": 33.3785
+    },
+    {
+      "county_id": 909,
+      "county_city_id": 71,
+      "county_name": "Keskin",
+      "county_x": 39.6718,
+      "county_y": 33.6102
+    },
+    {
+      "county_id": 910,
+      "county_city_id": 71,
+      "county_name": "Merkez",
+      "county_x": 39.8377,
+      "county_y": 33.5032
+    },
+    {
+      "county_id": 911,
+      "county_city_id": 71,
+      "county_name": "Sulakyurt",
+      "county_x": 40.1586,
+      "county_y": 33.7178
+    },
+    {
+      "county_id": 912,
+      "county_city_id": 71,
+      "county_name": "Yahşihan",
+      "county_x": 39.8493,
+      "county_y": 33.4521
+    },
+    {
+      "county_id": 913,
+      "county_city_id": 72,
+      "county_name": "Beşiri",
+      "county_x": 37.9178,
+      "county_y": 41.291
+    },
+    {
+      "county_id": 914,
+      "county_city_id": 72,
+      "county_name": "Gercüş",
+      "county_x": 37.5668,
+      "county_y": 41.3852
+    },
+    {
+      "county_id": 915,
+      "county_city_id": 72,
+      "county_name": "Hasankeyf",
+      "county_x": 37.7129,
+      "county_y": 41.4152
+    },
+    {
+      "county_id": 916,
+      "county_city_id": 72,
+      "county_name": "Kozluk",
+      "county_x": 38.1927,
+      "county_y": 41.4884
+    },
+    {
+      "county_id": 917,
+      "county_city_id": 72,
+      "county_name": "Merkez",
+      "county_x": 37.8897,
+      "county_y": 41.1294
+    },
+    {
+      "county_id": 918,
+      "county_city_id": 72,
+      "county_name": "Sason",
+      "county_x": 38.3339,
+      "county_y": 41.4203
+    },
+    {
+      "county_id": 919,
+      "county_city_id": 73,
+      "county_name": "Beytüşşebap",
+      "county_x": 37.5705,
+      "county_y": 43.1667
+    },
+    {
+      "county_id": 920,
+      "county_city_id": 73,
+      "county_name": "Cizre",
+      "county_x": 37.3324,
+      "county_y": 42.1856
+    },
+    {
+      "county_id": 921,
+      "county_city_id": 73,
+      "county_name": "Güçlükonak",
+      "county_x": 37.4711,
+      "county_y": 41.9111
+    },
+    {
+      "county_id": 922,
+      "county_city_id": 73,
+      "county_name": "İdil",
+      "county_x": 37.3401,
+      "county_y": 41.8924
+    },
+    {
+      "county_id": 923,
+      "county_city_id": 73,
+      "county_name": "Merkez",
+      "county_x": 37.5204,
+      "county_y": 42.4534
+    },
+    {
+      "county_id": 924,
+      "county_city_id": 73,
+      "county_name": "Silopi",
+      "county_x": 37.247,
+      "county_y": 42.4691
+    },
+    {
+      "county_id": 925,
+      "county_city_id": 73,
+      "county_name": "Uludere",
+      "county_x": 37.4455,
+      "county_y": 42.8563
+    },
+    {
+      "county_id": 926,
+      "county_city_id": 74,
+      "county_name": "Amasra",
+      "county_x": 41.7478,
+      "county_y": 32.3858
+    },
+    {
+      "county_id": 927,
+      "county_city_id": 74,
+      "county_name": "Kurucaşile",
+      "county_x": 41.8438,
+      "county_y": 32.7208
+    },
+    {
+      "county_id": 928,
+      "county_city_id": 74,
+      "county_name": "Merkez",
+      "county_x": 41.6317,
+      "county_y": 32.3367
+    },
+    {
+      "county_id": 929,
+      "county_city_id": 74,
+      "county_name": "Ulus",
+      "county_x": 41.5832,
+      "county_y": 32.6397
+    },
+    {
+      "county_id": 930,
+      "county_city_id": 75,
+      "county_name": "Çıldır",
+      "county_x": 41.1269,
+      "county_y": 43.1351
+    },
+    {
+      "county_id": 931,
+      "county_city_id": 75,
+      "county_name": "Damal",
+      "county_x": 41.3407,
+      "county_y": 42.84
+    },
+    {
+      "county_id": 932,
+      "county_city_id": 75,
+      "county_name": "Göle",
+      "county_x": 40.7934,
+      "county_y": 42.6095
+    },
+    {
+      "county_id": 933,
+      "county_city_id": 75,
+      "county_name": "Hanak",
+      "county_x": 41.2355,
+      "county_y": 42.8463
+    },
+    {
+      "county_id": 934,
+      "county_city_id": 75,
+      "county_name": "Merkez",
+      "county_x": 41.113,
+      "county_y": 42.7023
+    },
+    {
+      "county_id": 935,
+      "county_city_id": 75,
+      "county_name": "Posof",
+      "county_x": 41.5094,
+      "county_y": 42.7279
+    },
+    {
+      "county_id": 936,
+      "county_city_id": 76,
+      "county_name": "Aralık",
+      "county_x": 39.8737,
+      "county_y": 44.5162
+    },
+    {
+      "county_id": 937,
+      "county_city_id": 76,
+      "county_name": "Karakoyunlu",
+      "county_x": 39.972,
+      "county_y": 44.1721
+    },
+    {
+      "county_id": 938,
+      "county_city_id": 76,
+      "county_name": "Merkez",
+      "county_x": 39.9195,
+      "county_y": 44.0412
+    },
+    {
+      "county_id": 939,
+      "county_city_id": 76,
+      "county_name": "Tuzluca",
+      "county_x": 40.0399,
+      "county_y": 43.6633
+    },
+    {
+      "county_id": 940,
+      "county_city_id": 77,
+      "county_name": "Altınova",
+      "county_x": 40.6966,
+      "county_y": 29.5104
+    },
+    {
+      "county_id": 941,
+      "county_city_id": 77,
+      "county_name": "Armutlu",
+      "county_x": 40.5195,
+      "county_y": 28.8284
+    },
+    {
+      "county_id": 942,
+      "county_city_id": 77,
+      "county_name": "Çiftlikköy",
+      "county_x": 40.6629,
+      "county_y": 29.3163
+    },
+    {
+      "county_id": 943,
+      "county_city_id": 77,
+      "county_name": "Çınarcık",
+      "county_x": 40.6452,
+      "county_y": 29.1191
+    },
+    {
+      "county_id": 944,
+      "county_city_id": 77,
+      "county_name": "Merkez",
+      "county_x": 40.6587,
+      "county_y": 29.275
+    },
+    {
+      "county_id": 945,
+      "county_city_id": 77,
+      "county_name": "Termal",
+      "county_x": 40.6061,
+      "county_y": 29.1744
+    },
+    {
+      "county_id": 946,
+      "county_city_id": 78,
+      "county_name": "Eflani",
+      "county_x": 41.4229,
+      "county_y": 32.9561
+    },
+    {
+      "county_id": 947,
+      "county_city_id": 78,
+      "county_name": "Eskipazar",
+      "county_x": 40.9438,
+      "county_y": 32.5307
+    },
+    {
+      "county_id": 948,
+      "county_city_id": 78,
+      "county_name": "Merkez",
+      "county_x": 41.1958,
+      "county_y": 32.6157
+    },
+    {
+      "county_id": 949,
+      "county_city_id": 78,
+      "county_name": "Ovacık",
+      "county_x": 41.0733,
+      "county_y": 32.9176
+    },
+    {
+      "county_id": 950,
+      "county_city_id": 78,
+      "county_name": "Safranbolu",
+      "county_x": 41.2494,
+      "county_y": 32.6831
+    },
+    {
+      "county_id": 951,
+      "county_city_id": 78,
+      "county_name": "Yenice",
+      "county_x": 41.1999,
+      "county_y": 32.3291
+    },
+    {
+      "county_id": 952,
+      "county_city_id": 79,
+      "county_name": "Elbeyli",
+      "county_x": 36.6749,
+      "county_y": 37.4661
+    },
+    {
+      "county_id": 953,
+      "county_city_id": 79,
+      "county_name": "Merkez",
+      "county_x": 36.7166,
+      "county_y": 37.1146
+    },
+    {
+      "county_id": 954,
+      "county_city_id": 79,
+      "county_name": "Musabeyli",
+      "county_x": 36.8858,
+      "county_y": 36.9161
+    },
+    {
+      "county_id": 955,
+      "county_city_id": 79,
+      "county_name": "Polateli",
+      "county_x": 36.8416,
+      "county_y": 37.1437
+    },
+    {
+      "county_id": 956,
+      "county_city_id": 80,
+      "county_name": "Bahçe",
+      "county_x": 37.1948,
+      "county_y": 36.5704
+    },
+    {
+      "county_id": 957,
+      "county_city_id": 80,
+      "county_name": "Düziçi",
+      "county_x": 37.2402,
+      "county_y": 36.4535
+    },
+    {
+      "county_id": 958,
+      "county_city_id": 80,
+      "county_name": "Hasanbeyli",
+      "county_x": 37.1317,
+      "county_y": 36.5553
+    },
+    {
+      "county_id": 959,
+      "county_city_id": 80,
+      "county_name": "Kadirli",
+      "county_x": 37.3733,
+      "county_y": 36.0975
+    },
+    {
+      "county_id": 960,
+      "county_city_id": 80,
+      "county_name": "Merkez",
+      "county_x": 37.0734,
+      "county_y": 36.2507
+    },
+    {
+      "county_id": 961,
+      "county_city_id": 80,
+      "county_name": "Sumbas",
+      "county_x": 37.4474,
+      "county_y": 36.0276
+    },
+    {
+      "county_id": 962,
+      "county_city_id": 80,
+      "county_name": "Toprakkale",
+      "county_x": 37.0682,
+      "county_y": 36.1466
+    },
+    {
+      "county_id": 963,
+      "county_city_id": 81,
+      "county_name": "Akçakoca",
+      "county_x": 41.0894,
+      "county_y": 31.1237
+    },
+    {
+      "county_id": 964,
+      "county_city_id": 81,
+      "county_name": "Çilimli",
+      "county_x": 40.8933,
+      "county_y": 31.0468
+    },
+    {
+      "county_id": 965,
+      "county_city_id": 81,
+      "county_name": "Cumayeri",
+      "county_x": 40.8731,
+      "county_y": 30.9508
+    },
+    {
+      "county_id": 966,
+      "county_city_id": 81,
+      "county_name": "Gölyaka",
+      "county_x": 40.7767,
+      "county_y": 30.9964
+    },
+    {
+      "county_id": 967,
+      "county_city_id": 81,
+      "county_name": "Gümüşova",
+      "county_x": 40.846,
+      "county_y": 30.9383
+    },
+    {
+      "county_id": 968,
+      "county_city_id": 81,
+      "county_name": "Kaynaşlı",
+      "county_x": 40.7736,
+      "county_y": 31.3178
+    },
+    {
+      "county_id": 969,
+      "county_city_id": 81,
+      "county_name": "Merkez",
+      "county_x": 40.8386,
+      "county_y": 31.1624
+    },
+    {
+      "county_id": 970,
+      "county_city_id": 81,
+      "county_name": "Yığılca",
+      "county_x": 40.96,
+      "county_y": 31.4448
+    },
+    {
+      "county_id": 971,
+      "county_city_id": 8,
+      "county_name": "Kemalpaşa",
+      "county_x": 41.4811,
+      "county_y": 41.5269
+    },
+    {
+      "county_id": 972,
+      "county_city_id": 30,
+      "county_name": "Derecik",
+      "county_x": 37.0822,
+      "county_y": 44.3108
+    },
+    {
+      "county_id": 973,
+      "county_city_id": 68,
+      "county_name": "Sultanhanı",
+      "county_x": 38.2475,
+      "county_y": 33.5491
+    },
+    {
+      "county_id": 974,
+      "county_city_id": 20,
+      "county_name": "Pamukkale",
+      "county_x": 0,
+      "county_y": 0
+    },
+    {
+      "county_id": 975,
+      "county_city_id": 25,
+      "county_name": "Palandöken",
+      "county_x": 0,
+      "county_y": 0
+    },
+    {
+      "county_id": 976,
+      "county_city_id": 45,
+      "county_name": "Yunusemre",
+      "county_x": 0,
+      "county_y": 0
+    }
+  ]
+}

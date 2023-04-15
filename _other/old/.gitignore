@@ -1,0 +1,4 @@
+_other
+.vercel
+node_modules
+.env

@@ -6,22 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "taze": "taze major -I",
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.0.7",
-    "@zeit/next-css": "^0.2.1-canary.4",
-    "axios": "^1.2.1",
-    "crypto-js": "^4.1.1",
-    "mongodb": "^4.13.0",
-    "next": "^13.0.8-canary.0",
-    "next-swagger-doc": "^0.3.6",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "mongodb": "^5.2.0",
+    "next": "13.3.1-canary.8",
+    "postcss": "8.4.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "server-only": "^0.0.1",
-    "swagger-ui-react": "^4.15.5"
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
   },
   "devDependencies": {
-    "typescript": "4.9.4"
+    "taze": "^0.9.1"
   }
 }

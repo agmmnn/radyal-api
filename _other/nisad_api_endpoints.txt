@@ -1,0 +1,9 @@
+
+https://www.nisanyanadlar.com/api/names/Engin?gender=all&session=22222
+
+https://www.nisanyanadlar.com/api/names/all?gender=K&skip=0&p=1
+
+https://www.nisanyanadlar.com/api/search?type=lang&query=t
+https://www.nisanyanadlar.com/api/search?type=nation&query=yt
+https://www.nisanyanadlar.com/api/search?type=region&query=Ankara
+
